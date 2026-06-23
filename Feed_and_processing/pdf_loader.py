@@ -53,6 +53,8 @@ def convert_pdf_to_json(cvs_path, json_path, show_results=False):
                         if hasattr(t, "text") and t.text:
                             text_parts.append(t.text)
 
+                    char_count = len(" ".join(text_parts))
+
                     # --- Ensure folder exists ---
                     output_dir = os.path.join(json_path, file_type)
                     os.makedirs(output_dir, exist_ok=True)
@@ -65,7 +67,7 @@ def convert_pdf_to_json(cvs_path, json_path, show_results=False):
 
                         "text": {
                             "content": text_parts,
-                            "element_count": len(text_parts)
+                            "element_count": char_count
                         }
                     }
 
