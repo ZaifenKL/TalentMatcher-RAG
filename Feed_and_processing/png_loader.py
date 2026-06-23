@@ -2,8 +2,7 @@
 #Import libraries
 import os
 import json
-from PIL import Image
-import pytesseract
+import easyocr
 ##------------------------------------------------------------------------
 ##------------------Constant Values---------------------------------------
 ##------------------------------------------------------------------------
@@ -14,6 +13,7 @@ json_path = r"C:\AI Stuff\CV_Matching_AI\Data\Raw_Json"
 ##-------Define functions to optimize the pdf extraction data flow--------
 ##------------------------------------------------------------------------
 def convert_png_to_json(cvs_path, json_path):
+    reader = easyocr.Reader(['en', 'es'])  #languages
     #Converts png files into JSON
     for root, dirs, files in os.walk(cvs_path):
         for file in files:
@@ -23,25 +23,26 @@ def convert_png_to_json(cvs_path, json_path):
                 try:
                     print("===Processing :", file)
                     file_path = os.path.join(root, file)
+
                     # --- OCR extraction ---
-                    img = Image.open(file_path)
-                    text = pytesseract.image_to_string(img)
-                    # --- Build JSON ----------------------
+                    # detail=0 returns a list of strings (perfect for RAW JSON)
+                    text_parts = reader.readtext(file_path, detail=0)
+
+                    # --- Build JSON (RAW style) ---
                     json_data = {
                         "name": file,
                         "source_path": file_path,
                         "source_format": file_type,
                         "text": {
-                            "content": text,
-                            "char_count": len(text)
+                            "content": text_parts,  # LISTA DE STRINGS
+                            "char_count": len(" ".join(text_parts))  # TOTAL DE CARACTERES
                         }
                     }
 
-                    # --- Ensure folder exists ---
-                    output_dir = os.path.join(json_path,file_type)
+                    # Save JSON
+                    output_dir = os.path.join(json_path, file_type)
                     os.makedirs(output_dir, exist_ok=True)
 
-                    # --- Save JSON ---
                     json_filename = os.path.splitext(file)[0] + ".json"
                     json_output = os.path.join(output_dir, json_filename)
 
@@ -52,7 +53,6 @@ def convert_png_to_json(cvs_path, json_path):
 
                 except Exception as e:
                     print(f"Error en {file}: {e}")
-
 
 ##----DEBUG/TEST----------------------------------------------------------------------
 convert_png_to_json(cvs_path, json_path)
