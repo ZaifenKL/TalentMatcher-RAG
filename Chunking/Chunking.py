@@ -84,4 +84,4 @@ def json_chunks(chunk_json_path, clean_json_path, chunk_size, overlap):
                     print(f"Error en {file}: {e}")
 
 ##----DEBUG/TEST------------------------------------------------------------------
-json_chunks(chunk_json_path, clean_json_path, chunk_size, overlap)
+#json_chunks(chunk_json_path, clean_json_path, chunk_size, overlap)
