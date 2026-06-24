@@ -5,8 +5,8 @@ import os
 ##------------------Constant Values---------------------------------------
 tokenizer = AutoTokenizer.from_pretrained("dccuchile/bert-base-spanish-wwm-cased")
 ##------------------------------------------------------------------------
-chunk_size = 110
-overlap = 16
+chunk_size = 100
+overlap = 20
 chunk_json_path = r"C:\AI Stuff\CV_Matching_AI\Data\Chunk_Json"
 clean_json_path = r"C:\AI Stuff\CV_Matching_AI\Data\Clean_Json"
 ##-------Define functions to optimize the pdf extraction data flow--------
@@ -21,25 +21,28 @@ def make_chunks(text, chunk_size, overlap):
 
     while start < len(tokens):
         end = start + chunk_size
+        #Do not cut words
+        while end < len(tokens) and tokenizer.convert_ids_to_tokens(tokens[end]).startswith("##"):
+            end += 1
+
+        #Update tokens
         chunk_tokens = tokens[start:end]
-        try:
-            # Convert tokens to text
-            chunk_text = tokenizer.decode(chunk_tokens)
-            chunk_dict = {
-                "id": f"chunk_{chunk_id}",
-                "start_token": start,
-                "end_token": min(end, len(tokens) - 1),
-                "content": chunk_text
+
+        # Decode and clean subwords
+        chunk_text = tokenizer.decode(chunk_tokens).replace("##", "")
+
+        chunk_dict = {
+            "id": f"chunk_{chunk_id}",
+            "start_token": start,
+            "end_token": min(end, len(tokens) - 1),
+            "content": chunk_text
             }
-            # Add element to the end of the list
-            chunks.append(chunk_dict)
+        # Add element to the end of the list
+        chunks.append(chunk_dict)
 
-            # Mover ventana con overlap
-            start += chunk_size - overlap
-            chunk_id += 1
-
-        except Exception as e:
-            print(f"Error en {chunk_id}: {e}")
+        # Move overlap interval
+        start += chunk_size - overlap
+        chunk_id += 1
 
     return chunks
 
