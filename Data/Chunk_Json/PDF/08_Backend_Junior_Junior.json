@@ -1,0 +1,40 @@
+{
+  "name": "08_Backend_Junior_Junior.pdf",
+  "source_path": "C:\\AI Stuff\\CV_Matching_AI\\Data\\CV\\CV_Test\\08_Backend_Junior_Junior.pdf",
+  "source_format": "PDF",
+  "chunk_size": 100,
+  "overlap": 10,
+  "number_of_chunks": 5,
+  "chunks": [
+    {
+      "id": "chunk_0",
+      "start_token": 0,
+      "end_token": 100,
+      "content": "Backend Junior ( Junior ) Resumen Profesional Profesional de Backend Junior con 0 - 2 años de experiencia. Perfil orientado a resultados, análisis de negocio, desarrollo de software y trabajo colaborativo. Inspirado en el estilo de CV profesional observado en los ejemplos proporcionados. Formación : Licenciatura en Ingeniería en Sistemas, Computación, Matemáticas Aplicadas o afín. Diplomados en nube, analítica y metodologías ágiles. Experiencia Profesional : 2024"
+    },
+    {
+      "id": "chunk_1",
+      "start_token": 90,
+      "end_token": 190,
+      "content": "metodologías ágiles. Experiencia Profesional : 2024 - Actualidad | EPAM | Backend Junior. Lideró iniciativas de datos y software, desarrolló soluciones con Python, SQL, Power BI, Azure y AWS. Mejoró KPIs operativos entre 15 % y 40 %. 2021 - 2024 | Accenture México | Especialista Técnico. Construcción de pipelines ETL, automatización de reportes, integración"
+    },
+    {
+      "id": "chunk_2",
+      "start_token": 180,
+      "end_token": 280,
+      "content": "##ines ETL, automatización de reportes, integración de APIs y colaboración con negocio mediante Scrum. Habilidades Técnicas : Python, SQL, Git, Docker, Linux, Azure, AWS, Power BI, Tableau, Spark, Databricks, APIs REST. Habilidades Blandas : Comunicación efectiva, liderazgo, trabajo en equipo, gestión de stakeholders,"
+    },
+    {
+      "id": "chunk_3",
+      "start_token": 270,
+      "end_token": 364,
+      "content": "equipo, gestión de stakeholders, pensamiento analítico. Certificaciones : AWS Cloud Practitioner, Azure Fundamentals, Scrum Fundamentals. Algunos perfiles incluyen Databricks o Google Cloud. Idiomas : Español nativo, Inglés B2 / C1. Proyectos Relevantes : Plataforma analítica corporativa ; motor de recomendaciones ; automatización de indicadores ejecutivos ; migración cloud ; modelo predictivo de demanda."
+    },
+    {
+      "id": "chunk_4",
+      "start_token": 360,
+      "end_token": 364,
+      "content": "predictivo de demanda."
+    }
+  ]
+}
