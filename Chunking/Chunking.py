@@ -46,7 +46,7 @@ def make_chunks(text, chunk_size, overlap):
 
     return chunks
 
-def json_chunks(chunk_json_path, clean_json_path, chunk_size, overlap):
+def json_chunks(chunk_json_path, clean_json_path, chunk_size, overlap,show_results=False):
     for root, dirs, files in os.walk(clean_json_path):
         for file in files:
             if file.endswith(".json"):
@@ -54,6 +54,8 @@ def json_chunks(chunk_json_path, clean_json_path, chunk_size, overlap):
                     with open(os.path.join(root, file), "r", encoding="utf-8") as f:
                         data = json.load(f)
 
+                        if show_results:
+                            print(f"=====Processing {file}")
                         chunks = []
                         chunks = make_chunks(data["text"]["content"], chunk_size, overlap)
 
@@ -78,10 +80,12 @@ def json_chunks(chunk_json_path, clean_json_path, chunk_size, overlap):
                         json_output = os.path.join(chunk_json_path, data["source_format"], json_filename)
                         with open(json_output, "w", encoding="utf-8") as f:
                             json.dump(json_data, f, ensure_ascii=False, indent=2)
-                        print(f"====JSON saved: {json_filename}====")
+
+                        if show_results:
+                            print(f"====JSON saved: {json_filename}====")
 
                 except Exception as e:
                     print(f"Error en {file}: {e}")
 
 ##----DEBUG/TEST------------------------------------------------------------------
-#json_chunks(chunk_json_path, clean_json_path, chunk_size, overlap)
+#json_chunks(chunk_json_path, clean_json_path, chunk_size, overlap,show_results=True)

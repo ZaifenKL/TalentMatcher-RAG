@@ -29,4 +29,4 @@ def sanitize_filenames(base_path,show_result=False):
         print(f"\nTotal renamed files: {renamed_count}")
 
 ##----DEBUG/TEST------------------------------------------------------------------
-sanitize_filenames(cvs_path,True)
+#sanitize_filenames(cvs_path,True)

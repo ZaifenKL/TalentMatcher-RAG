@@ -55,4 +55,4 @@ def convert_png_to_json(cvs_path, json_path):
                     print(f"Error en {file}: {e}")
 
 ##----DEBUG/TEST----------------------------------------------------------------------
-convert_png_to_json(cvs_path, json_path)
+#convert_png_to_json(cvs_path, json_path)

@@ -82,4 +82,4 @@ def convert_pdf_to_json(cvs_path, json_path, show_results=False):
                  print(f"Error en {file}: {e}")
 
 ##----DEBUG/TEST----------------------------------------------------------------------
-convert_pdf_to_json(cvs_path,json_path, show_results=True)
+#convert_pdf_to_json(cvs_path,json_path, show_results=True)
