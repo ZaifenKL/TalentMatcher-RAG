@@ -1,7 +1,6 @@
 import os
 import json
 from chromadb import PersistentClient
-from chromadb.config import Settings
 
 ##------------------------------------------------------------------------
 ##------------------Constant Values---------------------------------------
