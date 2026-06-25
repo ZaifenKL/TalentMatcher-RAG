@@ -13,25 +13,29 @@ embedding_model = SentenceTransformer("sentence-transformers/paraphrase-multilin
 ##-------Define functions to optimize the pdf extraction data flow--------
 ##------------------------------------------------------------------------
 def embed_chunks(chunks):
-    #Input the list of chunks and returns a list of embeddings (one per chunk)
+    # Extract only the text
     texts = [chunk["content"] for chunk in chunks]
 
-    #Generate embedding
-    embeddings = embedding_model.encode(texts, convert_to_numpy=True,
+    # Generate embeddings
+    embeddings = embedding_model.encode(
+        texts,
+        convert_to_numpy=True,
         normalize_embeddings=True
     )
 
+    # Build new chunk list with embeddings
     embedding_results = []
     for chunk, emb in zip(chunks, embeddings):
         embedding_results.append({
             "id": chunk["id"],
+            "start_token": chunk["start_token"],
+            "end_token": chunk["end_token"],
             "content": chunk["content"],
-            "embedding": emb.tolist()  # JSON-friendly
+            "embedding": emb.tolist()
         })
-
     return embedding_results
 
-def json_embeddings(embedding_json_path, chunk_json_path):
+def json_embeddings(embedding_json_path, chunk_json_path,show_results=False):
     #Integrates embeddings into our json files
     for root, dirs, files in os.walk(chunk_json_path):
         for file in files:
@@ -40,14 +44,17 @@ def json_embeddings(embedding_json_path, chunk_json_path):
                     with open(os.path.join(root, file), "r", encoding="utf-8") as f:
                         data = json.load(f)
 
-                        embeddings = []
-                        embeddings = embed_chunks(data["chunks"])
+                        if show_results:
+                            print(f"===Processing {file}===")
+                        new_chunks = embed_chunks(data["chunks"])
+                        if show_results:
+                            print(f"This are the results of the embeddings: \n {new_chunks}")
 
                         # --- Build Clean JSON -------------
                         json_data = {
 
                             **data,
-                            "embeddings": embeddings
+                            "chunks": new_chunks
                         }
 
                         # --- Ensure folder exists ---
@@ -55,14 +62,16 @@ def json_embeddings(embedding_json_path, chunk_json_path):
                         os.makedirs(output_dir, exist_ok=True)
 
                         # --- Save JSON --------------
+
                         json_filename = os.path.splitext(file)[0] + ".json"
                         json_output = os.path.join(embedding_json_path, data["source_format"], json_filename)
                         with open(json_output, "w", encoding="utf-8") as f:
                             json.dump(json_data, f, ensure_ascii=False, indent=2)
-                        print(f"====JSON saved: {json_filename}====")
+                        if show_results:
+                            print(f"====JSON saved: {json_filename}====")
 
                 except Exception as e:
                     print(f"Error en {file}: {e}")
 
 ##----DEBUG/TEST------------------------------------------------------------------
-json_embeddings(embedding_json_path, chunk_json_path)
+json_embeddings(embedding_json_path, chunk_json_path,show_results=True)

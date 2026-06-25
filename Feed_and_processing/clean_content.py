@@ -53,12 +53,13 @@ def join_clean_lines(lines):
 
     return text
 
-def clean_json(raw_json_path, clean_json_path):
+def clean_json(raw_json_path, clean_json_path,show_results=False):
     #This function creates the clean json we will use for chunks
     for root, dirs, files in os.walk(raw_json_path):
         for file in files:
             if file.lower().endswith(".json"):
-                print("===Processing:", file)
+                if show_results:
+                    print("===Processing:", file)
                 try:
                     #Complete path of json input file
                     in_path = os.path.join(root, file)
@@ -96,7 +97,8 @@ def clean_json(raw_json_path, clean_json_path):
                         json_output = os.path.join(clean_json_path, data["source_format"], json_filename)
                         with open(json_output, "w", encoding="utf-8") as f:
                             json.dump(json_data, f, ensure_ascii=False, indent=2)
-                        print(f"====JSON saved: {json_filename}====")
+                        if show_results:
+                            print(f"====JSON saved: {json_filename}====")
                 except Exception as e:
                     print(f"Error proccesing {file}: {e}")
 
@@ -109,4 +111,4 @@ def clean_json(raw_json_path, clean_json_path):
 #     "Formación",
 #     "Licenciatura en Ingeniería en   Sistemas, Computación,    Matemáticas Aplicadas 0 afín. "]
 
-clean_json(raw_json_path, clean_json_path)
+#clean_json(raw_json_path, clean_json_path,show_results=True)
