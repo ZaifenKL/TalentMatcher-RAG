@@ -85,17 +85,30 @@ def retrieve_context(query):
     best_chunks_sorted = sorted(cv_scores[0]["chunks"], key=lambda x: x["score"])
     context_text = "\n\n".join([c["content"] for c in best_chunks_sorted])
 
-    # 10. Return everything
-    return {
-        "best_cv": best_cv,
+    matching_data = {"best_cv": best_cv,
         "ranked_cvs": [cv["cv_name"] for cv in cv_scores],
         "cv_scores": cv_scores,
-        "context": context_text
-    }
+        "context": context_text}
+
+    # 10. Return everything
+    return matching_data
 ##----DEBUG/TEST----------------------------------------------------------------------
-#query = "Busco un ingeniero de datos con Python y Azure"
-query = input("Enter question: ")
+#Test 0: El re‑ranking debe favorecer CVs con varios chunks relevantes, no solo uno.
+#query = "Necesito un perfil con experiencia en migración a la nube, KPIs operativos y proyectos corporativos de analítica."
+#Test 1 :  El sistema debe evaluar varios chunks por CV. No debe ganar un CV solo porque un chunk coincidió.
+#query = "Busco un perfil con habilidades blandas fuertes, comunicación efectiva y liderazgo."
+#Test 2 :
+#query= "Busco alguien que sepa Python, APIs REST, Docker y tenga experiencia en desarrollo de software. Puede ser Full Stack, QA Automation o Data Engineer."
+#Test 3: Debe ganar ese perfil en especifico
+query= "Necesito un QA Automation Junior con epxeriencia en Wizeline"
+#Pruebas desde input del usuario
+#query = input("Enter question: ")
 results = retrieve_context(query)
-print(f"=====This are the most relevant documents:\n{results['best_cv']}")
-print(f"=====Number of documents retrieved: {len(results)}")
+print("===== Ranked CVs (best first) =====")
+for cv in results["ranked_cvs"]:
+    print(cv)
+print("\n===== CV Scores =====")
+for cv in results["cv_scores"]:
+    print(f"{cv['cv_name']}  |  final_score={cv['final_score']:.4f}")
+
 print("====Process complete====")
