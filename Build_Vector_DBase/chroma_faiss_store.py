@@ -10,8 +10,6 @@ embedding_json_path = r"C:\AI Stuff\CV_Matching_AI\Data\Embedding_Json"
 
 ##-------Define functions to optimize the pdf extraction data flow--------
 ##------------------------------------------------------------------------
-
-
 def get_vector_store(persist_directory, collection_name):
     #Init vector store ans create collection
     client = PersistentClient(path=persist_directory)
@@ -58,6 +56,6 @@ def insert_and_index_chunks(embedding_json_path,collection,show_results=False):
 
 ##----DEBUG/TEST----------------------------------------------------------------------
 #First we run this function to initialize vector store and create the collection
-collection = get_vector_store(persist_directory,collection_name)
+#collection = get_vector_store(persist_directory,collection_name)
 #Then we insert the embedding metadat and text into vector store
-insert_and_index_chunks(embedding_json_path,collection,show_results=True)
+#insert_and_index_chunks(embedding_json_path,collection,show_results=True)

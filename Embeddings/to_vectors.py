@@ -74,4 +74,4 @@ def json_embeddings(embedding_json_path, chunk_json_path,show_results=False):
                     print(f"Error en {file}: {e}")
 
 ##----DEBUG/TEST------------------------------------------------------------------
-json_embeddings(embedding_json_path, chunk_json_path,show_results=True)
+#json_embeddings(embedding_json_path, chunk_json_path,show_results=True)

@@ -10,6 +10,7 @@ def embed_text(text):
     embedding = embedding_model.encode(text)
     return embedding.tolist()
 ##----DEBUG/TEST---------------------------------------------------------------
-text = "Hola podria buscar un ingeniero con 3 años de experiencia en Python?"
-embed_text = embed_text(text)
+#text = "Hola podria buscar un ingeniero con 3 años de experiencia en Python?"
+#embed_text = embed_text(text)
 #print(f"This is my embedding : {embed_text}")
+
