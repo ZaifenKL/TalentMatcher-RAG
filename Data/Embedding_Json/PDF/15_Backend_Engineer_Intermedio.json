@@ -7,7 +7,7 @@
   "number_of_chunks": 5,
   "chunks": [
     {
-      "id": "chunk_0",
+      "id": "chunk_0_046f7dd7-ef68-4f2e-a6fb-853cf632d2e0",
       "start_token": 0,
       "end_token": 100,
       "content": "Backend Engineer ( Intermedio ) Resumen Profesional Profesional de Backend Engineer con 3 - 6 años de experiencia. Perfil orientado a resultados, análisis de negocio, desarrollo de software y trabajo colaborativo. Inspirado en el estilo de CV profesional observado en los ejemplos proporcionados. Formación : Licenciatura en Ingeniería en Sistemas, Computación, Matemáticas Aplicadas o afín. Diplomados en nube, analítica y metodologías ágiles. Experiencia Profesional",
@@ -783,7 +783,7 @@
       ]
     },
     {
-      "id": "chunk_1",
+      "id": "chunk_1_741b0528-b7a2-44b2-98ef-96e7671291c3",
       "start_token": 80,
       "end_token": 180,
       "content": "o afín. Diplomados en nube, analítica y metodologías ágiles. Experiencia Profesional : 2024 - Actualidad | Wizeline | Backend Engineer. Lideró iniciativas de datos y software, desarrolló soluciones con Python, SQL, Power BI, Azure y AWS. Mejoró KPIs operativos entre 15 % y 40 %. 2021 - 2024 | EPAM | Especialista Técnico.",
@@ -1559,7 +1559,7 @@
       ]
     },
     {
-      "id": "chunk_2",
+      "id": "chunk_2_10c8ac0d-6392-4db9-9378-f1ef4a20640a",
       "start_token": 160,
       "end_token": 260,
       "content": "entre 15 % y 40 %. 2021 - 2024 | EPAM | Especialista Técnico. Construcción de pipelines ETL, automatización de reportes, integración de APIs y colaboración con negocio mediante Scrum. Habilidades Técnicas : Python, SQL, Git, Docker, Linux, Azure, AWS, Power BI, Tableau, Spark, Databricks, APIs REST",
@@ -2335,7 +2335,7 @@
       ]
     },
     {
-      "id": "chunk_3",
+      "id": "chunk_3_8f683954-fb3e-480b-8b98-29c8ddf574f0",
       "start_token": 240,
       "end_token": 340,
       "content": "BI, Tableau, Spark, Databricks, APIs REST. Habilidades Blandas : Comunicación efectiva, liderazgo, trabajo en equipo, gestión de stakeholders, pensamiento analítico. Certificaciones : AWS Cloud Practitioner, Azure Fundamentals, Scrum Fundamentals. Algunos perfiles incluyen Databricks o Google Cloud. Idiomas : Español nativo, Inglés B2 / C1. Proyectos",
@@ -3111,7 +3111,7 @@
       ]
     },
     {
-      "id": "chunk_4",
+      "id": "chunk_4_7255935b-4ea4-4397-8814-30890950c187",
       "start_token": 320,
       "end_token": 368,
       "content": "s o Google Cloud. Idiomas : Español nativo, Inglés B2 / C1. Proyectos Relevantes : Plataforma analítica corporativa ; motor de recomendaciones ; automatización de indicadores ejecutivos ; migración cloud ; modelo predictivo de demanda.",

@@ -143,7 +143,10 @@ def insert_and_index_chunks(embedding_json_path,collection,show_results=False):
 ##----DEBUG/TEST----------------------------------------------------------------------
 #First we run this function to initialize vector store and create the collection
 #collection = get_vector_store(persist_directory,collection_name)
-collection = reset_vector_store(persist_directory, collection_name)
+#We reset in case the vector store already exists and in this case since I had
+#a bug with the IDs I needed to reset
+#collection = reset_vector_store(persist_directory, collection_name)
 #Then we insert the embedding metadat and text into vector store
-insert_and_index_chunks(embedding_json_path,collection,show_results=True)
-verify_vector_store(collection)
+#insert_and_index_chunks(embedding_json_path,collection,show_results=True)
+#Verifying that it ACTUALLY created the vector database
+#verify_vector_store(collection)
