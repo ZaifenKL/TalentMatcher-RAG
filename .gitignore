@@ -1,0 +1,5 @@
+# Ignorar base vectorial
+VectorStore/
+*.faiss
+*.sqlite3
+*.parquet

@@ -1,6 +1,7 @@
 from transformers import AutoTokenizer
 import json
 import os
+import uuid
 ##------------------------------------------------------------------------
 ##------------------Constant Values---------------------------------------
 tokenizer = AutoTokenizer.from_pretrained("dccuchile/bert-base-spanish-wwm-cased")
@@ -11,6 +12,9 @@ chunk_json_path = r"C:\AI Stuff\CV_Matching_AI\Data\Chunk_Json"
 clean_json_path = r"C:\AI Stuff\CV_Matching_AI\Data\Clean_Json"
 ##-------Define functions to optimize the pdf extraction data flow--------
 ##------------------------------------------------------------------------
+def generate_unique_id():
+    return str(uuid.uuid4())
+
 def make_chunks(text, chunk_size, overlap):
 
     tokens = tokenizer.encode(text, add_special_tokens=False)
@@ -31,8 +35,11 @@ def make_chunks(text, chunk_size, overlap):
         # Decode and clean subwords
         chunk_text = tokenizer.decode(chunk_tokens).replace("##", "")
 
+        #Create unique code
+        unique_id = generate_unique_id()
+
         chunk_dict = {
-            "id": f"chunk_{chunk_id}",
+            "id": f"chunk_{chunk_id}_{unique_id}",
             "start_token": start,
             "end_token": min(end, len(tokens) - 1),
             "content": chunk_text
