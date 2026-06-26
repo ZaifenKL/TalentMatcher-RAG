@@ -7,31 +7,31 @@
   "number_of_chunks": 5,
   "chunks": [
     {
-      "id": "chunk_0",
+      "id": "chunk_0_98d79d6d-8f40-47aa-99ef-c393fbe94098",
       "start_token": 0,
       "end_token": 101,
       "content": "BI Developer ( Intermedio ) Resumen Profesional Profesional de BI Developer con 3 - 6 años de experiencia. Perfil orientado a resultados, análisis de negocio, desarrollo de software y trabajo colaborativo. Inspirado en el estilo de CV profesional observado en los ejemplos proporcionados. Formación : Licenciatura en Ingeniería en Sistemas, Computación, Matemáticas Aplicadas o afín. Diplomados en nube, analítica y metodologías ágiles. Experiencia Profesional : 2024"
     },
     {
-      "id": "chunk_1",
+      "id": "chunk_1_23c08453-dcd9-4d48-8d9e-e96bcbf358d8",
       "start_token": 80,
       "end_token": 180,
       "content": "ín. Diplomados en nube, analítica y metodologías ágiles. Experiencia Profesional : 2024 - Actualidad | Tata Consultancy Services | BI Developer. Lideró iniciativas de datos y software, desarrolló soluciones con Python, SQL, Power BI, Azure y AWS. Mejoró KPIs operativos entre 15 % y 40 %. 2021 - 2024 | Softtek | Especialista Técnico"
     },
     {
-      "id": "chunk_2",
+      "id": "chunk_2_27a7ed42-3e7a-4ea9-bc90-46cc5a5aef1a",
       "start_token": 160,
       "end_token": 261,
       "content": "entre 15 % y 40 %. 2021 - 2024 | Softtek | Especialista Técnico. Construcción de pipelines ETL, automatización de reportes, integración de APIs y colaboración con negocio mediante Scrum. Habilidades Técnicas : Python, SQL, Git, Docker, Linux, Azure, AWS, Power BI, Tableau, Spark, Databricks, APIs REST"
     },
     {
-      "id": "chunk_3",
+      "id": "chunk_3_5789a0a5-2ded-467f-a8d0-4ce445e0fcbf",
       "start_token": 240,
       "end_token": 340,
       "content": "er BI, Tableau, Spark, Databricks, APIs REST. Habilidades Blandas : Comunicación efectiva, liderazgo, trabajo en equipo, gestión de stakeholders, pensamiento analítico. Certificaciones : AWS Cloud Practitioner, Azure Fundamentals, Scrum Fundamentals. Algunos perfiles incluyen Databricks o Google Cloud. Idiomas : Español nativo, Inglés B2 / C1."
     },
     {
-      "id": "chunk_4",
+      "id": "chunk_4_32cd753d-7e0f-4b27-8ec8-93a245df9a23",
       "start_token": 320,
       "end_token": 369,
       "content": "ks o Google Cloud. Idiomas : Español nativo, Inglés B2 / C1. Proyectos Relevantes : Plataforma analítica corporativa ; motor de recomendaciones ; automatización de indicadores ejecutivos ; migración cloud ; modelo predictivo de demanda."

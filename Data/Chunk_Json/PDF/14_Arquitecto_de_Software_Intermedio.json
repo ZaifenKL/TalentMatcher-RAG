@@ -7,31 +7,31 @@
   "number_of_chunks": 5,
   "chunks": [
     {
-      "id": "chunk_0",
+      "id": "chunk_0_ba4aec32-70d2-4393-bb5b-7ab634eecc44",
       "start_token": 0,
       "end_token": 100,
       "content": "Arquitecto de Software ( Intermedio ) Resumen Profesional Profesional de Arquitecto de Software con 3 - 6 años de experiencia. Perfil orientado a resultados, análisis de negocio, desarrollo de software y trabajo colaborativo. Inspirado en el estilo de CV profesional observado en los ejemplos proporcionados. Formación : Licenciatura en Ingeniería en Sistemas, Computación, Matemáticas Aplicadas o afín. Diplomados en nube, analítica y metodologías ágiles. Experiencia Profesional"
     },
     {
-      "id": "chunk_1",
+      "id": "chunk_1_7c31b94f-d15b-4287-9686-0b214cda8b4f",
       "start_token": 80,
       "end_token": 180,
       "content": "o afín. Diplomados en nube, analítica y metodologías ágiles. Experiencia Profesional : 2024 - Actualidad | BBVA México | Arquitecto de Software. Lideró iniciativas de datos y software, desarrolló soluciones con Python, SQL, Power BI, Azure y AWS. Mejoró KPIs operativos entre 15 % y 40 %. 2021 - 2024 | Tata Consultancy Services"
     },
     {
-      "id": "chunk_2",
+      "id": "chunk_2_1aabd5e0-1ca5-4ed8-8297-291614fa2b62",
       "start_token": 160,
       "end_token": 260,
       "content": "entre 15 % y 40 %. 2021 - 2024 | Tata Consultancy Services | Especialista Técnico. Construcción de pipelines ETL, automatización de reportes, integración de APIs y colaboración con negocio mediante Scrum. Habilidades Técnicas : Python, SQL, Git, Docker, Linux, Azure, AWS, Power BI, Tableau, Spark, Databricks,"
     },
     {
-      "id": "chunk_3",
+      "id": "chunk_3_356dce34-3686-4653-9f45-705e76a9a263",
       "start_token": 240,
       "end_token": 340,
       "content": "S, Power BI, Tableau, Spark, Databricks, APIs REST. Habilidades Blandas : Comunicación efectiva, liderazgo, trabajo en equipo, gestión de stakeholders, pensamiento analítico. Certificaciones : AWS Cloud Practitioner, Azure Fundamentals, Scrum Fundamentals. Algunos perfiles incluyen Databricks o Google Cloud. Idiomas : Español nativo, Inglés B2"
     },
     {
-      "id": "chunk_4",
+      "id": "chunk_4_3963b8d8-f836-4296-9c98-ec64585ed87c",
       "start_token": 320,
       "end_token": 373,
       "content": "perfiles incluyen Databricks o Google Cloud. Idiomas : Español nativo, Inglés B2 / C1. Proyectos Relevantes : Plataforma analítica corporativa ; motor de recomendaciones ; automatización de indicadores ejecutivos ; migración cloud ; modelo predictivo de demanda."

@@ -7,31 +7,31 @@
   "number_of_chunks": 5,
   "chunks": [
     {
-      "id": "chunk_0",
+      "id": "chunk_0_6094a1f0-8f00-4e8e-aaae-b5403b44bf7f",
       "start_token": 0,
       "end_token": 100,
       "content": "Científico de Datos ( Junior ) Resumen Profesional Profesional de Científico de Datos con 0 - 2 años de experiencia. Perfil orientado a resultados, análisis de negocio, desarrollo de software y trabajo colaborativo. Inspirado en el estilo de CV profesional observado en los ejemplos proporcionados. Formación : Licenciatura en Ingeniería en Sistemas, Computación, Matemáticas Aplicadas o afín. Diplomados en nube, analítica y metodologías ágiles. Experiencia Profesional : 2024 - Actualidad |"
     },
     {
-      "id": "chunk_1",
+      "id": "chunk_1_f0690f95-a6be-4fd6-9c82-59de8ccd2b3c",
       "start_token": 80,
       "end_token": 180,
       "content": "en nube, analítica y metodologías ágiles. Experiencia Profesional : 2024 - Actualidad | Accenture México | Científico de Datos. Lideró iniciativas de datos y software, desarrolló soluciones con Python, SQL, Power BI, Azure y AWS. Mejoró KPIs operativos entre 15 % y 40 %. 2021 - 2024 | BBVA México | Especialista Técnico. Construcción de pipelines ETL,"
     },
     {
-      "id": "chunk_2",
+      "id": "chunk_2_cf4f58b1-92b9-4017-9973-8c6a21f0d874",
       "start_token": 160,
       "end_token": 260,
       "content": "2024 | BBVA México | Especialista Técnico. Construcción de pipelines ETL, automatización de reportes, integración de APIs y colaboración con negocio mediante Scrum. Habilidades Técnicas : Python, SQL, Git, Docker, Linux, Azure, AWS, Power BI, Tableau, Spark, Databricks, APIs REST. Habilidades Blandas : Comunicación"
     },
     {
-      "id": "chunk_3",
+      "id": "chunk_3_1fec29fe-c990-4dee-8f8a-3aa5d9f537d5",
       "start_token": 240,
       "end_token": 340,
       "content": "k, Databricks, APIs REST. Habilidades Blandas : Comunicación efectiva, liderazgo, trabajo en equipo, gestión de stakeholders, pensamiento analítico. Certificaciones : AWS Cloud Practitioner, Azure Fundamentals, Scrum Fundamentals. Algunos perfiles incluyen Databricks o Google Cloud. Idiomas : Español nativo, Inglés B2 / C1. Proyectos Relevantes : Plataforma analítica corporativa"
     },
     {
-      "id": "chunk_4",
+      "id": "chunk_4_30139ecc-957b-4b4f-abff-4b855637bd99",
       "start_token": 320,
       "end_token": 360,
       "content": ": Español nativo, Inglés B2 / C1. Proyectos Relevantes : Plataforma analítica corporativa ; motor de recomendaciones ; automatización de indicadores ejecutivos ; migración cloud ; modelo predictivo de demanda."
