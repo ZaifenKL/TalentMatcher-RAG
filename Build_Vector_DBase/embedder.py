@@ -1,6 +1,5 @@
 from sentence_transformers import SentenceTransformer
 from Core.config_loader import config
-
 ##------------------------------------------------------------------------
 ##------------------Constant Values---------------------------------------
 #Load Model

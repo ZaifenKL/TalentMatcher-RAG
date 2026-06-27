@@ -9,7 +9,8 @@ folders = [
     "Embeddings",
     "Feed_and_processing",
     "LLM_Engine",
-    "UI"
+    "UI",
+    "Job_Matching"
 ]
 ##-------Define functions to optimize the pdf extraction data flow--------
 ##------------------------------------------------------------------------

@@ -5,16 +5,11 @@ from Core.config_loader import config
 ##------------------------------------------------------------------------
 active_profile = config["LLM"]["active_profile"]
 section = f"LLM_{active_profile}"
-# ============================
-# 2. Cargar parámetros del modelo
-# ============================
 MODEL = config[section]["model"]
 TEMPERATURE = float(config[section]["temperature"])
 MAX_TOKENS = int(config[section]["max_tokens"])
-
-# ============================
-# 3. Función genérica para llamar al LLM
-# ============================
+##-------Define functions to optimize the pdf extraction data flow--------
+##-----------------------------------------------------------------------
 def run_llm(prompt: str):
     # Run the configured model (phi or llama) using Ollama
     try:
@@ -31,13 +26,9 @@ def run_llm(prompt: str):
     except Exception as e:
         return f"[ERROR LLM] {str(e)}"
 
-# ============================
-# 4. Función especializada para explicar el match
-# ============================
+
 def explain_match(query: str, results: dict) -> str:
-    """
-    Genera una explicación del match entre el query y el CV.
-    """
+    #Generates and explanation on why this CV matches the job description
     context = results["context"]
     best_cv = results["best_cv"]
 
@@ -52,6 +43,7 @@ def explain_match(query: str, results: dict) -> str:
     Explica por qué este CV es el mejor match.
     Resume las habilidades clave.
     Evalúa el match en una escala del 0 al 100.
+    Actúa como si fueras un profesional experto en búsqueda de talento.
     """
 
     return run_llm(prompt)
