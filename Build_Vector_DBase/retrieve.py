@@ -2,6 +2,8 @@ import numpy as np
 from collections import defaultdict
 from chroma_faiss_store import get_vector_store
 from embedder import embed_text
+from Core.config_loader import config
+
 ##------------------------------------------------------------------------
 ##------------------Constant Values---------------------------------------
 persist_directory = r"C:\AI Stuff\CV_Matching_AI\VectorStore"

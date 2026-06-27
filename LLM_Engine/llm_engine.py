@@ -1,12 +1,10 @@
 import ollama
-from LLM_Engine.config_loader import config
-
+from Core.config_loader import config
 ##------------------------------------------------------------------------
 ##------------------Constant Values---------------------------------------
 ##------------------------------------------------------------------------
 active_profile = config["LLM"]["active_profile"]
 section = f"LLM_{active_profile}"
-
 # ============================
 # 2. Cargar parámetros del modelo
 # ============================
@@ -17,10 +15,8 @@ MAX_TOKENS = int(config[section]["max_tokens"])
 # ============================
 # 3. Función genérica para llamar al LLM
 # ============================
-def run_llm(prompt: str) -> str:
-    """
-    Ejecuta el modelo seleccionado (phi o llama) usando Ollama.
-    """
+def run_llm(prompt: str):
+    # Run the configured model (phi or llama) using Ollama
     try:
         response = ollama.chat(
             model=MODEL,
