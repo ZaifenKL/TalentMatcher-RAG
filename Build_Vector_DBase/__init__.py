@@ -11,8 +11,5 @@ from .chroma_faiss_store import (
 )
 
 # Retrieve module functions
-from .retrieve import (
-    compute_dynamic_k,
-    ranked_cvs
-)
+from .retrieve import ( compute_dynamic_k, ranked_cvs)
 

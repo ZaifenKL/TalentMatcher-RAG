@@ -10,6 +10,19 @@ TEMPERATURE = float(config[section]["temperature"])
 MAX_TOKENS = int(config[section]["max_tokens"])
 ##-------Define functions to optimize the pdf extraction data flow--------
 ##-----------------------------------------------------------------------
+def test_llm_connection():
+    #Debuggin function
+    print("=== Probando conexión con el LLM ===")
+    print("Perfil activo:", config["LLM"]["active_profile"])
+
+    prompt = "Hola, ¿puedes responder un mensaje corto para confirmar que estás funcionando?"
+    respuesta = run_llm(prompt)
+
+    print("\n=== Respuesta del modelo ===")
+    print(respuesta)
+
+    return respuesta
+
 def run_llm(prompt: str):
     # Run the configured model (phi or llama) using Ollama
     try:
@@ -34,12 +47,9 @@ def explain_match(query: str, results: dict) -> str:
 
     prompt = f"""
     El usuario busca: {query}
-
     El CV más relevante es: {best_cv}
-
     Fragmentos relevantes del CV:
     {context}
-
     Explica por qué este CV es el mejor match.
     Resume las habilidades clave.
     Evalúa el match en una escala del 0 al 100.
@@ -47,3 +57,6 @@ def explain_match(query: str, results: dict) -> str:
     """
 
     return run_llm(prompt)
+
+##----DEBUG/TEST----------------------------------------------------------------------
+respuesta = test_llm_connection()
