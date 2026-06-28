@@ -31,11 +31,11 @@ def match_job_description(job_text: str, log_path: str, debug=False, report=Fals
     ranking = ranked_cvs(collection, job_embedding)
 
     # 4. Explicación del LLM
-    explanation, llm_response_time = explain_match(job_text, ranking)
+    explanation, llm_response_time, prompt = explain_match(job_text, ranking)
 
     if report:
         # 5. Construir reporte
-        report = build_ranking_report(ranking, explanation, llm_response_time,job_text)
+        report = build_ranking_report(ranking, explanation, llm_response_time,job_text,prompt)
         # 6. Exportar reporte si debug=True
         #timestamp for unique report name
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
@@ -45,16 +45,18 @@ def match_job_description(job_text: str, log_path: str, debug=False, report=Fals
     # 7. Retornar datos útiles
     results = {
         "best_cv": ranking["best_cv"],
+        "best_final_score": ranking["best_final_score"],
         "ranked_cvs": ranking["ranked_cvs"],
         "cv_scores": ranking["cv_scores"],
         "context": ranking["context"],
         "explanation": explanation,
-        "llm_response_time": llm_response_time
+        "llm_response_time": llm_response_time,
+        "prompt": prompt
     }
 
     return results
 
-def build_ranking_report(ranking: dict, llm_response: str, llm_response_time: float, job_text) -> dict:
+def build_ranking_report(ranking: dict, llm_response: str, llm_response_time: float, job_text, prompt) -> dict:
     #Build table
     table_lines = []
     table_lines.append("RANK | CV | SCORE | MAX | MEAN")
@@ -75,6 +77,7 @@ def build_ranking_report(ranking: dict, llm_response: str, llm_response_time: fl
         "ranking_table": table_text,
         "ranking_json": ranking["cv_scores"],
         "job_text": job_text,
+        "llm_prompt" : prompt,
         "llm_explanation": llm_response,
         "llm_response_time_seconds": round(llm_response_time, 4)
     }
@@ -107,6 +110,9 @@ def export_markdown_report(report: dict, log_file: str) -> str:
 
     md.append("## LLM Response time\n")
     md.append(f"- `{report['llm_response_time_seconds']} seconds`\n")
+
+    md.append("## Base Prompt\n")
+    md.append(report["llm_prompt"] + "\n")
 
     markdown_text = "\n".join(md)
 

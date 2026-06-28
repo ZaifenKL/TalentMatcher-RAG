@@ -51,30 +51,40 @@ def explain_match(query: str, results: dict) -> str:
     #Generates and explanation on why this CV matches the job description
     context = results["context"]
     best_cv = results["best_cv"]
+    best_final_score = results["best_final_score"]
 
     prompt = f"""
-    INSTRUCCIONES ESTRICTAS:
-    1. La PRIMERA línea de tu respuesta DEBE ser exactamente:
-       "CV seleccionado: {best_cv}"
-    2. No inventes nombres de CV.
-    3. Usa ÚNICAMENTE la información del CV seleccionado.
+    INSTRUCCIONES DEL SISTEMA (NO MOSTRAR AL USUARIO):
+    La primera línea DEBE ser exactamente: "CV seleccionado: {best_cv}".
+    No inventes nombres de CV.
+    Usa únicamente la información del CV seleccionado.
+    Distancia interna del mejor CV: {best_final_score}.
+    Reglas de score:
+    - Si distancia > 0.50 → score < 40.
+    - Si distancia > 0.70 → score < 20.
+    - Si distancia > 0.90 → score < 5.
+    No menciones distancias ni conceptos técnicos.
 
-    DATOS DEL SISTEMA:
-    - Vacante buscada: {query}
-    - CV seleccionado por el sistema: {best_cv}
+    VACANTE:
+    {query}
 
-    FRAGMENTOS RELEVANTES DEL CV SELECCIONADO:
+    FRAGMENTOS DEL CV:
     {context}
 
     TAREAS:
-    - Como si fueras un reclutador experto: explica por qué este CV es el mejor match, resume las habilidades clave y evalúa el match del 0 al 100.
+    Como reclutador técnico experto:
+    - Explica por qué este CV fue seleccionado.
+    - Resume las habilidades relevantes.
+    - Evalúa el match del 0 al 100 siguiendo las reglas internas.
+    - Si el match es bajo, explica por qué.
+    - No inventes habilidades que no estén en el CV.
     """
 
     start = time.time()
     explanation = run_llm(prompt)
     llm_response_time = round(time.time() - start, 4)
 
-    return explanation, llm_response_time
+    return explanation, llm_response_time, prompt
 
 ##----DEBUG/TEST----------------------------------------------------------------------
 #respuesta = test_llm_connection()

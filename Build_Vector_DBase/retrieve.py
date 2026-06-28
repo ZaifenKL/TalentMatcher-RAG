@@ -59,7 +59,8 @@ def ranked_cvs(collection, query_embedding):
         scores = [c["score"] for c in cv_chunks]
 
         #smallest final score should be the most similar vector
-        final_score = 0.7 * max(scores) + 0.3 * np.mean(scores)
+        #final_score = 0.7 * max(scores) + 0.3 * np.mean(scores)
+        final_score = 0.7 * min(scores) + 0.3 * np.mean(scores)
 
         cv_scores.append({
             "cv_name": cv_name,
@@ -75,6 +76,7 @@ def ranked_cvs(collection, query_embedding):
     #Getthe best CV name
     best = cv_scores[0]
     best_cv = best["cv_name"]
+    best_final_score = best["final_score"]
 
     #Concatenate the text of the best CV
     best_chunks_sorted = sorted(best["chunks"], key=lambda x: x["score"])
@@ -83,6 +85,7 @@ def ranked_cvs(collection, query_embedding):
 
     ranked_cv = {
         "best_cv": best_cv,
+        "best_final_score" : best_final_score,
         "ranked_cvs": [cv["cv_name"] for cv in cv_scores],
         "cv_scores": cv_scores,
         "context": context,
