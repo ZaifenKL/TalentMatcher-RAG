@@ -58,6 +58,7 @@ def ranked_cvs(collection, query_embedding):
     for cv_name, cv_chunks in grouped.items():
         scores = [c["score"] for c in cv_chunks]
 
+        #smallest final score should be the most similar vector
         final_score = 0.7 * max(scores) + 0.3 * np.mean(scores)
 
         cv_scores.append({
@@ -68,8 +69,8 @@ def ranked_cvs(collection, query_embedding):
             "chunks": cv_chunks
         })
 
-    #Order CV by most relevant, reverse=True orders from higher score to smallest score
-    cv_scores = sorted(cv_scores, key=lambda x: x["final_score"], reverse=True)
+    #Order CV by most relevant
+    cv_scores = sorted(cv_scores, key=lambda x: x["final_score"])
 
     #Getthe best CV name
     best = cv_scores[0]

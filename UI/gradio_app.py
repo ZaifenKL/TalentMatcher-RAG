@@ -1,55 +1,38 @@
 import gradio as gr
-# Import pipeline
-from Build_Vector_DBase.embedder import embed_text
-from Build_Vector_DBase.retrieve import ranked_cvs
-from Build_Vector_DBase.chroma_faiss_store import load_collection
-#from LLM_Engine.llm_explainer import explain_match
+from Job_Matching import match_job_description
 
-# Load collection
-collection = load_collection()
+def run_match(job_text):
+    #Execute motor
+    result = match_job_description(job_text, log_path="", debug=False)
 
-def match(query):
-    # 1. Embedding
-    query_embedding = embed_text(query)
+    best = result["best_cv"]
+    explanation = result["explanation"]
+    top5 = "\n".join([cv["cv_name"] for cv in result["cv_scores"][:5]])
 
-    # 2. Ranking
-    results = ranked_cvs(collection, query_embedding)
+    ranking_table = "RANK | CV | SCORE\n"
+    ranking_table += "----------------------\n"
+    for idx, cv in enumerate(result["cv_scores"], start=1):
+        ranking_table += f"{idx} | {cv['cv_name']} | {cv['final_score']:.4f}\n"
 
-    # 3. Explicación del LLM
-    #explanation = explain_match(query, results)
+    return best, top5, explanation, ranking_table
 
-    # 4. Armar salida bonita
-    output = f"""
-### 🧠 Mejor CV:
-**{results['best_cv']}**
+with gr.Blocks() as demo:
+    gr.Markdown("# Talent Matcher — UI Demo")
+    gr.Markdown("Ingresa una descripción de vacante para obtener el mejor CV.")
 
----
+    job_input = gr.Textbox(label="Descripción de la vacante", lines=4)
 
-### 📊 Ranking completo:
-{results['ranking']}
+    btn = gr.Button("Analizar")
 
----
+    best_output = gr.Textbox(label="Mejor CV")
+    top5_output = gr.Textbox(label="Top 5 CVs")
+    explanation_output = gr.Textbox(label="Explicación del LLM", lines=10)
+    ranking_output = gr.Textbox(label="Ranking completo", lines=15)
 
-### 📝 Explicación del LLM:
-{explanation}
+    btn.click(
+        run_match,
+        inputs=job_input,
+        outputs=[best_output, top5_output, explanation_output, ranking_output]
+    )
 
----
-
-### 🔍 Fragmentos relevantes:
-{results['context']}
-"""
-
-    return output
-
-
-# Interfaz Gradio
-ui = gr.Interface(
-    fn=match,
-    inputs=gr.Textbox(label="Describe el perfil que buscas"),
-    outputs=gr.Markdown(label="Resultado del sistema"),
-    title="CV Matcher AI",
-    description="Busca el mejor CV basado en tu query usando embeddings, FAISS y un LLM local."
-)
-
-if __name__ == "__main__":
-    ui.launch()
+demo.launch()

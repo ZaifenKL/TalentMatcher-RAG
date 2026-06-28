@@ -1,5 +1,3 @@
-from sympy.physics.units import seconds
-
 from Build_Vector_DBase import (embed_text, get_vector_store, ranked_cvs)
 from LLM_Engine import explain_match, test_llm_connection
 from datetime import datetime
@@ -117,13 +115,11 @@ def export_markdown_report(report: dict, log_file: str) -> str:
 
     return f"System log saved: {log_file}"
 
-
 # ------------------------------------------------------------------------
 # ------------------ DEBUG / TEST ----------------------------------------
 # ------------------------------------------------------------------------
-resultado = match_job_description("Busco un QA Automation Junior con experiencia en Wizeline",
-        log_path,
-        debug=False , report=True)
+job_text = input("Please enter your job description: ")
+resultado = match_job_description(job_text,log_path,debug=False , report=True)
 
 print("\n=== Explanation del LLM ===")
 print(resultado["explanation"])
