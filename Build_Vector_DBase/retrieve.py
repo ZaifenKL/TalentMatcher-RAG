@@ -1,13 +1,17 @@
 import numpy as np
 from collections import defaultdict
 from Core.config_loader import config
-
 ##------------------------------------------------------------------------
 ##------------------Constant Values---------------------------------------
 persist_directory = r"C:\AI Stuff\CV_Matching_AI\VectorStore"
 collection_name = "talent_matcher"
 ##-------Define functions to rank and retrieve best match--------
 ##------------------------------------------------------------------------
+def convert_distance_to_score(distance: float) -> float:
+    score = max(0, (1 - distance)**2 * 100)
+
+    return round(score, 2)
+
 def compute_dynamic_k(collection, min_k=10, max_k=50, multiplier=3):
     #Computes a dynamic k based on the quantity of the CV in the DB
     #Returns number of chunks to retreive and number of detected CVs
@@ -67,7 +71,8 @@ def ranked_cvs(collection, query_embedding):
             "final_score": final_score,
             "max_score": max(scores),
             "mean_score": np.mean(scores),
-            "chunks": cv_chunks
+            "chunks": cv_chunks,
+            "match_score": convert_distance_to_score(final_score)
         })
 
     #Order CV by most relevant
@@ -77,15 +82,23 @@ def ranked_cvs(collection, query_embedding):
     best = cv_scores[0]
     best_cv = best["cv_name"]
     best_final_score = best["final_score"]
+    match_score = convert_distance_to_score(best_final_score)
 
     #Concatenate the text of the best CV
     best_chunks_sorted = sorted(best["chunks"], key=lambda x: x["score"])
-    context = "\n\n".join([c["content"] for c in best_chunks_sorted])
+    #context = "\n\n".join([c["content"] for c in best_chunks_sorted])
 
+    # Organize chunks by relevance
+    ordered = sorted(best["chunks"], key=lambda x: x["score"])
+    #Take only the best 3-5
+    top_chunks = ordered[:5]
+    #Build clean context
+    context = "\n".join([c["content"].strip() for c in top_chunks])
 
     ranked_cv = {
         "best_cv": best_cv,
         "best_final_score" : best_final_score,
+        "match_score": match_score,
         "ranked_cvs": [cv["cv_name"] for cv in cv_scores],
         "cv_scores": cv_scores,
         "context": context,

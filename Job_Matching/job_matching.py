@@ -65,6 +65,7 @@ def build_ranking_report(ranking: dict, llm_response: str, llm_response_time: fl
     for idx, cv in enumerate(ranking["cv_scores"], start=1):
         table_lines.append(
             f"{idx} | {cv['cv_name']} | {cv['final_score']:.4f} | "
+            f"{cv['match_score']}/100 | "
             f"{cv['max_score']:.4f} | {cv['mean_score']:.4f}"
         )
 

@@ -52,32 +52,30 @@ def explain_match(query: str, results: dict) -> str:
     context = results["context"]
     best_cv = results["best_cv"]
     best_final_score = results["best_final_score"]
+    match_score = results["match_score"]
 
     prompt = f"""
-    INSTRUCCIONES DEL SISTEMA (NO MOSTRAR AL USUARIO):
+    INSTRUCCIONES DEL SISTEMA:
     La primera línea DEBE ser exactamente: "CV seleccionado: {best_cv}".
     No inventes nombres de CV.
     Usa únicamente la información del CV seleccionado.
-    Distancia interna del mejor CV: {best_final_score}.
-    Reglas de score:
-    - Si distancia > 0.50 → score < 40.
-    - Si distancia > 0.70 → score < 20.
-    - Si distancia > 0.90 → score < 5.
-    No menciones distancias ni conceptos técnicos.
 
     VACANTE:
     {query}
 
     FRAGMENTOS DEL CV:
     {context}
+    
+    SCORE FINAL DEL MATCH: 
+    {match_score}/100
 
     TAREAS:
     Como reclutador técnico experto:
-    - Explica por qué este CV fue seleccionado.
-    - Resume las habilidades relevantes.
-    - Evalúa el match del 0 al 100 siguiendo las reglas internas.
-    - Si el match es bajo, explica por qué.
-    - No inventes habilidades que no estén en el CV.
+    - Resume las habilidades relevantes y experiencia que aparecen en el CV.
+    - Usa el score proporcionado como indicador final del match.
+    - Si el score es bajo, explica brevemente por qué el perfil no encaja.
+    -Si el score es alto, explica brevemente por qué el perfil encaja.
+    - No inventes habilidades, proyectos, certificaciones ni experiencia.
     """
 
     start = time.time()
