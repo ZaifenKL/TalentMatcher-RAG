@@ -1,5 +1,6 @@
 import ollama
 from Core.config_loader import config
+import time
 ##------------------------------------------------------------------------
 ##------------------Constant Values---------------------------------------
 ##------------------------------------------------------------------------
@@ -8,17 +9,18 @@ section = f"LLM_{active_profile}"
 MODEL = config[section]["model"]
 TEMPERATURE = float(config[section]["temperature"])
 MAX_TOKENS = int(config[section]["max_tokens"])
+RESPONSE_STYLE = config[section]["response_style"]
 ##-------Define functions to optimize the pdf extraction data flow--------
 ##-----------------------------------------------------------------------
 def test_llm_connection():
     #Debuggin function
-    print("=== Probando conexión con el LLM ===")
-    print("Perfil activo:", config["LLM"]["active_profile"])
+    print("=== Testing LLM Connection ===")
+    print("Active Profile:", config["LLM"]["active_profile"])
 
     prompt = "Hola, ¿puedes responder un mensaje corto para confirmar que estás funcionando?"
     respuesta = run_llm(prompt)
 
-    print("\n=== Respuesta del modelo ===")
+    print("\n===Model Response ===")
     print(respuesta)
 
     return respuesta
@@ -41,22 +43,32 @@ def run_llm(prompt: str):
 
 
 def explain_match(query: str, results: dict) -> str:
+    # Read active profile
+    #active_profile = config["LLM"]["active_profile"]
+    #section = f"LLM_{active_profile}"
+    #raw_style = config[section].get("response_style", "").strip()
+    #RESPONSE_STYLE = raw_style if raw_style else ""
     #Generates and explanation on why this CV matches the job description
     context = results["context"]
     best_cv = results["best_cv"]
+
 
     prompt = f"""
     El usuario busca: {query}
     El CV más relevante es: {best_cv}
     Fragmentos relevantes del CV:
     {context}
-    Explica por qué este CV es el mejor match.
+    Explica  por qué este CV es el mejor match.
     Resume las habilidades clave.
     Evalúa el match en una escala del 0 al 100.
     Actúa como si fueras un profesional experto en búsqueda de talento.
     """
 
-    return run_llm(prompt)
+    start = time.time()
+    explanation = run_llm(prompt)
+    llm_response_time = round(time.time() - start, 4)
+
+    return explanation, llm_response_time
 
 ##----DEBUG/TEST----------------------------------------------------------------------
-respuesta = test_llm_connection()
+#respuesta = test_llm_connection()

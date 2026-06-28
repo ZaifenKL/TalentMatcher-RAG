@@ -1,6 +1,5 @@
 import numpy as np
 from collections import defaultdict
-from Build_Vector_DBase import (get_vector_store, embed_text)
 from Core.config_loader import config
 
 ##------------------------------------------------------------------------
@@ -91,6 +90,7 @@ def ranked_cvs(collection, query_embedding):
     }
 
     return ranked_cv
+
 ##----DEBUG/TEST----------------------------------------------------------------------
 #Test 0: El re‑ranking debe favorecer CVs con varios chunks relevantes, no solo uno.
 #query = "Necesito un perfil con experiencia en migración a la nube, KPIs operativos y proyectos corporativos de analítica."
