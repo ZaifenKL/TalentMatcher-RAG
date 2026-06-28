@@ -98,7 +98,7 @@ def ranked_cvs(collection, query_embedding):
 #query = "Busco un perfil con habilidades blandas fuertes, comunicación efectiva y liderazgo."
 #Test 2 :
 #query= "Busco alguien que sepa Python, APIs REST, Docker y tenga experiencia en desarrollo de software. Puede ser Full Stack, QA Automation o Data Engineer."
-#Test 3: Debe ganar ese perfil en especifico
+#Test 3: Debe ganar ese perfil en especificonked
 #query= "Necesito un QA Automation Junior con epxeriencia en Wizeline"
 #Pruebas desde input del usuario
 #query = input("Enter question: ")
