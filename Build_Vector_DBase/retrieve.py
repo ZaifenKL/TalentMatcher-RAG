@@ -1,12 +1,12 @@
 import numpy as np
 from collections import defaultdict
-from chroma_faiss_store import get_vector_store
-from embedder import embed_text
+from Core.config_loader import config
+
 ##------------------------------------------------------------------------
 ##------------------Constant Values---------------------------------------
 persist_directory = r"C:\AI Stuff\CV_Matching_AI\VectorStore"
 collection_name = "talent_matcher"
-##-------Define functions to optimize the pdf extraction data flow--------
+##-------Define functions to rank and retrieve best match--------
 ##------------------------------------------------------------------------
 def compute_dynamic_k(collection, min_k=10, max_k=50, multiplier=3):
     #Computes a dynamic k based on the quantity of the CV in the DB
@@ -71,7 +71,7 @@ def ranked_cvs(collection, query_embedding):
     #Order CV by most relevant
     cv_scores = sorted(cv_scores, key=lambda x: x["final_score"])
 
-    #Get best CV name
+    #Getthe best CV name
     best = cv_scores[0]
     best_cv = best["cv_name"]
 
@@ -90,6 +90,7 @@ def ranked_cvs(collection, query_embedding):
     }
 
     return ranked_cv
+
 ##----DEBUG/TEST----------------------------------------------------------------------
 #Test 0: El re‑ranking debe favorecer CVs con varios chunks relevantes, no solo uno.
 #query = "Necesito un perfil con experiencia en migración a la nube, KPIs operativos y proyectos corporativos de analítica."
@@ -98,14 +99,14 @@ def ranked_cvs(collection, query_embedding):
 #Test 2 :
 #query= "Busco alguien que sepa Python, APIs REST, Docker y tenga experiencia en desarrollo de software. Puede ser Full Stack, QA Automation o Data Engineer."
 #Test 3: Debe ganar ese perfil en especifico
-query= "Necesito un QA Automation Junior con epxeriencia en Wizeline"
+#query= "Necesito un QA Automation Junior con epxeriencia en Wizeline"
 #Pruebas desde input del usuario
 #query = input("Enter question: ")
-collection = get_vector_store(persist_directory, collection_name)
-query_embedding = embed_text(query)
-results = ranked_cvs(collection, query_embedding)
-print("K usado:", results["k_used"])
-print("Total CVs:", results["total_cvs"])
-print("CVs rankeados:", results["ranked_cvs"])
-print("Scores:", results["cv_scores"])
-print("Mejor CV:", results["best_cv"])
+#collection = get_vector_store(persist_directory, collection_name)
+#query_embedding = embed_text(query)
+#results = ranked_cvs(collection, query_embedding)
+#print("K usado:", results["k_used"])
+#print("Total CVs:", results["total_cvs"])
+#print("CVs rankeados:", results["ranked_cvs"])
+#print("Scores:", results["cv_scores"])
+#print("Mejor CV:", results["best_cv"])

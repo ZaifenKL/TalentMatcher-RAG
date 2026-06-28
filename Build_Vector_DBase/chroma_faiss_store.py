@@ -2,6 +2,8 @@ import os
 import json
 from chromadb import PersistentClient
 from collections import Counter
+from Core.config_loader import config
+
 ##------------------------------------------------------------------------
 ##------------------Constant Values---------------------------------------
 persist_directory = r"C:\AI Stuff\CV_Matching_AI\VectorStore"

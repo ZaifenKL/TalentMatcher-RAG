@@ -2,6 +2,8 @@ from transformers import AutoTokenizer
 import json
 import os
 import uuid
+from Core.config_loader import config
+
 ##------------------------------------------------------------------------
 ##------------------Constant Values---------------------------------------
 tokenizer = AutoTokenizer.from_pretrained("dccuchile/bert-base-spanish-wwm-cased")

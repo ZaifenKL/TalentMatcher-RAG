@@ -1,7 +1,8 @@
 from sentence_transformers import SentenceTransformer
-import numpy as np
 import json
 import os
+from Core.config_loader import config
+
 ##------------------------------------------------------------------------
 ##------------------Constant Values---------------------------------------
 chunk_json_path = r"C:\AI Stuff\CV_Matching_AI\Data\Chunk_Json"
