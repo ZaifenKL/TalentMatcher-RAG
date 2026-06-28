@@ -68,8 +68,8 @@ def ranked_cvs(collection, query_embedding):
             "chunks": cv_chunks
         })
 
-    #Order CV by most relevant
-    cv_scores = sorted(cv_scores, key=lambda x: x["final_score"])
+    #Order CV by most relevant, reverse=True orders from higher score to smallest score
+    cv_scores = sorted(cv_scores, key=lambda x: x["final_score"], reverse=True)
 
     #Getthe best CV name
     best = cv_scores[0]
