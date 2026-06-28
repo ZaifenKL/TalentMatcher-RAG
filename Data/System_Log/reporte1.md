@@ -38,25 +38,18 @@ RANK | CV | SCORE | MAX | MEAN
 
 ## Explicación del Modelo
 
-**Explicación para por qué este CV es la mejor coincidencia:**
 
-Este candidato parece ser una excelente opción debido a que su experiencia se alinea estrechamente con los requisitos del puesto en busca de un QA Automation Junior. El hecho de que el usuario esté buscando específicamente habilidades relacionadas con Wizeline y la mención explícita de haber liderado iniciativas dentro de esta plataforma es una ventaja significativa, ya que demuestra experiencia directa en el área objetivo. Además, su formación académica incluye los campos clave relevantes para un rol orientado a resultados y análisis de negocio como la Ingeniería en Sistemas, Computación y Matemáticas Aplicadas o Ágil.
+El CV seleccionado para la vacante de QA Automation Junior con experiencia en Wizeline se denomina "05_QA_Automation_Junior.png". Este candidato es el mejor match debido a que su experiencia profesional está directamente alineada con los requisitos solicitados, incluyendo la orientación hacia resultados y análisis de negocio, así como habilidades en desarrollo de software colaborativo. Además, posee una formación relevante con licenciatura e incluso diplomados especializándose en áreas clave para el puesto que son las metodologías ágiles y los sistemas en la nube.
 
-La experiencia profesional del candidato es notable por su claridad y detalle; ha trabajado con Wizeline QA Automation directamente e implementado soluciones que han mejorado los KPIs operativos entre un 15% y un 40%, lo cual indica una habilidad para impactar positivamente en la empresa. Además, su experiencia previa como Especialista Técnico con EPAM muestra competencia adicional al liderar pipelines ETL y automatizar procesos críticos dentro de proyectos anteriores.
+Las habilidades clave presentadas por este candidato incluyen liderazgo de iniciativas, desarrollo de soluciones utilizando Python e SQL, así como experiencia con Power BI, Azure y AWS; todas estas son tecnologías esenciales para el puesto en cuestión. Asimismo, su contribución a mejorar KPIs operativos entre un 15% y un 40% demuestra una capacidad tangible de impacto positivo sobre los resultados empresariales que se buscan alinearse con la orientación del puesto hacia el análisis de negocio.
 
-**Habilidades clave resumidas:**
-- Experiencia en QA Automation, específicamente relacionada con Wizeline (2 años).
-- Liderazgo e iniciativas exitosas que impulsaron mejoras operativas medibles entre un 15% y un 40%.
-- Formación académica relevante: Licenciatura en Ingeniería en Sistemas, Computación y Matemáticas Aplicadas o Ágil.
-- Diplomados adicionales en nube, analítica y metodologías ágiles que complementan la experiencia técnica del candidato.
-- Experiencia con Python, SQL, Power BI, Azure y AWS para el desarrollo de soluciones automatizadas eficientes.
+Evaluando su experiencia, formación y habilidades presentadas en relación a las especificaciones solicitadas por la vacante, este candidato tiene un puntaje de 95/100 para ser considerado como una excelente opción para el puesto. Su perfil es altamente relevante y su experiencia directa coincide con los requisitos del trabajo en cuestión.
 
-**Evaluación del match:**
-Teniendo en cuenta los requisitos específicos buscados por la empresa y
+Como experto reclutador técnico, recomendaría este candidato sin lugar a dudas por sus habilidades sobresalientes que se alinean perfectamente con las expectativas de la vacante y su poten0cial para ser un valioso miembro del equipo.
 
 ## Tiempo de respuesta del LLM
 
-- `79.2184 segundos`
+- `53.0169 segundos`
 
 ---
 

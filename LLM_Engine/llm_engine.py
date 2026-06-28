@@ -55,15 +55,16 @@ def explain_match(query: str, results: dict) -> str:
 
     prompt = f"""
     El usuario busca: {query}
-    El CV más relevante es: {best_cv}
-    Fragmentos relevantes del CV:
+    El CV más relevante identificado por el sistema es: {best_cv}
+    Fragmentos relevantes del CV seleccionado:
     {context}
-    Explica  por qué este CV es el mejor match.
-    Resume las habilidades clave.
-    Evalúa el match en una escala del 0 al 100.
-    Actúa como si fueras un profesional experto en búsqueda de talento.
+    Instrucciones:
+    1. Menciona explícitamente el nombre del CV seleccionado al inicio de tu respuesta.
+    2. Explica por qué este CV es el mejor match para la vacante.
+    3. Resume las habilidades clave que coinciden con los requisitos.
+    4. Evalúa el match en una escala del 0 al 100.
+    5. Redacta como un profesional experto en reclutamiento técnico.
     """
-
     start = time.time()
     explanation = run_llm(prompt)
     llm_response_time = round(time.time() - start, 4)
