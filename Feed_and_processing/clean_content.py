@@ -8,9 +8,15 @@ from Core.config_loader import config
 raw_json_path = r"C:\AI Stuff\CV_Matching_AI\Data\Raw_Json"
 clean_json_path = r"C:\AI Stuff\CV_Matching_AI\Data\Clean_Json"
 HEADERS = ["Formación", "Educación","Experiencia Profesional","Habilidades Técnicas","Habilidades Blandas","Certificaciones",
-           "Idiomas", "Proyectos Relevantes"]
+           "Idiomas", "Proyectos Relevantes", "Formación académica"]
 ##-------Define functions to optimize the pdf extraction data flow--------
 ##------------------------------------------------------------------------
+def clean_unk_tokens(text):
+    #Clean [UNK] in each line
+    text = re.sub(r'\[\s * UNK\s *\]', ' ', text)
+
+    return text
+
 def clean_extra_spaces(text):
     #Remove extra spaces in text
     text = re.sub(r"\s+", " ", text)
@@ -43,13 +49,13 @@ def add_colons_to_headers(text,HEADERS):
     return text
 
 def join_clean_lines(lines):
-    # 1. Quitar líneas vacías o con solo espacios
+    # 1.Remove empty lines
     lines = [l.strip() for l in lines if l.strip()]
 
-    # 2. Unir con salto de línea
+    # 2.Join with line break
     text = "\n".join(lines)
 
-    # 3. Normalizar espacios finales
+    # 3.Normalize space
     text = re.sub(r"[ \t]+$", "", text, flags=re.MULTILINE)
 
     return text
@@ -71,6 +77,7 @@ def clean_json(raw_json_path, clean_json_path,show_results=False):
 
                         clean_lines = []
                         for line in raw_lines:
+                            line = clean_unk_tokens(line)
                             line = clean_extra_spaces(line)
                             line = fix_ocr_zero_to_o(line)
                             line = add_colons_to_headers(line, HEADERS)
@@ -88,7 +95,7 @@ def clean_json(raw_json_path, clean_json_path,show_results=False):
                             "source_format": data["source_format"],
 
                             "text": {
-                                "content": clean_content,
+                                "content": clean_lines,
                                 "element_count": len(clean_content),
                                  }
                              }

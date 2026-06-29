@@ -1,0 +1,33 @@
+{
+  "name": "16_senior_backend_engineer_senior.pdf",
+  "source_path": "C:\\AI Stuff\\CV_Matching_AI\\Data\\CV\\CV_Test\\16_senior_backend_engineer_senior.pdf",
+  "source_format": "PDF",
+  "text": {
+    "content": [
+      "Senior Backend Engineer",
+      "Resumen profesional",
+      "Ingeniero Backend Senior con más de 9 años de experiencia diseñando arquitecturas distribuidas y APIs de alta disponibilidad. Especializado en TypeScript, Node.js, Fastify, Redis, Elasticsearch y despliegues sobre Kubernetes en GCP.",
+      "Formación académica",
+      "Ingeniería en Ciencias Computacionales, Tecnológico de Monterrey (2011–2016). Diplomado en Arquitectura de Software y Sistemas Distribuidos (2018).",
+      "Experiencia laboral",
+      "Senior Backend Engineer | Mercado Libre | Ene 2022 – Actual · Liderazgo técnico de servicios críticos procesando millones de solicitudes diarias. · Diseño de microservicios con Node.js, TypeScript y Fastify. · Optimización de Redis y Elasticsearch reduciendo 40% la latencia.",
+      "Mentoría de 6 ingenieros backend.",
+      "Backend Engineer | Wizeline México | Jul 2018 – Dic 2021",
+      "Desarrollo de APIs para clientes fintech y retail.",
+      "Contenerización con Docker y Kubernetes.",
+      "Software Engineer | Softtek | Jul 2016 – Jun 2018",
+      "Desarrollo de aplicaciones empresariales con Node.js y Java.",
+      "Habilidades técnicas",
+      "TypeScript, Node.js, Fastify, Express, Redis, Elasticsearch, PostgreSQL, Docker, Kubernetes, GCP, Terraform, GitHub Actions.",
+      "Habilidades blandas",
+      "Liderazgo técnico, comunicación, mentoría, pensamiento estratégico, colaboración.",
+      "Certificaciones",
+      "Google Professional Cloud Developer. Certified Kubernetes Application Developer (CKAD).",
+      "Idiomas",
+      "Español (nativo). Inglés (C2).",
+      "Proyectos relevantes",
+      "Arquitectura de personalización basada en Elasticsearch para millones de usuarios. Migración de una plataforma monolítica a microservicios con disponibilidad superior al 99.95%."
+    ],
+    "element_count": 1624
+  }
+}

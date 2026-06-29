@@ -26,8 +26,6 @@ collection_name = "talent_matcher"
 reset=False
 
 
-
-
 def main():
 
     print("\n=== 1) Extrayendo PDFs ===")

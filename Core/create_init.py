@@ -13,7 +13,8 @@ folders = [
     "UI",
     "Job_Matching",
     "Report_Builder",
-    "Test"
+    "Core",
+
 ]
 ##-------Define functions to optimize the pdf extraction data flow--------
 ##------------------------------------------------------------------------

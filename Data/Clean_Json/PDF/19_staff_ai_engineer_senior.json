@@ -1,0 +1,38 @@
+{
+  "name": "19_staff_ai_engineer_senior.pdf",
+  "source_path": "C:\\AI Stuff\\CV_Matching_AI\\Data\\CV\\CV_Test\\19_staff_ai_engineer_senior.pdf",
+  "source_format": "PDF",
+  "text": {
+    "content": [
+      "Staff AI Engineer",
+      "Resumen profesional",
+      "Staff AI Engineer con más de 10 años de experiencia diseñando plataformas de Inteligencia Artificial y soluciones de IA Generativa para productos empresariales. Especializado en LLMs, arquitecturas RAG, agentes inteligentes, MLOps y sistemas distribuidos de alta disponibilidad.",
+      "Formación académica : ",
+      "Maestría en Ciencias Computacionales, Instituto Tecnológico y de Estudios Superiores de Monterrey (2014–2016). Ingeniería en Sistemas Computacionales, Universidad Autónoma de Nuevo León",
+      "(2009–2013).",
+      "Experiencia laboral",
+      "Staff AI Engineer | Microsoft México | Ene 2022 – Actual",
+      "Definición de la arquitectura de plataformas de IA Generativa para clientes",
+      "enterprise.",
+      "Liderazgo técnico de iniciativas con LLMs, LangChain y Azure OpenAI.",
+      "Mentoría de ingenieros senior y revisión de decisiones de arquitectura.",
+      "Principal Machine Learning Engineer | Globant | Jul 2018 – Dic 2021",
+      "Desarrollo de soluciones NLP y visión computacional para banca y telecomunicaciones.",
+      "Implementación de pipelines MLOps sobre Kubernetes y MLflow.",
+      "Senior Software Engineer | IBM México | Jul 2013 – Jun 2018",
+      "Desarrollo de soluciones analíticas y de inteligencia artificial para clientes corporativos.",
+      "Habilidades técnicas : ",
+      "Python, LangChain, OpenAI API, Azure OpenAI, PyTorch, TensorFlow, Kubernetes, Docker, MLflow, Databricks, Spark, FastAPI, Azure, Git.",
+      "Habilidades blandas : ",
+      "Liderazgo técnico, pensamiento estratégico, mentoría, comunicación ejecutiva, negociación y colaboración multidisciplinaria.",
+      "Certificaciones : ",
+      "Microsoft Azure AI Engineer Associate (AI-102). Google Professional Machine Learning Engineer.",
+      "Idiomas : ",
+      "Español (nativo). Inglés (C2).",
+      "Proyectos relevantes : ",
+      "Diseño de una plataforma corporativa de agentes inteligentes basada en arquitecturas RAG para miles de usuarios internos.",
+      "Implementación de un framework reutilizable para despliegue de modelos LLM reduciendo 60% el tiempo de puesta en producción."
+    ],
+    "element_count": 1938
+  }
+}

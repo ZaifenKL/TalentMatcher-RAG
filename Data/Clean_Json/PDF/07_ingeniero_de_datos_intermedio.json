@@ -1,0 +1,32 @@
+{
+  "name": "07_ingeniero_de_datos_intermedio.pdf",
+  "source_path": "C:\\AI Stuff\\CV_Matching_AI\\Data\\CV\\CV_Test\\07_ingeniero_de_datos_intermedio.pdf",
+  "source_format": "PDF",
+  "text": {
+    "content": [
+      "Ingeniero de Datos",
+      "Resumen profesional",
+      "Ingeniero de Datos con 5 años de experiencia diseñando pipelines ETL/ELT, modelado de datos y plataformas analíticas en la nube. Especializado en SQL, Snowflake y Azure para habilitar soluciones de inteligencia de negocio y machine learning.",
+      "Formación académica : ",
+      "Ingeniería en Sistemas de Información, Universidad Autónoma de Nuevo León (2016–2021).",
+      "Diplomado en Big Data y Cloud Data Engineering (2022).",
+      "Experiencia laboral",
+      "Ingeniero de Datos | CEMEX Digital | Ene 2024 – Actual · Desarrollo de pipelines con Azure Data Factory y Snowflake. · Optimización de procesos ETL reduciendo 40% los tiempos de carga.",
+      "· Integración de datos para iniciativas de analítica avanzada.",
+      "Data Engineer | Softtek | Jul 2021 – Dic 2023 · Modelado dimensional y desarrollo de procesos ETL con SQL y Python.",
+      "Implementación de procesos de calidad y monitoreo de datos.",
+      "Habilidades técnicas : ",
+      "SQL, Snowflake, Azure Data Factory, Python, Spark, Databricks, Git, Docker, Airflow, Power BI.",
+      "Habilidades blandas : ",
+      "Pensamiento analítico, resolución de problemas, comunicación, organización y colaboración.",
+      "Certificaciones : ",
+      "Microsoft Azure Data Engineer Associate (DP-203). SnowPro Core Certification.",
+      "Idiomas : ",
+      "Español (nativo). Inglés (C1).",
+      "Proyectos relevantes : ",
+      "Implementación de un Data Warehouse corporativo sobre Snowflake para más de 25 áreas de negocio.",
+      "Migración de procesos ETL tradicionales hacia arquitectura ELT en la nube."
+    ],
+    "element_count": 1451
+  }
+}

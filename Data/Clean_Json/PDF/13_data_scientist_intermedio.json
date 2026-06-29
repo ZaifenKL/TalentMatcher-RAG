@@ -1,0 +1,36 @@
+{
+  "name": "13_data_scientist_intermedio.pdf",
+  "source_path": "C:\\AI Stuff\\CV_Matching_AI\\Data\\CV\\CV_Test\\13_data_scientist_intermedio.pdf",
+  "source_format": "PDF",
+  "text": {
+    "content": [
+      "Resumen profesional",
+      "Ingeniero especializado en Ciencia de Datos con más de 4 años de experiencia desarrollando modelos predictivos, soluciones de segmentación y analítica avanzada para los sectores financiero y retail. Experiencia llevando modelos desde la exploración hasta producción.",
+      "Formación académica : ",
+      "Licenciatura en Matemáticas Aplicadas, Universidad Autónoma Metropolitana (2015–2020).",
+      "Especialidad en Ciencia de Datos (2021).",
+      "Experiencia laboral",
+      "Data Scientist | BBVA México | Ene 2023 – Actual",
+      "Desarrollo de modelos de propensión, churn y fraude utilizando Python y scikit-learn.",
+      "Implementación de modelos de segmentación para campañas comerciales.",
+      "Colaboración con equipos de negocio para definir KPIs y métricas.",
+      "Data Analyst | Deloitte México | Jul 2020 – Dic 2022",
+      "Análisis estadístico y construcción de dashboards ejecutivos.",
+      "Automatización de procesos analíticos mediante SQL y Python.",
+      "Habilidades técnicas : ",
+      "Python, SQL, Pandas, NumPy, scikit-learn, XGBoost, Power BI, Tableau, Git, MLflow, Jupyter.",
+      "Habilidades blandas : ",
+      "Pensamiento analítico, comunicación con áreas de negocio, resolución de problemas, colaboración y aprendizaje continuo.",
+      "Certificaciones : ",
+      "IBM Data Science Professional Certificate. Microsoft Power BI Data Analyst Associate (PL-300).",
+      "Idiomas : ",
+      "Español (nativo). Inglés (C1).",
+      "Proyectos relevantes : ",
+      "Modelo de detección de fraude que incrementó 22% la identificación de operaciones",
+      "sospechosas.",
+      "Motor de segmentación de clientes para campañas de marketing con incremento del 17% en conversión.",
+      "Data Scientist"
+    ],
+    "element_count": 1545
+  }
+}

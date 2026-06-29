@@ -1,0 +1,36 @@
+{
+  "name": "11_devops_engineer_intermedio.pdf",
+  "source_path": "C:\\AI Stuff\\CV_Matching_AI\\Data\\CV\\CV_Test\\11_devops_engineer_intermedio.pdf",
+  "source_format": "PDF",
+  "text": {
+    "content": [
+      "DevOps Engineer",
+      "Resumen profesional",
+      "Ingeniero DevOps con 5 años de experiencia automatizando infraestructura, despliegues y observabilidad en entornos cloud. Experiencia implementando CI/CD, Kubernetes e infraestructura como código para mejorar la disponibilidad y escalabilidad de plataformas empresariales.",
+      "Formación académica",
+      "Ingeniería en Sistemas Computacionales, Instituto Tecnológico de Puebla (2015–2020). Diplomado en Cloud Computing y DevOps (2022).",
+      "Experiencia laboral",
+      "DevOps Engineer | Globant México | Mar 2023 – Actual",
+      "· Administración de clústeres Kubernetes en AWS.",
+      "Automatización de infraestructura con Terraform.",
+      "Implementación de pipelines CI/CD con GitHub Actions y Jenkins.",
+      "Cloud Engineer | HCLTech México | Ago 2020 – Feb 2023",
+      "· Contenerización de aplicaciones con Docker.",
+      "Monitoreo con Prometheus y Grafana.",
+      "Optimización de despliegues reduciendo 60% los tiempos de liberación.",
+      "Habilidades técnicas",
+      "AWS, Kubernetes, Docker, Terraform, GitHub Actions, Jenkins, Linux, Bash, Python, Helm, Prometheus, Grafana.",
+      "Habilidades blandas",
+      "Colaboración, resolución de problemas, comunicación, pensamiento analítico y orientación a resultados.",
+      "Certificaciones",
+      "AWS Certified Solutions Architect – Associate. HashiCorp Terraform Associate.",
+      "Certified Kubernetes Application Developer (CKAD).",
+      "Idiomas",
+      "Español (nativo). Inglés (C1).",
+      "Proyectos relevantes",
+      "Migración de una arquitectura monolítica hacia contenedores en Kubernetes con disponibilidad superior al 99.9%. Automatización de infraestructura para más de 80 microservicios utilizando Terraform",
+      "y GitHub Actions."
+    ],
+    "element_count": 1573
+  }
+}

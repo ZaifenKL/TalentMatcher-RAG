@@ -1,0 +1,35 @@
+{
+  "name": "09_conversational_ai_engineer_intermedio.pdf",
+  "source_path": "C:\\AI Stuff\\CV_Matching_AI\\Data\\CV\\CV_Test\\09_conversational_ai_engineer_intermedio.pdf",
+  "source_format": "PDF",
+  "text": {
+    "content": [
+      "Conversational AI Engineer",
+      "Resumen profesional",
+      "Ingeniero de IA Conversacional con más de 4 años de experiencia diseñando e implementando asistentes virtuales basados en LLMs, NLP y arquitecturas RAG. Experiencia integrando chatbots con sistemas empresariales mediante APIs REST y servicios en la nube.",
+      "Formación académica : ",
+      "Ingeniería en Tecnologías Computacionales, ITESO (2016–2021). Diplomado en Inteligencia Artificial Generativa (2024).",
+      "Experiencia laboral",
+      "Conversational AI Engineer | Accenture México | Feb 2024 – Actual",
+      "Desarrollo de asistentes empresariales con OpenAI, Azure OpenAI y LangChain.",
+      "Implementación de arquitecturas RAG con bases vectoriales.",
+      "Integración con Salesforce, ServiceNow y Microsoft Teams.",
+      "Software Engineer | Softtek | Jul 2021 – Ene 2024",
+      "Desarrollo de APIs REST en Python y Node.js.",
+      "Automatización de flujos conversacionales y pruebas funcionales.",
+      "Habilidades técnicas : ",
+      "Python, JavaScript, LangChain, OpenAI API, Azure OpenAI, RAG, Pinecone, PostgreSQL, Docker, FastAPI, Git, REST APIs.",
+      "Habilidades blandas : ",
+      "Comunicación, pensamiento analítico, orientación al cliente, trabajo colaborativo y resolución de problemas.",
+      "Certificaciones : ",
+      "Microsoft Azure AI Engineer Associate (AI-102). Azure AI Fundamentals (AI-900).",
+      "Idiomas : ",
+      "Español (nativo). Inglés (C1).",
+      "Proyectos relevantes : ",
+      "Asistente virtual para atención a clientes con reducción del 42% en tiempo de",
+      "Buscador semántico corporativo basado en RAG para más de 120 mil documentos",
+      "respuesta. internos."
+    ],
+    "element_count": 1489
+  }
+}
