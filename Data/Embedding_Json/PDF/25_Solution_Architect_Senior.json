@@ -7,7 +7,7 @@
   "number_of_chunks": 5,
   "chunks": [
     {
-      "id": "chunk_0_0482c7e2-297f-4afe-bdb7-806cb81e8b71",
+      "id": "chunk_0_562993e8-fe55-4dc2-8de8-ae3a0ca84181",
       "start_token": 0,
       "end_token": 100,
       "content": "Solution Architect ( Senior ) Resumen Profesional Profesional de Solution Architect con 8 - 15 años de experiencia. Perfil orientado a resultados, análisis de negocio, desarrollo de software y trabajo colaborativo. Inspirado en el estilo de CV profesional observado en los ejemplos proporcionados. Formación : Licenciatura en Ingeniería en Sistemas, Computación, Matemáticas Aplicadas o afín. Diplomados en nube, analítica y metodologías ágiles. Experiencia Profesional :",
@@ -783,7 +783,7 @@
       ]
     },
     {
-      "id": "chunk_1_75715ca3-0fb1-49d4-a54b-45469453576d",
+      "id": "chunk_1_d6ba7ec1-4d81-4fbe-a101-b91c6f499bac",
       "start_token": 80,
       "end_token": 180,
       "content": "afín. Diplomados en nube, analítica y metodologías ágiles. Experiencia Profesional : 2024 - Actualidad | Wizeline | Solution Architect. Lideró iniciativas de datos y software, desarrolló soluciones con Python, SQL, Power BI, Azure y AWS. Mejoró KPIs operativos entre 15 % y 40 %. 2021 - 2024 | EPAM | Especialista Técnico. Construcción",
@@ -1559,7 +1559,7 @@
       ]
     },
     {
-      "id": "chunk_2_1d7f28f1-a3e2-40bc-91ee-552a549a6eed",
+      "id": "chunk_2_7ec8e43c-78b9-4f5f-b990-609a69a2ae75",
       "start_token": 160,
       "end_token": 260,
       "content": "15 % y 40 %. 2021 - 2024 | EPAM | Especialista Técnico. Construcción de pipelines ETL, automatización de reportes, integración de APIs y colaboración con negocio mediante Scrum. Habilidades Técnicas : Python, SQL, Git, Docker, Linux, Azure, AWS, Power BI, Tableau, Spark, Databricks, APIs REST.",
@@ -2335,7 +2335,7 @@
       ]
     },
     {
-      "id": "chunk_3_de5544aa-e360-4df1-a818-35bde61b9de4",
+      "id": "chunk_3_d614cbef-932b-490a-922a-91835ed82bf6",
       "start_token": 240,
       "end_token": 342,
       "content": "I, Tableau, Spark, Databricks, APIs REST. Habilidades Blandas : Comunicación efectiva, liderazgo, trabajo en equipo, gestión de stakeholders, pensamiento analítico. Certificaciones : AWS Cloud Practitioner, Azure Fundamentals, Scrum Fundamentals. Algunos perfiles incluyen Databricks o Google Cloud. Idiomas : Español nativo, Inglés B2 / C1. Proyectos Relevantes",
@@ -3111,7 +3111,7 @@
       ]
     },
     {
-      "id": "chunk_4_ec944fe4-6481-4587-94a5-abca3f1d5e3b",
+      "id": "chunk_4_7998dd9c-8bf1-42c4-8b5b-02b7434dc6ff",
       "start_token": 320,
       "end_token": 367,
       "content": "o Google Cloud. Idiomas : Español nativo, Inglés B2 / C1. Proyectos Relevantes : Plataforma analítica corporativa ; motor de recomendaciones ; automatización de indicadores ejecutivos ; migración cloud ; modelo predictivo de demanda.",

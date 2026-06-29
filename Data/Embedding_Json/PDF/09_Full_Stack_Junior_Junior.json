@@ -7,7 +7,7 @@
   "number_of_chunks": 5,
   "chunks": [
     {
-      "id": "chunk_0_17409fff-5c4b-4ef7-b272-3971baadfd0a",
+      "id": "chunk_0_cc9418c2-573d-471e-86d3-f3c8f53dd08e",
       "start_token": 0,
       "end_token": 100,
       "content": "Full Stack Junior ( Junior ) Resumen Profesional Profesional de Full Stack Junior con 0 - 2 años de experiencia. Perfil orientado a resultados, análisis de negocio, desarrollo de software y trabajo colaborativo. Inspirado en el estilo de CV profesional observado en los ejemplos proporcionados. Formación : Licenciatura en Ingeniería en Sistemas, Computación, Matemáticas Aplicadas o afín. Diplomados en nube, analítica y metodologías ágiles. Experiencia",
@@ -783,7 +783,7 @@
       ]
     },
     {
-      "id": "chunk_1_bb26693a-23eb-4aba-84e7-950265cd8a69",
+      "id": "chunk_1_612bf10e-3a26-42ee-9079-828bdbd0e8e7",
       "start_token": 80,
       "end_token": 180,
       "content": "adas o afín. Diplomados en nube, analítica y metodologías ágiles. Experiencia Profesional : 2024 - Actualidad | Oracle | Full Stack Junior. Lideró iniciativas de datos y software, desarrolló soluciones con Python, SQL, Power BI, Azure y AWS. Mejoró KPIs operativos entre 15 % y 40 %. 2021 - 2024 | NEORIS | Especialista",
@@ -1559,7 +1559,7 @@
       ]
     },
     {
-      "id": "chunk_2_8bb50282-650e-4626-b496-421ef7203d5e",
+      "id": "chunk_2_91f7c619-e5a4-40ae-bd2b-d360b286bb58",
       "start_token": 160,
       "end_token": 260,
       "content": "operativos entre 15 % y 40 %. 2021 - 2024 | NEORIS | Especialista Técnico. Construcción de pipelines ETL, automatización de reportes, integración de APIs y colaboración con negocio mediante Scrum. Habilidades Técnicas : Python, SQL, Git, Docker, Linux, Azure, AWS, Power BI, Tableau, Spark, Databricks, APIs",
@@ -2335,7 +2335,7 @@
       ]
     },
     {
-      "id": "chunk_3_2cb642d3-4a1b-4600-8eba-af41867bc988",
+      "id": "chunk_3_cda0e001-b74f-4a80-8687-e4f078c0f1a7",
       "start_token": 240,
       "end_token": 340,
       "content": "wer BI, Tableau, Spark, Databricks, APIs REST. Habilidades Blandas : Comunicación efectiva, liderazgo, trabajo en equipo, gestión de stakeholders, pensamiento analítico. Certificaciones : AWS Cloud Practitioner, Azure Fundamentals, Scrum Fundamentals. Algunos perfiles incluyen Databricks o Google Cloud. Idiomas : Español nativo, Inglés B2 / C1",
@@ -3111,7 +3111,7 @@
       ]
     },
     {
-      "id": "chunk_4_a1995829-e659-454e-9f89-f905b9271658",
+      "id": "chunk_4_3dcc10bd-fb37-42c6-8347-c12e98ee94da",
       "start_token": 320,
       "end_token": 370,
       "content": "bricks o Google Cloud. Idiomas : Español nativo, Inglés B2 / C1. Proyectos Relevantes : Plataforma analítica corporativa ; motor de recomendaciones ; automatización de indicadores ejecutivos ; migración cloud ; modelo predictivo de demanda.",

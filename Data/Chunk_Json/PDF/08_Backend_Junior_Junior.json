@@ -7,31 +7,31 @@
   "number_of_chunks": 5,
   "chunks": [
     {
-      "id": "chunk_0_5b1f8749-c0df-4f56-aee9-76040a87dc7c",
+      "id": "chunk_0_26262edb-ca66-41d0-af6a-9ae3151dffff",
       "start_token": 0,
       "end_token": 100,
       "content": "Backend Junior ( Junior ) Resumen Profesional Profesional de Backend Junior con 0 - 2 años de experiencia. Perfil orientado a resultados, análisis de negocio, desarrollo de software y trabajo colaborativo. Inspirado en el estilo de CV profesional observado en los ejemplos proporcionados. Formación : Licenciatura en Ingeniería en Sistemas, Computación, Matemáticas Aplicadas o afín. Diplomados en nube, analítica y metodologías ágiles. Experiencia Profesional : 2024"
     },
     {
-      "id": "chunk_1_bb6a2886-51c6-4a0f-86c8-ec321756ecd7",
+      "id": "chunk_1_136df0cb-78ca-4f95-bfd8-b07f3bb718d2",
       "start_token": 80,
       "end_token": 181,
       "content": ". Diplomados en nube, analítica y metodologías ágiles. Experiencia Profesional : 2024 - Actualidad | EPAM | Backend Junior. Lideró iniciativas de datos y software, desarrolló soluciones con Python, SQL, Power BI, Azure y AWS. Mejoró KPIs operativos entre 15 % y 40 %. 2021 - 2024 | Accenture México | Especialista Técnico. Construcción de pipelines"
     },
     {
-      "id": "chunk_2_1f817720-2186-49a1-ae6c-25705f818952",
+      "id": "chunk_2_16207175-8573-4582-9314-90b735cfe60d",
       "start_token": 160,
       "end_token": 260,
       "content": ". 2021 - 2024 | Accenture México | Especialista Técnico. Construcción de pipelines ETL, automatización de reportes, integración de APIs y colaboración con negocio mediante Scrum. Habilidades Técnicas : Python, SQL, Git, Docker, Linux, Azure, AWS, Power BI, Tableau, Spark, Databricks, APIs REST. Habilidades"
     },
     {
-      "id": "chunk_3_c968c126-ca76-401b-a299-6253ef1fe5bf",
+      "id": "chunk_3_9a77d482-54bb-48c1-b3d5-7716fb13d36e",
       "start_token": 240,
       "end_token": 340,
       "content": "leau, Spark, Databricks, APIs REST. Habilidades Blandas : Comunicación efectiva, liderazgo, trabajo en equipo, gestión de stakeholders, pensamiento analítico. Certificaciones : AWS Cloud Practitioner, Azure Fundamentals, Scrum Fundamentals. Algunos perfiles incluyen Databricks o Google Cloud. Idiomas : Español nativo, Inglés B2 / C1. Proyectos Relevantes :"
     },
     {
-      "id": "chunk_4_5b5691b6-4ecc-4ee9-b17e-788d4c00f0dc",
+      "id": "chunk_4_21540caa-93c0-4708-a3a8-51f4d1cbabf7",
       "start_token": 320,
       "end_token": 364,
       "content": "ud. Idiomas : Español nativo, Inglés B2 / C1. Proyectos Relevantes : Plataforma analítica corporativa ; motor de recomendaciones ; automatización de indicadores ejecutivos ; migración cloud ; modelo predictivo de demanda."

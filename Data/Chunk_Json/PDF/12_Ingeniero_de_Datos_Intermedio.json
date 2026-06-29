@@ -7,31 +7,31 @@
   "number_of_chunks": 5,
   "chunks": [
     {
-      "id": "chunk_0_b1cb9aa8-7ea7-46b5-a389-5e4f8b6fb7b1",
+      "id": "chunk_0_6fb92018-a9bb-4e37-820c-68a5f2a9b288",
       "start_token": 0,
       "end_token": 100,
       "content": "Ingeniero de Datos ( Intermedio ) Resumen Profesional Profesional de Ingeniero de Datos con 3 - 6 años de experiencia. Perfil orientado a resultados, análisis de negocio, desarrollo de software y trabajo colaborativo. Inspirado en el estilo de CV profesional observado en los ejemplos proporcionados. Formación : Licenciatura en Ingeniería en Sistemas, Computación, Matemáticas Aplicadas o afín. Diplomados en nube, analítica y metodologías ágiles. Experiencia Profesional : 2024 - Actualidad"
     },
     {
-      "id": "chunk_1_bef67ebb-c0fc-4770-a80d-50cd829fe185",
+      "id": "chunk_1_ac47196c-89f1-4053-a22c-9c9dfe085e9c",
       "start_token": 80,
       "end_token": 180,
       "content": "dos en nube, analítica y metodologías ágiles. Experiencia Profesional : 2024 - Actualidad | NEORIS | Ingeniero de Datos. Lideró iniciativas de datos y software, desarrolló soluciones con Python, SQL, Power BI, Azure y AWS. Mejoró KPIs operativos entre 15 % y 40 %. 2021 - 2024 | Wizeline | Especialista Técnico. Construcción de pipelines ETL,"
     },
     {
-      "id": "chunk_2_f04f4ef3-55f6-416d-a16e-2cdb148e7cf4",
+      "id": "chunk_2_569fc008-886e-4bd5-b751-ac95e58b37e0",
       "start_token": 160,
       "end_token": 260,
       "content": "2024 | Wizeline | Especialista Técnico. Construcción de pipelines ETL, automatización de reportes, integración de APIs y colaboración con negocio mediante Scrum. Habilidades Técnicas : Python, SQL, Git, Docker, Linux, Azure, AWS, Power BI, Tableau, Spark, Databricks, APIs REST. Habilidades Blandas : Comunicación"
     },
     {
-      "id": "chunk_3_ae3613a4-2a76-4abb-b0f7-d0e47ba1d361",
+      "id": "chunk_3_23cb0fcd-5273-4db7-9e61-a36fc9f99958",
       "start_token": 240,
       "end_token": 340,
       "content": "k, Databricks, APIs REST. Habilidades Blandas : Comunicación efectiva, liderazgo, trabajo en equipo, gestión de stakeholders, pensamiento analítico. Certificaciones : AWS Cloud Practitioner, Azure Fundamentals, Scrum Fundamentals. Algunos perfiles incluyen Databricks o Google Cloud. Idiomas : Español nativo, Inglés B2 / C1. Proyectos Relevantes : Plataforma analítica corporativa"
     },
     {
-      "id": "chunk_4_e98fa525-3bbf-42a7-9712-06710689d65c",
+      "id": "chunk_4_f0d9091e-9aeb-45d3-abbe-6206ee4f2e23",
       "start_token": 320,
       "end_token": 360,
       "content": ": Español nativo, Inglés B2 / C1. Proyectos Relevantes : Plataforma analítica corporativa ; motor de recomendaciones ; automatización de indicadores ejecutivos ; migración cloud ; modelo predictivo de demanda."
