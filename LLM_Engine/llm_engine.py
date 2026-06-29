@@ -12,7 +12,7 @@ MAX_TOKENS = int(config[section]["max_tokens"])
 RESPONSE_STYLE = config[section]["response_style"]
 ##-------Define functions to optimize the pdf extraction data flow--------
 ##-----------------------------------------------------------------------
-def test_llm_connection():
+def test_llm_connection(active_profile, section):
     #Debuggin function
     print("=== Testing LLM Connection ===")
     print("Active Profile:", config["LLM"]["active_profile"])
@@ -87,7 +87,7 @@ def explain_match(query: str, results: dict) -> str:
 ##----DEBUG/TEST----------------------------------------------------------------------
 def main():
     print("\n=== LLM Debug Test ===")
-    test_llm_connection()
+    test_llm_connection(active_profile, section)
     print("\n=== LLM Test Complete ===")
 
 

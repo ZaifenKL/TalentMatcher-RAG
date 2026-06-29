@@ -7,31 +7,31 @@
   "number_of_chunks": 5,
   "chunks": [
     {
-      "id": "chunk_0_0375e52d-71e9-4e0d-9c0b-f002df9ef5ba",
+      "id": "chunk_0_6c03484f-95e2-44d2-8553-bf0c97fb3f14",
       "start_token": 0,
       "end_token": 100,
       "content": "Perfil Híbrido IA ( Junior ) Resumen Profesional Profesional de Perfil Híbrido IA con 0 - 2 años de experiencia. Perfil orientado a resultados, análisis de negocio, desarrollo de software y trabajo colaborativo. Inspirado en el estilo de CV profesional observado en los ejemplos proporcionados. Formación : Licenciatura en Ingeniería en Sistemas, Computación, Matemáticas Aplicadas o afín. Diplomados en nube, analítica y metodologías ágiles. Experiencia"
     },
     {
-      "id": "chunk_1_dce9cfc7-9fd1-4ed1-a125-ecc436775d04",
+      "id": "chunk_1_219cb1a3-12a0-4e9d-b18e-615d815707be",
       "start_token": 80,
       "end_token": 180,
       "content": "adas o afín. Diplomados en nube, analítica y metodologías ágiles. Experiencia Profesional : 2024 - Actualidad | Softtek | Perfil Híbrido IA. Lideró iniciativas de datos y software, desarrolló soluciones con Python, SQL, Power BI, Azure y AWS. Mejoró KPIs operativos entre 15 % y 40 %. 2021 - 2024 | KIO | Especialista Técnico"
     },
     {
-      "id": "chunk_2_df1e81b2-e4e7-4987-8ef5-ff728738ade0",
+      "id": "chunk_2_f4498cde-5663-4f3d-8ba2-9052d72b831e",
       "start_token": 160,
       "end_token": 261,
       "content": "operativos entre 15 % y 40 %. 2021 - 2024 | KIO | Especialista Técnico. Construcción de pipelines ETL, automatización de reportes, integración de APIs y colaboración con negocio mediante Scrum. Habilidades Técnicas : Python, SQL, Git, Docker, Linux, Azure, AWS, Power BI, Tableau, Spark, Databricks, APIs REST"
     },
     {
-      "id": "chunk_3_faf41b84-3954-404d-8b52-a1ddf1196a00",
+      "id": "chunk_3_d40df9aa-cf83-4017-a96a-8002821fb73a",
       "start_token": 240,
       "end_token": 340,
       "content": "er BI, Tableau, Spark, Databricks, APIs REST. Habilidades Blandas : Comunicación efectiva, liderazgo, trabajo en equipo, gestión de stakeholders, pensamiento analítico. Certificaciones : AWS Cloud Practitioner, Azure Fundamentals, Scrum Fundamentals. Algunos perfiles incluyen Databricks o Google Cloud. Idiomas : Español nativo, Inglés B2 / C1."
     },
     {
-      "id": "chunk_4_f8ee472a-a4fb-4d29-90f0-b2e46d3c28e6",
+      "id": "chunk_4_9fff6ce2-ef92-443f-be3b-cef03c397720",
       "start_token": 320,
       "end_token": 369,
       "content": "ks o Google Cloud. Idiomas : Español nativo, Inglés B2 / C1. Proyectos Relevantes : Plataforma analítica corporativa ; motor de recomendaciones ; automatización de indicadores ejecutivos ; migración cloud ; modelo predictivo de demanda."

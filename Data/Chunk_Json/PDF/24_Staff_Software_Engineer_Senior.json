@@ -7,31 +7,31 @@
   "number_of_chunks": 5,
   "chunks": [
     {
-      "id": "chunk_0_f3f47120-48ff-46a3-863c-37bd697bf124",
+      "id": "chunk_0_144f087c-2923-416a-97e2-bc4f832405d3",
       "start_token": 0,
       "end_token": 100,
       "content": "Staff Software Engineer ( Senior ) Resumen Profesional Profesional de Staff Software Engineer con 8 - 15 años de experiencia. Perfil orientado a resultados, análisis de negocio, desarrollo de software y trabajo colaborativo. Inspirado en el estilo de CV profesional observado en los ejemplos proporcionados. Formación : Licenciatura en Ingeniería en Sistemas, Computación, Matemáticas Aplicadas o afín. Diplomados en nube, analítica y metodologías ágiles."
     },
     {
-      "id": "chunk_1_f3203eac-11de-42ef-9d94-96c6d0f35767",
+      "id": "chunk_1_cd3fb8bb-6056-41f3-b74f-8f18c133d2cc",
       "start_token": 80,
       "end_token": 180,
       "content": "máticas Aplicadas o afín. Diplomados en nube, analítica y metodologías ágiles. Experiencia Profesional : 2024 - Actualidad | BBVA México | Staff Software Engineer. Lideró iniciativas de datos y software, desarrolló soluciones con Python, SQL, Power BI, Azure y AWS. Mejoró KPIs operativos entre 15 % y 40 %. 2021 - 2024 | Tata"
     },
     {
-      "id": "chunk_2_33bd6a62-4c3f-4ac4-bf30-a9c20a008131",
+      "id": "chunk_2_940dc7cd-2e1e-42ad-9467-b334607b14fe",
       "start_token": 160,
       "end_token": 260,
       "content": "ó KPIs operativos entre 15 % y 40 %. 2021 - 2024 | Tata Consultancy Services | Especialista Técnico. Construcción de pipelines ETL, automatización de reportes, integración de APIs y colaboración con negocio mediante Scrum. Habilidades Técnicas : Python, SQL, Git, Docker, Linux, Azure, AWS, Power BI, Tableau, Spark,"
     },
     {
-      "id": "chunk_3_ef5a9082-8e1c-4685-8502-32a75492d1f3",
+      "id": "chunk_3_6aef534d-3a3d-42f7-b58d-71e0330dafd6",
       "start_token": 240,
       "end_token": 340,
       "content": "Azure, AWS, Power BI, Tableau, Spark, Databricks, APIs REST. Habilidades Blandas : Comunicación efectiva, liderazgo, trabajo en equipo, gestión de stakeholders, pensamiento analítico. Certificaciones : AWS Cloud Practitioner, Azure Fundamentals, Scrum Fundamentals. Algunos perfiles incluyen Databricks o Google Cloud. Idiomas : Español"
     },
     {
-      "id": "chunk_4_508a88b1-4257-4402-a8fa-1186cc3a0003",
+      "id": "chunk_4_48480f25-0b04-4dcf-8cc8-63d635a9ded0",
       "start_token": 320,
       "end_token": 378,
       "content": "Fundamentals. Algunos perfiles incluyen Databricks o Google Cloud. Idiomas : Español nativo, Inglés B2 / C1. Proyectos Relevantes : Plataforma analítica corporativa ; motor de recomendaciones ; automatización de indicadores ejecutivos ; migración cloud ; modelo predictivo de demanda."

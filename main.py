@@ -4,19 +4,28 @@ from Chunking import json_chunks
 from Embeddings import (json_embeddings,to_vectors)
 from Build_Vector_DBase import (get_vector_store, reset_vector_store, insert_and_index_chunks)
 from Job_Matching import match_job_description
+from Core.config_loader import config
 
 #Base paths
 BASE = r"C:\AI Stuff\CV_Matching_AI\Data"
+ROOT = os.path.dirname(os.path.abspath(__file__))
 
 CV_PATH = os.path.join(BASE, "CV", "CV_Test")
 RAW_JSON = os.path.join(BASE, "Raw_Json")
 CLEAN_JSON = os.path.join(BASE, "Clean_Json")
 CHUNK_JSON = os.path.join(BASE, "Chunk_Json")
 EMBED_JSON = os.path.join(BASE, "Embedding_Json")
-VECTORSTORE = os.path.join(BASE, "VectorStore")
+VECTORSTORE = os.path.join(ROOT, "Vector_Store")
 LOG_PATH = os.path.join(BASE, "System_Log")
+
 chunk_size = 100
 overlap = 20
+active_profile = config["LLM"]["active_profile"]
+section = f"LLM_{active_profile}"
+collection_name = "talent_matcher"
+
+
+
 
 def main():
 
@@ -42,7 +51,8 @@ def main():
 
     print("\n=== 7) Matching ===")
     job_text = input("Ingresa la descripción de la vacante:\n\n")
-    resultado = match_job_description(job_text, LOG_PATH, debug=False, report=True)
+    resultado = match_job_description(job_text,VECTORSTORE,collection_name, LOG_PATH,
+                                      debug=False, report=True)
 
     print("\n=== Mejor CV ===")
     print(resultado["best_cv"])

@@ -13,7 +13,12 @@ log_path = r"C:\AI Stuff\CV_Matching_AI\Data\System_Log"
 # ------------------ Main Matching Function -------------------------------
 # ------------------------------------------------------------------------
 
-def match_job_description(job_text: str, log_path: str, debug=False, report=False):
+def match_job_description(job_text: str,
+                          persist_directory: str,
+                          collection_name: str,
+                          log_path: str,
+                          debug=False,
+                          report=False):
     #Input the description of the job opening and returns the best CV, complete ranking, LLM explanation and
     # markdown format report if debug is TRUE
 
@@ -127,7 +132,10 @@ def export_markdown_report(report: dict, log_file: str) -> str:
 # ------------------------------------------------------------------------
 def main():
     job_text = input("Please enter your job description: ")
-    resultado = match_job_description(job_text, log_path, debug=False, report=True)
+    resultado = match_job_description(job_text, persist_directory, collection_name,
+                                      log_path,
+                                      debug=False, report=True,
+                                      )
 
     print("\n=== Explanation del LLM ===")
     print(resultado["explanation"])

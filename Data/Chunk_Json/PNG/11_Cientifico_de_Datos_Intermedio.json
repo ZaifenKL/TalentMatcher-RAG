@@ -7,31 +7,31 @@
   "number_of_chunks": 5,
   "chunks": [
     {
-      "id": "chunk_0_d2ba9707-e08e-4c7f-95e3-9e4c04cac9e4",
+      "id": "chunk_0_cce57de8-8287-4bcb-ae10-f333b7f46801",
       "start_token": 0,
       "end_token": 102,
       "content": "Científico de Datos ( Intermedio ) Resumen Profesional Profesional de Científico de Datos con 3 - 6 años de experiencia. Perfil orientado a resultados _ análisis de negocio ; desarrollo de software y trabajo colaborativo. Inspirado en el estilo de CV profesional observado en los ejemplos proporcionados Formación : Licenciatura en Ingeniería en Sistemas ; Computación ; Matemáticas Aplicadas o afín. Diplomados en nube, analítica y metodologías ágiles _ Experiencia Profesional : 2024 - Actualidad Accenture"
     },
     {
-      "id": "chunk_1_3fcceea9-594f-45a4-965b-8f1c7a4b7044",
+      "id": "chunk_1_395a587f-06f5-45cf-b9d1-c85377b2cc89",
       "start_token": 80,
       "end_token": 180,
       "content": "en nube, analítica y metodologías ágiles _ Experiencia Profesional : 2024 - Actualidad Accenture México Científico de Datos. Lideró iniciativas de datos y software ; desarrolló soluciones con Python, SQL Power BI, Azure y AWS. Mejoró KPIs operativos entre 15 % y 40 % 2021 - 2024 BBVA México Especialista Técnico. Construcción de pipelines ETL, automatización de reportes ; integración"
     },
     {
-      "id": "chunk_2_ebaf7219-6df8-4072-8908-87f3c49f7f4f",
+      "id": "chunk_2_4a81ca66-a753-4ba1-ad23-cd1c3d086b62",
       "start_token": 160,
       "end_token": 260,
       "content": "VA México Especialista Técnico. Construcción de pipelines ETL, automatización de reportes ; integración de APIs y colaboración con negocio mediante Scrum Habilidades Técnicas : Python, SQL, Git, Docker, Linux ; Azure ; AWS, Power BI, Tableau ; Spark, Databricks APIs REST. Habilidades Blandas : Comunicación efectiva ; liderazgo ; trabajo en equipo ;"
     },
     {
-      "id": "chunk_3_8872f58b-6cd6-420c-a713-98315ba93568",
+      "id": "chunk_3_7b7ed5d8-829a-4535-bee9-995576fe5028",
       "start_token": 240,
       "end_token": 340,
       "content": "Is REST. Habilidades Blandas : Comunicación efectiva ; liderazgo ; trabajo en equipo ; gestión de stakeholders ; pensamiento analítico _ Certificaciones : AWS Cloud Practitioner Azure Fundamentals, Scrum Fundamentals. Algunos perfiles incluyen Databricks o Google Cloud. Idiomas : Español nativo ; Inglés B2IC1 _ Proyectos Relevantes : Platafomma analítica corporativa ; motor de recomendaciones ; automatización"
     },
     {
-      "id": "chunk_4_9c7338f2-a153-4c7f-ac94-599e3c0af185",
+      "id": "chunk_4_cc076f9c-2456-4798-8510-c57d02e9e0d5",
       "start_token": 320,
       "end_token": 351,
       "content": "_ Proyectos Relevantes : Platafomma analítica corporativa ; motor de recomendaciones ; automatización de indicadores ejecutivos ; migración cloud modelo predictivo de demanda"
