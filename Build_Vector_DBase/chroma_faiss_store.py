@@ -12,25 +12,27 @@ embedding_json_path = r"C:\AI Stuff\CV_Matching_AI\Data\Embedding_Json"
 
 ##-------Define functions to optimize the pdf extraction data flow--------
 ##------------------------------------------------------------------------
-def reset_vector_store(persist_directory, collection_name):
-    ##Deelete the existing collection and create new empty one
+def reset_vector_store(persist_directory, collection_name, reset=False):
     client = PersistentClient(path=persist_directory)
 
-    # Delete previous collection
-    try:
-        client.delete_collection(collection_name)
-        print(f"[OK] Collection '{collection_name}' deleted...")
-    except:
-        print(f"[INFO] Previous collection '{collection_name}' did not exist.")
+    if reset:
+        try:
+            client.delete_collection(collection_name)
+            print(f"[OK] Collection '{collection_name}' deleted...")
+        except:
+            print(f"[INFO] Previous collection '{collection_name}' did not exist.")
 
-    # Create clean collection
     collection = client.get_or_create_collection(
         name=collection_name,
         metadata={"hnsw:space": "cosine"},
         embedding_function=None
     )
 
-    print(f"[OK] Collection '{collection_name}' created.")
+    if reset:
+        print(f"[OK] Collection '{collection_name}' created.")
+    else:
+        print(f"[OK] Collection '{collection_name}' loaded.")
+
     return collection
 
 def verify_vector_store(collection):
@@ -145,19 +147,11 @@ def insert_and_index_chunks(embedding_json_path,collection,show_results=False):
 ##----DEBUG/TEST----------------------------------------------------------------------
 def main():
     print("\n=== Building Vector Store ===")
-    # First we run this function to initialize vector store and create the collection
-    collection = get_vector_store(persist_directory, collection_name)
-    # We reset in case the vector store already exists and in this case since I had
-    # a bug with the IDs I needed to reset
-    print("\n=== Resetting Vector Store ===")
-    collection = reset_vector_store(persist_directory, collection_name)
-    # Then we insert the embedding metadat and text into vector store
+    #Reset if needed
+    collection = reset_vector_store(persist_directory, collection_name, reset=True)
     print("\n=== Inserting Embeddings ===")
     insert_and_index_chunks(embedding_json_path, collection, show_results=True)
-    # Verifying that it ACTUALLY created the vector database
     print("\n=== Verifying Vector Store ===")
     verify_vector_store(collection)
-
-
 if __name__ == "__main__":
     main()

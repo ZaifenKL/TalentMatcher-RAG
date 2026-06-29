@@ -23,6 +23,7 @@ overlap = 20
 active_profile = config["LLM"]["active_profile"]
 section = f"LLM_{active_profile}"
 collection_name = "talent_matcher"
+reset=False
 
 
 
@@ -46,7 +47,7 @@ def main():
 
     print("\n=== 6) Construyendo Vector Store ===")
     collection = get_vector_store(VECTORSTORE, "talent_matcher")
-    collection = reset_vector_store(VECTORSTORE, "talent_matcher")
+    collection = reset_vector_store(VECTORSTORE, "talent_matcher",reset)
     insert_and_index_chunks(EMBED_JSON, collection)
 
     print("\n=== 7) Matching ===")
