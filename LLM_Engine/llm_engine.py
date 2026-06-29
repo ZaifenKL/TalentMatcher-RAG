@@ -73,8 +73,8 @@ def explain_match(query: str, results: dict) -> str:
     Como reclutador técnico experto:
     - Resume las habilidades relevantes y experiencia que aparecen en el CV.
     - Usa el score proporcionado como indicador final del match.
-    - Si el score es bajo, explica brevemente por qué el perfil no encaja.
-    -Si el score es alto, explica brevemente por qué el perfil encaja.
+    - Si el score es bajo, explica por qué el perfil no encaja.
+    - Si el score es alto, explica por qué el perfil encaja.
     - No inventes habilidades, proyectos, certificaciones ni experiencia.
     """
 
