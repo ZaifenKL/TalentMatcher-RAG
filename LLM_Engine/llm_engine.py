@@ -85,4 +85,11 @@ def explain_match(query: str, results: dict) -> str:
     return explanation, llm_response_time, prompt
 
 ##----DEBUG/TEST----------------------------------------------------------------------
-#respuesta = test_llm_connection()
+def main():
+    print("\n=== LLM Debug Test ===")
+    test_llm_connection()
+    print("\n=== LLM Test Complete ===")
+
+
+if __name__ == "__main__":
+    main()

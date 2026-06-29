@@ -97,4 +97,7 @@ def json_chunks(chunk_json_path, clean_json_path, chunk_size, overlap,show_resul
                     print(f"Error en {file}: {e}")
 
 ##----DEBUG/TEST------------------------------------------------------------------
-#json_chunks(chunk_json_path, clean_json_path, chunk_size, overlap,show_results=True)
+def main():
+    json_chunks(chunk_json_path, clean_json_path, chunk_size, overlap,show_results=True)
+if __name__ == "__main__":
+    main()

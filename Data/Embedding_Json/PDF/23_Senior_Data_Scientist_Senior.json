@@ -7,7 +7,7 @@
   "number_of_chunks": 5,
   "chunks": [
     {
-      "id": "chunk_0_7a32a8aa-870f-4925-a92b-1c3241420f6e",
+      "id": "chunk_0_d92693d8-afb9-4379-988f-79cdd3d2b100",
       "start_token": 0,
       "end_token": 100,
       "content": "Senior Data Scientist ( Senior ) Resumen Profesional Profesional de Senior Data Scientist con 8 - 15 años de experiencia. Perfil orientado a resultados, análisis de negocio, desarrollo de software y trabajo colaborativo. Inspirado en el estilo de CV profesional observado en los ejemplos proporcionados. Formación : Licenciatura en Ingeniería en Sistemas, Computación, Matemáticas Aplicadas o afín. Diplomados en nube, analítica y metodologías ágiles. Experiencia Profesional :",
@@ -783,7 +783,7 @@
       ]
     },
     {
-      "id": "chunk_1_f0cae800-f9f0-4bd0-94f8-c9d9d9034c0b",
+      "id": "chunk_1_689469e5-6213-4220-a500-bbe154ca2dcd",
       "start_token": 80,
       "end_token": 180,
       "content": "afín. Diplomados en nube, analítica y metodologías ágiles. Experiencia Profesional : 2024 - Actualidad | KIO | Senior Data Scientist. Lideró iniciativas de datos y software, desarrolló soluciones con Python, SQL, Power BI, Azure y AWS. Mejoró KPIs operativos entre 15 % y 40 %. 2021 - 2024 | Infosys | Especialista Técnico. Construcción de",
@@ -1559,7 +1559,7 @@
       ]
     },
     {
-      "id": "chunk_2_a47d5577-f7a2-45db-8535-84e2ee6ae094",
+      "id": "chunk_2_31a9194c-c621-41ab-a7f2-156f8e52e6b2",
       "start_token": 160,
       "end_token": 262,
       "content": "y 40 %. 2021 - 2024 | Infosys | Especialista Técnico. Construcción de pipelines ETL, automatización de reportes, integración de APIs y colaboración con negocio mediante Scrum. Habilidades Técnicas : Python, SQL, Git, Docker, Linux, Azure, AWS, Power BI, Tableau, Spark, Databricks, APIs REST. Habilidades",
@@ -2335,7 +2335,7 @@
       ]
     },
     {
-      "id": "chunk_3_5a1f96e3-ab99-4360-b5b5-c8566eee89c1",
+      "id": "chunk_3_4416edee-adef-4d17-a85d-e2780e39785d",
       "start_token": 240,
       "end_token": 341,
       "content": ", Tableau, Spark, Databricks, APIs REST. Habilidades Blandas : Comunicación efectiva, liderazgo, trabajo en equipo, gestión de stakeholders, pensamiento analítico. Certificaciones : AWS Cloud Practitioner, Azure Fundamentals, Scrum Fundamentals. Algunos perfiles incluyen Databricks o Google Cloud. Idiomas : Español nativo, Inglés B2 / C1. Proyectos Relevantes",
@@ -3111,7 +3111,7 @@
       ]
     },
     {
-      "id": "chunk_4_dd72d49a-37e3-43b1-977a-b3a17b546045",
+      "id": "chunk_4_cf1a7730-915a-435e-b097-f2d1a11e3a6d",
       "start_token": 320,
       "end_token": 366,
       "content": "Google Cloud. Idiomas : Español nativo, Inglés B2 / C1. Proyectos Relevantes : Plataforma analítica corporativa ; motor de recomendaciones ; automatización de indicadores ejecutivos ; migración cloud ; modelo predictivo de demanda.",

@@ -125,9 +125,13 @@ def export_markdown_report(report: dict, log_file: str) -> str:
 # ------------------------------------------------------------------------
 # ------------------ DEBUG / TEST ----------------------------------------
 # ------------------------------------------------------------------------
-job_text = input("Please enter your job description: ")
-resultado = match_job_description(job_text,log_path,debug=False , report=True)
+def main():
+    job_text = input("Please enter your job description: ")
+    resultado = match_job_description(job_text, log_path, debug=False, report=True)
 
-print("\n=== Explanation del LLM ===")
-print(resultado["explanation"])
-print(f"{resultado["llm_response_time"]} seconds")
+    print("\n=== Explanation del LLM ===")
+    print(resultado["explanation"])
+    print(f"{resultado['llm_response_time']} seconds")
+
+if __name__ == "__main__":
+    main()

@@ -109,21 +109,21 @@ def ranked_cvs(collection, query_embedding):
     return ranked_cv
 
 ##----DEBUG/TEST----------------------------------------------------------------------
-#Test 0: El re‑ranking debe favorecer CVs con varios chunks relevantes, no solo uno.
-#query = "Necesito un perfil con experiencia en migración a la nube, KPIs operativos y proyectos corporativos de analítica."
-#Test 1 :  El sistema debe evaluar varios chunks por CV. No debe ganar un CV solo porque un chunk coincidió.
-#query = "Busco un perfil con habilidades blandas fuertes, comunicación efectiva y liderazgo."
-#Test 2 :
-#query= "Busco alguien que sepa Python, APIs REST, Docker y tenga experiencia en desarrollo de software. Puede ser Full Stack, QA Automation o Data Engineer."
-#Test 3: Debe ganar ese perfil en especificonked
-#query= "Necesito un QA Automation Junior con epxeriencia en Wizeline"
-#Pruebas desde input del usuario
-#query = input("Enter question: ")
-#collection = get_vector_store(persist_directory, collection_name)
-#query_embedding = embed_text(query)
-#results = ranked_cvs(collection, query_embedding)
-#print("K usado:", results["k_used"])
-#print("Total CVs:", results["total_cvs"])
-#print("CVs rankeados:", results["ranked_cvs"])
-#print("Scores:", results["cv_scores"])
-#print("Mejor CV:", results["best_cv"])
+def main():
+    from Build_Vector_DBase import get_vector_store, embed_text
+    print("\n=== TEST: Ranking CVs ===")
+    query = input("Enter job description or query: ")
+
+    collection = get_vector_store(persist_directory, collection_name)
+    query_embedding = embed_text(query)
+
+    results = ranked_cvs(collection, query_embedding)
+
+    print("\nK usado:", results["k_used"])
+    print("Total CVs:", results["total_cvs"])
+    print("CVs rankeados:", results["ranked_cvs"])
+    print("Scores:", results["cv_scores"])
+    print("Mejor CV:", results["best_cv"])
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,70 @@
+{
+  "name": "27_Software_Engineer_IA_Senior.pdf",
+  "source_path": "C:\\AI Stuff\\CV_Matching_AI\\Data\\CV\\CV_Test\\27_Software_Engineer_IA_Senior.pdf",
+  "source_format": "PDF",
+  "chunk_size": 100,
+  "overlap": 20,
+  "number_of_chunks": 10,
+  "chunks": [
+    {
+      "id": "chunk_0_f1fe7c95-0b10-4305-8169-9f1296c1fc25",
+      "start_token": 0,
+      "end_token": 101,
+      "content": "CV [UNK] [UNK] Software Engineer AI ( Senior ) ( Contenido listo para PDF ) Resumen Profesional Ingeniero de Software Senior especializado en Inteligencia Artificial, con más de 5 años de experiencia en desarrollo backend y sistemas de producción, y más de 2 años construyendo soluciones GenAI avanzadas. Experto en Python, Java y frameworks modernos de agentes autónomos, con historial comprobado en el diseño, despliegue y operación de sistemas AI / ML"
+    },
+    {
+      "id": "chunk_1_8cc32f8a-9d03-4ad1-acb5-72e0c7b27086",
+      "start_token": 80,
+      "end_token": 181,
+      "content": "modernos de agentes autónomos, con historial comprobado en el diseño, despliegue y operación de sistemas AI / ML que generan valor de negocio. Amplia experiencia en arquitectura limpia, patrones de diseño, context engineering, multi - hop reasoning y orquestación de agentes en entornos empresariales. Experiencia Profesional : Software Engineer AI [UNK] Senior Empresa confidencial / Remoto 2019 [UNK] Actualidad Diseño y despliegue de sistemas de agentes autónomos utilizando ADK ( Agentic Design Kit"
+    },
+    {
+      "id": "chunk_2_bb286e0c-1179-4897-bfcd-0872912c59b9",
+      "start_token": 160,
+      "end_token": 261,
+      "content": "[UNK] Actualidad Diseño y despliegue de sistemas de agentes autónomos utilizando ADK ( Agentic Design Kit ), LangGraph y frameworks modernos de orquestación. Construcción de pipelines de razonamiento multi - hop para análisis complejo de código, automatización de revisiones y optimización de flujos de desarrollo. Implementación de estrategias avanzadas de context engineering : dynamic context assembly, agentic retrieval, episodic"
+    },
+    {
+      "id": "chunk_3_81e72a1a-1ceb-4324-b589-a8b3f47a2d07",
+      "start_token": 240,
+      "end_token": 341,
+      "content": ": dynamic context assembly, agentic retrieval, episodic memory y working memory. Desarrollo de servicios backend inteligentes en Python y Java para detección de anti - patrones, estandarización de procesos y recomendaciones automatizadas. Diseño de arquitecturas limpias aplicadas a sistemas GenAI, aplicando SOLID, patrones de diseño y principios de ingeniería responsable. Implementación de CI / CD, contenedores Docker y despliegues"
+    },
+    {
+      "id": "chunk_4_57c324e7-f032-4aa0-8660-08731ec77f1e",
+      "start_token": 320,
+      "end_token": 421,
+      "content": "y principios de ingeniería responsable. Implementación de CI / CD, contenedores Docker y despliegues en infraestructura cloud. Liderazgo de revisiones de código potenciadas por GenAI, con enfoque en seguridad, rendimiento y calidad arquitectónica. Entrega de sistemas AI / ML en producción con métricas claras de impacto y valor generado. Habilidades Técnicas : Lenguajes Python ( experto ) Java ( avanzado ) GenAI & Agentic Systems ADK"
+    },
+    {
+      "id": "chunk_5_63621eb6-1cf1-4203-9f58-19c8e0f05042",
+      "start_token": 400,
+      "end_token": 501,
+      "content": "thon ( experto ) Java ( avanzado ) GenAI & Agentic Systems ADK ( Agentic Design Kit ) LangGraph Autonomous Agents Multi - agent orchestration Multi - hop reasoning Tool orchestration Human - in - the - loop patterns Memory systems ( episodic, working memory ) Dynamic context assembly Agentic retrieval"
+    },
+    {
+      "id": "chunk_6_0fb54b86-67d2-42ed-b1ca-7b9c72d65f11",
+      "start_token": 480,
+      "end_token": 580,
+      "content": "orking memory ) Dynamic context assembly Agentic retrieval patterns AI / ML Diseño y despliegue de sistemas AI / ML en producción Evaluación de LLMs Prompt engineering Function calling Guardrails y Responsible AI Backend & Infraestructura Arquitectura limpia SOLID principles CI / CD pipelines Docker Cloud infrastructure Microservicios Educación : Licenciatura en Ciencias"
+    },
+    {
+      "id": "chunk_7_f41aef71-3500-4074-9e4e-0f0712e50466",
+      "start_token": 560,
+      "end_token": 660,
+      "content": "ines Docker Cloud infrastructure Microservicios Educación : Licenciatura en Ciencias de la Computación / Ingeniería en Computación / Machine Learning Institución reconocida 2014 [UNK] 2018 Certificaciones : Certificación en Machine Learning Certificación en Arquitectura de Software Certificación en Cloud & DevOps Certificación en GenAI / LLM Engineering Idiomas : Inglés avanzado ( conversacional ) Español nativo Proyectos Destacados Sistema de agentes autónomos para revisión"
+    },
+    {
+      "id": "chunk_8_6b92f6b8-4ed7-4d15-becd-c456808ed937",
+      "start_token": 640,
+      "end_token": 740,
+      "content": "Idiomas : Inglés avanzado ( conversacional ) Español nativo Proyectos Destacados Sistema de agentes autónomos para revisión de código : Implementación de agentes multi - hop capaces de detectar anti - patrones y sugerir mejoras arquitectónicas. Pipeline de context engineering : Diseño de un sistema de memoria y recuperación contextual para análisis de código a gran escala. Automatización de flujos de desarrollo con GenAI : Backend inteligente en Python / Java para estandarizar procesos"
+    },
+    {
+      "id": "chunk_9_48b4ac35-2ac8-4442-829d-067c8b338910",
+      "start_token": 720,
+      "end_token": 780,
+      "content": "GenAI : Backend inteligente en Python / Java para estandarizar procesos y mejorar la calidad del software. Datos Personales Ubicación : CDMX / Estado de México Esquema : Remoto Disponibilidad : Lunes a Viernes 9 : 00 [UNK] 18 : 00"
+    }
+  ]
+}

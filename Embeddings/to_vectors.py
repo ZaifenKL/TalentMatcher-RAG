@@ -75,4 +75,10 @@ def json_embeddings(embedding_json_path, chunk_json_path,show_results=False):
                     print(f"Error en {file}: {e}")
 
 ##----DEBUG/TEST------------------------------------------------------------------
-#json_embeddings(embedding_json_path, chunk_json_path,show_results=True)
+def main():
+    print("\n=== Generating Embeddings for All Chunk JSON Files ===")
+    json_embeddings(embedding_json_path, chunk_json_path, show_results=True)
+    print("\n=== Embedding Generation Complete ===")
+
+if __name__ == "__main__":
+    main()
