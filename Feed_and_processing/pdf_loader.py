@@ -84,4 +84,11 @@ def convert_pdf_to_json(cvs_path, json_path, show_results=False):
                  print(f"Error en {file}: {e}")
 
 ##----DEBUG/TEST----------------------------------------------------------------------
-#convert_pdf_to_json(cvs_path,json_path, show_results=True)
+def main():
+    print("\n=== Extracting PDF Content into Raw JSON ===")
+    convert_pdf_to_json(cvs_path, json_path, show_results=True)
+    print("\n=== PDF Extraction Complete ===")
+
+
+if __name__ == "__main__":
+    main()

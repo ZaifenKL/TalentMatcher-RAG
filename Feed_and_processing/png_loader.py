@@ -4,7 +4,6 @@ import os
 import json
 import easyocr
 from Core.config_loader import config
-
 ##------------------------------------------------------------------------
 ##------------------Constant Values---------------------------------------
 ##------------------------------------------------------------------------
@@ -57,4 +56,11 @@ def convert_png_to_json(cvs_path, json_path):
                     print(f"Error en {file}: {e}")
 
 ##----DEBUG/TEST----------------------------------------------------------------------
-#convert_png_to_json(cvs_path, json_path)
+def main():
+    print("\n=== Extracting OCR from PNG/JPG Files ===")
+    convert_png_to_json(cvs_path, json_path)
+    print("\n=== OCR Extraction Complete ===")
+
+
+if __name__ == "__main__":
+    main()

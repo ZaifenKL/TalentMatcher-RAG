@@ -12,7 +12,7 @@ MAX_TOKENS = int(config[section]["max_tokens"])
 RESPONSE_STYLE = config[section]["response_style"]
 ##-------Define functions to optimize the pdf extraction data flow--------
 ##-----------------------------------------------------------------------
-def test_llm_connection():
+def test_llm_connection(active_profile, section):
     #Debuggin function
     print("=== Testing LLM Connection ===")
     print("Active Profile:", config["LLM"]["active_profile"])
@@ -51,30 +51,45 @@ def explain_match(query: str, results: dict) -> str:
     #Generates and explanation on why this CV matches the job description
     context = results["context"]
     best_cv = results["best_cv"]
+    best_final_score = results["best_final_score"]
+    match_score = results["match_score"]
 
     prompt = f"""
-    INSTRUCCIONES ESTRICTAS:
-    1. La PRIMERA línea de tu respuesta DEBE ser exactamente:
-       "CV seleccionado: {best_cv}"
-    2. No inventes nombres de CV.
-    3. Usa ÚNICAMENTE la información del CV seleccionado.
+    INSTRUCCIONES DEL SISTEMA:
+    La primera línea DEBE ser exactamente: "CV seleccionado: {best_cv}".
+    No inventes nombres de CV.
+    Usa únicamente la información del CV seleccionado.
 
-    DATOS DEL SISTEMA:
-    - Vacante buscada: {query}
-    - CV seleccionado por el sistema: {best_cv}
+    VACANTE:
+    {query}
 
-    FRAGMENTOS RELEVANTES DEL CV SELECCIONADO:
+    FRAGMENTOS DEL CV:
     {context}
+    
+    SCORE FINAL DEL MATCH: 
+    {match_score}/100
 
     TAREAS:
-    - Como si fueras un reclutador experto: explica por qué este CV es el mejor match, resume las habilidades clave y evalúa el match del 0 al 100.
+    Como reclutador técnico experto:
+    - Resume las habilidades relevantes y experiencia que aparecen en el CV.
+    - Usa el score proporcionado como indicador final del match.
+    - Si el score es bajo, explica por qué el perfil no encaja.
+    - Si el score es alto, explica por qué el perfil encaja.
+    - No inventes habilidades, proyectos, certificaciones ni experiencia.
     """
 
     start = time.time()
     explanation = run_llm(prompt)
     llm_response_time = round(time.time() - start, 4)
 
-    return explanation, llm_response_time
+    return explanation, llm_response_time, prompt
 
 ##----DEBUG/TEST----------------------------------------------------------------------
-#respuesta = test_llm_connection()
+def main():
+    print("\n=== LLM Debug Test ===")
+    test_llm_connection(active_profile, section)
+    print("\n=== LLM Test Complete ===")
+
+
+if __name__ == "__main__":
+    main()

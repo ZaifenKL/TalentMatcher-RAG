@@ -104,12 +104,11 @@ def clean_json(raw_json_path, clean_json_path,show_results=False):
                     print(f"Error proccesing {file}: {e}")
 
 ##----DEBUG/TEST------------------------------------------------------------------
-#Text = ["Backend        Engineer     (Intermedi0)",
-#     "   Resumen    Profesi0nal",
-#     "Profesional de   Backend Engineer con 3-6 años de experiencia. Perfil orientado a resultados, "
-#     "análisis de neg0cio, desarrollo de software y trabajo colab0rativo. Inspirado en el estilo de CV profesional "
-#     "observado en los ejemplos proporcionados.  ",
-#     "Formación",
-#     "Licenciatura en Ingeniería en   Sistemas, Computación,    Matemáticas Aplicadas 0 afín. "]
+def main():
+    print("\n=== Cleaning Raw JSON Files ===")
+    clean_json(raw_json_path, clean_json_path, show_results=True)
+    print("\n=== Cleaning Complete ===")
 
-#clean_json(raw_json_path, clean_json_path,show_results=True)
+
+if __name__ == "__main__":
+    main()

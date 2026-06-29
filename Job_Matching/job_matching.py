@@ -1,5 +1,3 @@
-from sympy.physics.units import seconds
-
 from Build_Vector_DBase import (embed_text, get_vector_store, ranked_cvs)
 from LLM_Engine import explain_match, test_llm_connection
 from datetime import datetime
@@ -15,7 +13,12 @@ log_path = r"C:\AI Stuff\CV_Matching_AI\Data\System_Log"
 # ------------------ Main Matching Function -------------------------------
 # ------------------------------------------------------------------------
 
-def match_job_description(job_text: str, log_path: str, debug=False, report=False):
+def match_job_description(job_text: str,
+                          persist_directory: str,
+                          collection_name: str,
+                          log_path: str,
+                          debug=False,
+                          report=False):
     #Input the description of the job opening and returns the best CV, complete ranking, LLM explanation and
     # markdown format report if debug is TRUE
 
@@ -33,11 +36,11 @@ def match_job_description(job_text: str, log_path: str, debug=False, report=Fals
     ranking = ranked_cvs(collection, job_embedding)
 
     # 4. Explicación del LLM
-    explanation, llm_response_time = explain_match(job_text, ranking)
+    explanation, llm_response_time, prompt = explain_match(job_text, ranking)
 
     if report:
         # 5. Construir reporte
-        report = build_ranking_report(ranking, explanation, llm_response_time,job_text)
+        report = build_ranking_report(ranking, explanation, llm_response_time,job_text,prompt)
         # 6. Exportar reporte si debug=True
         #timestamp for unique report name
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
@@ -47,16 +50,18 @@ def match_job_description(job_text: str, log_path: str, debug=False, report=Fals
     # 7. Retornar datos útiles
     results = {
         "best_cv": ranking["best_cv"],
+        "best_final_score": ranking["best_final_score"],
         "ranked_cvs": ranking["ranked_cvs"],
         "cv_scores": ranking["cv_scores"],
         "context": ranking["context"],
         "explanation": explanation,
-        "llm_response_time": llm_response_time
+        "llm_response_time": llm_response_time,
+        "prompt": prompt
     }
 
     return results
 
-def build_ranking_report(ranking: dict, llm_response: str, llm_response_time: float, job_text) -> dict:
+def build_ranking_report(ranking: dict, llm_response: str, llm_response_time: float, job_text, prompt) -> dict:
     #Build table
     table_lines = []
     table_lines.append("RANK | CV | SCORE | MAX | MEAN")
@@ -65,6 +70,7 @@ def build_ranking_report(ranking: dict, llm_response: str, llm_response_time: fl
     for idx, cv in enumerate(ranking["cv_scores"], start=1):
         table_lines.append(
             f"{idx} | {cv['cv_name']} | {cv['final_score']:.4f} | "
+            f"{cv['match_score']}/100 | "
             f"{cv['max_score']:.4f} | {cv['mean_score']:.4f}"
         )
 
@@ -77,6 +83,7 @@ def build_ranking_report(ranking: dict, llm_response: str, llm_response_time: fl
         "ranking_table": table_text,
         "ranking_json": ranking["cv_scores"],
         "job_text": job_text,
+        "llm_prompt" : prompt,
         "llm_explanation": llm_response,
         "llm_response_time_seconds": round(llm_response_time, 4)
     }
@@ -110,6 +117,9 @@ def export_markdown_report(report: dict, log_file: str) -> str:
     md.append("## LLM Response time\n")
     md.append(f"- `{report['llm_response_time_seconds']} seconds`\n")
 
+    md.append("## Base Prompt\n")
+    md.append(report["llm_prompt"] + "\n")
+
     markdown_text = "\n".join(md)
 
     with open(log_file, "w", encoding="utf-8") as f:
@@ -117,14 +127,19 @@ def export_markdown_report(report: dict, log_file: str) -> str:
 
     return f"System log saved: {log_file}"
 
-
 # ------------------------------------------------------------------------
 # ------------------ DEBUG / TEST ----------------------------------------
 # ------------------------------------------------------------------------
-resultado = match_job_description("Busco un QA Automation Junior con experiencia en Wizeline",
-        log_path,
-        debug=False , report=True)
+def main():
+    job_text = input("Please enter your job description: ")
+    resultado = match_job_description(job_text, persist_directory, collection_name,
+                                      log_path,
+                                      debug=False, report=True,
+                                      )
 
-print("\n=== Explanation del LLM ===")
-print(resultado["explanation"])
-print(f"{resultado["llm_response_time"]} seconds")
+    print("\n=== Explanation del LLM ===")
+    print(resultado["explanation"])
+    print(f"{resultado['llm_response_time']} seconds")
+
+if __name__ == "__main__":
+    main()
