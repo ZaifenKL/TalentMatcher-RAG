@@ -43,16 +43,19 @@ def run_llm(prompt: str):
 
 
 def explain_match(query: str, results: dict) -> str:
-    # Read active profile
-    #active_profile = config["LLM"]["active_profile"]
-    #section = f"LLM_{active_profile}"
-    #raw_style = config[section].get("response_style", "").strip()
-    #RESPONSE_STYLE = raw_style if raw_style else ""
     #Generates and explanation on why this CV matches the job description
     context = results["context"]
     best_cv = results["best_cv"]
-    best_final_score = results["best_final_score"]
+    best_final_similarity = results["best_final_similarity"]
     match_score = results["match_score"]
+
+    # Clasificación automática del score
+    if match_score >= 60:
+        match_level = "ALTO"
+    elif match_score >= 30:
+        match_level = "MEDIO"
+    else:
+        match_level = "BAJO"
 
     prompt = f"""
     INSTRUCCIONES DEL SISTEMA:
@@ -67,14 +70,15 @@ def explain_match(query: str, results: dict) -> str:
     {context}
     
     SCORE FINAL DEL MATCH: 
-    {match_score}/100
+    {match_score}/100 (nivel: {match_level})
 
     TAREAS:
     Como reclutador técnico experto:
     - Resume las habilidades relevantes y experiencia que aparecen en el CV.
     - Usa el score proporcionado como indicador final del match.
-    - Si el score es bajo, explica por qué el perfil no encaja.
-    - Si el score es alto, explica por qué el perfil encaja.
+    - Si el score es BAJO, explica por qué el perfil NO encaja. Señala las diferencias de dominio.
+    - Si el score es MEDIO: explica qué coincide y que falta.
+    - Si el score es ALTO, explica por qué el perfil encaja.
     - No inventes habilidades, proyectos, certificaciones ni experiencia.
     """
 

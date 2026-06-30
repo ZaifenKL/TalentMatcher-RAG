@@ -7,31 +7,31 @@
   "number_of_chunks": 5,
   "chunks": [
     {
-      "id": "chunk_0_0f4b579c-eea6-4b8b-bd27-990fab66a7a9",
+      "id": "chunk_0_3f87330b-de60-470f-bb1e-954c21200258",
       "start_token": 0,
       "end_token": 101,
       "content": "Resumen profesional Analista de datos junior con experiencia en transformación, visualización y análisis de información para la toma de decisiones. Con conocimientos en SQL, Python, Power BI y Excel avanzado para generar indicadores de negocio y automatizar reportes. Formación académica : Licenciatura en Ingeniería Industrial y de Sistemas, Universidad Autónoma de San Luis Potosí ( 2020 - 2025 ). Diplomado en Business Analytics con Power BI ( 2025 ). Exper"
     },
     {
-      "id": "chunk_1_30590970-675f-467b-acf6-7e3cc8e35f49",
+      "id": "chunk_1_9dcfb294-1db3-48e3-8068-ad25dcdd29ab",
       "start_token": 80,
       "end_token": 182,
       "content": ". Diplomado en Business Analytics con Power BI ( 2025 ). Experiencia laboral Data Analyst Jr. | FEMSA Digital | Jul 2025 - Actual Desarrollo de dashboards ejecutivos en Power BI para seguimiento de KPIs comerciales. Automatización de procesos de limpieza y consolidación de datos mediante Python y SQL. Elaboración de reportes para equipos de operaciones y negocio. Practicante de Business Inte"
     },
     {
-      "id": "chunk_2_d97eba7c-bc5c-4b97-a02f-3d2a42dd8ff5",
+      "id": "chunk_2_c3a8f757-10cd-440d-bfe5-9729419186d6",
       "start_token": 160,
       "end_token": 264,
       "content": "SQL. Elaboración de reportes para equipos de operaciones y negocio. Practicante de Business Intelligence | Grupo Bimbo | Ene 2025 - Jun 2025 Construcción de consultas SQL para extracción de información. Apoyo en análisis exploratorio y generación de indicadores. Habilidades técnicas : SQL, Python, Pandas, Power BI, Excel Avanzado, Tableau básico, Git, Jupyter Notebook."
     },
     {
-      "id": "chunk_3_7803bd4b-3deb-408a-8946-c2d234879b6b",
+      "id": "chunk_3_f514f0dd-c697-40c8-a81f-05a8b467c3cb",
       "start_token": 240,
       "end_token": 343,
       "content": "BI, Excel Avanzado, Tableau básico, Git, Jupyter Notebook. Habilidades blandas : Pensamiento analítico, orientación a resultados, comunicación efectiva, organización y aprendizaje continuo. Certificaciones : Microsoft Power BI Data Analyst Associate ( PL - 300 ). Google Data Analytics Professional Certificate. Idiomas : Español ( nativo ). Inglés ( B2 ). Proyectos relevantes : Diseño de un tablero ejecutivo para monitor"
     },
     {
-      "id": "chunk_4_8ca659c8-a4cd-4d39-8c93-804db6a89ead",
+      "id": "chunk_4_8aad1ec6-05c0-4e34-bfe4-5600cefbbab6",
       "start_token": 320,
       "end_token": 373,
       "content": "mas : Español ( nativo ). Inglés ( B2 ). Proyectos relevantes : Diseño de un tablero ejecutivo para monitoreo de ventas nacionales con actualización automática. Modelo de segmentación de clientes utilizando técnicas de clustering para campañas comerciales. Data Analyst Jr."

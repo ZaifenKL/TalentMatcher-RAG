@@ -4,14 +4,17 @@ import os
 def build_ranking_report(ranking: dict, llm_response: str, llm_response_time: float, job_text, prompt) -> dict:
     #Build table
     table_lines = []
-    table_lines.append("RANK | CV | SCORE | MAX | MEAN")
+    table_lines.append("RANK | CV | SIMILARITY | MATCH_SCORE | MAX | MEAN | SCORE")
     table_lines.append("-------------------------------------------")
 
     for idx, cv in enumerate(ranking["cv_scores"], start=1):
         table_lines.append(
-            f"{idx} | {cv['cv_name']} | {cv['final_score']:.4f} | "
+
+            f"{idx} | {cv['cv_name']} | "
+            f"{cv['final_similarity']:.4f} | "
             f"{cv['match_score']}/100 | "
-            f"{cv['max_score']:.4f} | {cv['mean_score']:.4f}"
+            f"{cv['max_distance']:.4f} | "
+            f"{cv['mean_distance']:.4f}"
         )
 
     table_text = "\n".join(table_lines)

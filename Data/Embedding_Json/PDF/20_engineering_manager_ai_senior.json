@@ -7,7 +7,7 @@
   "number_of_chunks": 6,
   "chunks": [
     {
-      "id": "chunk_0_a1ead2a1-fd2c-468c-bbc9-28b7f12f6f68",
+      "id": "chunk_0_bd1fcf1d-adc1-482f-a73f-ba8c059b2245",
       "start_token": 0,
       "end_token": 102,
       "content": "Engineering Manager AI Resumen profesional Engineering Manager especializado en Inteligencia Artificial con más de 12 años de experiencia liderando organizaciones de ingeniería, definiendo estrategias tecnológicas y entregando productos basados en Machine Learning e IA Generativa. Experiencia construyendo equipos de alto desempeño y escalando plataformas globales. Formación académica : Maestría en Ingeniería de Software, Tecnológico de Monterrey ( 2013 - 2015 ). Ingeniería en Sistemas Computacionales, Universidad Nacional Autónoma de México (",
@@ -783,7 +783,7 @@
       ]
     },
     {
-      "id": "chunk_1_77234e4f-edbe-45e5-ba65-6cffdc274d66",
+      "id": "chunk_1_d22e066e-cc0e-46ac-a050-aa03357b1f85",
       "start_token": 80,
       "end_token": 183,
       "content": "Tecnológico de Monterrey ( 2013 - 2015 ). Ingeniería en Sistemas Computacionales, Universidad Nacional Autónoma de México ( 2007 - 2012 ). Experiencia laboral Engineering Manager AI | Microsoft México | Ene 2022 - Actual [UNK] Dirección de un equipo de 18 ingenieros de software y ML. [UNK] Definición de roadmaps técnicos para soluciones de IA Generativa. [UNK] Coordinación entre Producto, Datos e Ingeniería para lanzamientos globales. [UNK] Incremento del 35 % en productividad mediante automa",
@@ -1559,7 +1559,7 @@
       ]
     },
     {
-      "id": "chunk_2_73ae1f7a-a1be-4838-8db9-bb01cd383fac",
+      "id": "chunk_2_a282cb67-7c74-4829-856e-2fdf765cf39d",
       "start_token": 160,
       "end_token": 263,
       "content": "[UNK] Coordinación entre Producto, Datos e Ingeniería para lanzamientos globales. [UNK] Incremento del 35 % en productividad mediante automatización basada en LLMs. Senior Engineering Manager | Accenture México | Jul 2018 - Dic 2021 [UNK] Gestión de múltiples squads de desarrollo para clientes enterprise. [UNK] Implementación de prácticas DevOps y MLOps. Software Architect | IBM México | Jul 2012 - Jun 2018 Diseño de arquitecturas distribuidas y",
@@ -2335,7 +2335,7 @@
       ]
     },
     {
-      "id": "chunk_3_41fbfd55-4df1-4dc3-aaf1-cddd5e846022",
+      "id": "chunk_3_337ec5ee-02fd-47b8-95e7-90ac0c9c0ad6",
       "start_token": 240,
       "end_token": 341,
       "content": "are Architect | IBM México | Jul 2012 - Jun 2018 Diseño de arquitecturas distribuidas y plataformas de analítica avanzada. Habilidades técnicas : Arquitectura de Software, Python, Azure OpenAI, AWS, Kubernetes, Docker, MLOps, MLflow, Databricks, Terraform, Agile, Scrum. Habilidades blandas : Liderazgo, mentoría,",
@@ -3111,7 +3111,7 @@
       ]
     },
     {
-      "id": "chunk_4_d19bcbae-2b7c-4ba8-bbe5-9096e4f46320",
+      "id": "chunk_4_87f2913f-41f4-46fe-b5dc-98a9857384f4",
       "start_token": 320,
       "end_token": 421,
       "content": ", Agile, Scrum. Habilidades blandas : Liderazgo, mentoría, comunicación ejecutiva, gestión de stakeholders, negociación, pensamiento estratégico y orientación a resultados. Certificaciones : AWS Certified Solutions Architect - Professional. Microsoft Certified : Azure Solutions Architect Expert. Professional Scrum Master I ( PSM I ). Idiomas : Español ( nativo ). Inglés (",
@@ -3887,7 +3887,7 @@
       ]
     },
     {
-      "id": "chunk_5_eca79b73-3392-4723-bf1a-ca8c4646fe5e",
+      "id": "chunk_5_f1e4f364-b4e0-40c8-93d5-b079022f76ba",
       "start_token": 400,
       "end_token": 466,
       "content": "Scrum Master I ( PSM I ). Idiomas : Español ( nativo ). Inglés ( C2 ). Proyectos relevantes : Creación de una plataforma corporativa de IA utilizada por más de 30 áreas de negocio. Transformación de procesos de desarrollo mediante IA Generativa reduciendo 50 % el tiempo de entrega de nuevas funcionalidades.",

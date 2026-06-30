@@ -7,31 +7,31 @@
   "number_of_chunks": 5,
   "chunks": [
     {
-      "id": "chunk_0_6287d7b3-fd06-4b5a-bd09-5f8c81febcb2",
+      "id": "chunk_0_5225c4aa-3816-4345-a1ef-97c85c80102d",
       "start_token": 0,
       "end_token": 102,
       "content": "Ingeniero de Datos Resumen profesional Ingeniero de Datos con 5 años de experiencia diseñando pipelines ETL / ELT, modelado de datos y plataformas analíticas en la nube. Especializado en SQL, Snowflake y Azure para habilitar soluciones de inteligencia de negocio y machine learning. Formación académica : Ingeniería en Sistemas de Información, Universidad Autónoma de Nuevo León ( 2016 - 2021 ). Diplomado en Big Data y Cloud Data Engineering ("
     },
     {
-      "id": "chunk_1_9181c164-5be1-4991-85b6-c5db4b852b92",
+      "id": "chunk_1_1d2e3fd3-7eab-41d7-9628-7dfacfb47ba8",
       "start_token": 80,
       "end_token": 181,
       "content": "León ( 2016 - 2021 ). Diplomado en Big Data y Cloud Data Engineering ( 2022 ). Experiencia laboral Ingeniero de Datos | CEMEX Digital | Ene 2024 - Actual [UNK] Desarrollo de pipelines con Azure Data Factory y Snowflake. [UNK] Optimización de procesos ETL reduciendo 40 % los tiempos de carga. [UNK] Integración de datos para iniciativas de analítica avanzada. Data Engineer | Softtek |"
     },
     {
-      "id": "chunk_2_09bc67dd-b8de-4137-87bc-ec49440a4f9b",
+      "id": "chunk_2_f20ce834-19ea-4d3e-94ee-7f5e51da08ac",
       "start_token": 160,
       "end_token": 263,
       "content": ". [UNK] Integración de datos para iniciativas de analítica avanzada. Data Engineer | Softtek | Jul 2021 - Dic 2023 [UNK] Modelado dimensional y desarrollo de procesos ETL con SQL y Python. Implementación de procesos de calidad y monitoreo de datos. Habilidades técnicas : SQL, Snowflake, Azure Data Factory, Python, Spark, Databricks, Git, Docker,"
     },
     {
-      "id": "chunk_3_ec5ade15-0872-4bd0-a996-307d34b1da90",
+      "id": "chunk_3_525a3263-76d1-4ab6-afc6-424040b9ce57",
       "start_token": 240,
       "end_token": 345,
       "content": "Data Factory, Python, Spark, Databricks, Git, Docker, Airflow, Power BI. Habilidades blandas : Pensamiento analítico, resolución de problemas, comunicación, organización y colaboración. Certificaciones : Microsoft Azure Data Engineer Associate ( DP - 203 ). SnowPro Core Certification. Idiomas : Español ( nativo ). Inglés ( C1 ). Proyectos relevantes : Implementación de un Data"
     },
     {
-      "id": "chunk_4_1111fee8-d83e-4b4e-9764-344627f3bdea",
+      "id": "chunk_4_2ab602c6-6275-4bf8-9bda-5810bb50ff8b",
       "start_token": 320,
       "end_token": 379,
       "content": "tion. Idiomas : Español ( nativo ). Inglés ( C1 ). Proyectos relevantes : Implementación de un Data Warehouse corporativo sobre Snowflake para más de 25 áreas de negocio. Migración de procesos ETL tradicionales hacia arquitectura ELT en la nube."

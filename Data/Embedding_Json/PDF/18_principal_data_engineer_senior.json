@@ -7,7 +7,7 @@
   "number_of_chunks": 6,
   "chunks": [
     {
-      "id": "chunk_0_722dc1d9-4198-435d-934c-904b6c6d39fe",
+      "id": "chunk_0_5ee4ed59-17c9-478c-9e79-38a34cbeff8c",
       "start_token": 0,
       "end_token": 103,
       "content": "Principal Data Engineer Resumen profesional Principal Data Engineer con más de 11 años de experiencia diseñando plataformas de datos empresariales, arquitecturas Lakehouse y soluciones analíticas en la nube. Experiencia liderando iniciativas de modernización de datos para organizaciones globales. Formación académica : Maestría en Ingeniería de Software, Universidad de Guadalajara ( 2014 - 2016 ). Ingeniería en Computación, Universidad de Guadalajara ( 2009 - 2013 ). Experiencia laboral Principal Data Engineer | CEMEX Digital |",
@@ -783,7 +783,7 @@
       ]
     },
     {
-      "id": "chunk_1_ea8580f8-55e2-417d-9909-18419872365e",
+      "id": "chunk_1_2b17c17c-9ca6-4ce0-9f87-d4639d4bbeee",
       "start_token": 80,
       "end_token": 182,
       "content": "Universidad de Guadalajara ( 2009 - 2013 ). Experiencia laboral Principal Data Engineer | CEMEX Digital | Ene 2022 - Actual [UNK] Definición de la arquitectura corporativa de datos sobre Azure y Databricks. [UNK] Liderazgo técnico de un equipo de 15 ingenieros de datos. Implementación de estándares para Data Governance y Data Quality. Senior Data Engineer | Accenture México | Jul 2018 - Dic 2021 [UNK] Desarrollo de plataformas ELT",
@@ -1559,7 +1559,7 @@
       ]
     },
     {
-      "id": "chunk_2_d7dc37dd-a6ce-4ba8-9c11-4f62c0bd05c6",
+      "id": "chunk_2_90d9cda4-8fd3-43e1-9b4b-5e5382226684",
       "start_token": 160,
       "end_token": 261,
       "content": "Engineer | Accenture México | Jul 2018 - Dic 2021 [UNK] Desarrollo de plataformas ELT con Snowflake y Azure Data Factory. Diseño de modelos dimensionales para analítica empresarial. Data Engineer | IBM México | Jul 2013 - Jun 2018 Integración de datos y procesos ETL para clientes financieros. Habilidades técnicas : Azure, Databricks, Spark, Snowflake, SQL,",
@@ -2335,7 +2335,7 @@
       ]
     },
     {
-      "id": "chunk_3_b208678e-1b80-40ef-be4d-4c3104e7caaa",
+      "id": "chunk_3_223e86ef-36be-4198-8ca5-47a85ecd6dc9",
       "start_token": 240,
       "end_token": 342,
       "content": "ure, Databricks, Spark, Snowflake, SQL, Python, Airflow, Azure Data Factory, Terraform, Docker, Power BI, Git. Habilidades blandas : Liderazgo técnico, pensamiento estratégico, mentoría, comunicación ejecutiva y gestión de stakeholders. Certificaciones : Databricks Data Engineer Professional. Microsoft Azure Data Engineer Associate",
@@ -3111,7 +3111,7 @@
       ]
     },
     {
-      "id": "chunk_4_d4741d9a-747f-4d3b-8646-e8aa0fc3c2b9",
+      "id": "chunk_4_885101d3-5779-4e5b-953c-25d5ba41192e",
       "start_token": 320,
       "end_token": 404,
       "content": "tificaciones : Databricks Data Engineer Professional. Microsoft Azure Data Engineer Associate ( DP - 203 ). Idiomas : Español ( nativo ). Inglés ( C2 ). Proyectos relevantes : Implementación de una plataforma Lakehouse para más de 40 fuentes de datos corporativas. Migración de procesos ETL legacy hacia arquitectura cloud reduciendo 50 % los costos operativos.",
@@ -3887,7 +3887,7 @@
       ]
     },
     {
-      "id": "chunk_5_67305141-73ab-4b79-ad5d-199721e65719",
+      "id": "chunk_5_29cc17f9-c7d8-4ae5-b9b2-e335e76cd375",
       "start_token": 400,
       "end_token": 404,
       "content": "% los costos operativos.",

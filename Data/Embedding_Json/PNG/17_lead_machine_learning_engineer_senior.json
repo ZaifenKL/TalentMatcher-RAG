@@ -7,7 +7,7 @@
   "number_of_chunks": 6,
   "chunks": [
     {
-      "id": "chunk_0_cbb529b9-0919-48a1-96e7-8244a11aedcd",
+      "id": "chunk_0_79880ec2-c896-4360-89ab-33ec0ba5ed44",
       "start_token": 0,
       "end_token": 100,
       "content": "Lead Machine Learning Engineer Resumen profesional Lead Machine Learning Engineer con más de 10 años de experiencia liderando equipos de IA y desarrollando soluciones de aprendizaje automático en producción. Especializado en MLOps, LLMs, plataformas de entrenamiento distribuido y despliegue de modelos gran escala _ Formación académica : Maestría en Ciencias de la Computación, Tecnológico de Monterrey ( 2014 - 2016 ). Ingeniería en Sistemas Computacionales, Universidad Autónoma de Nuevo León (",
@@ -783,7 +783,7 @@
       ]
     },
     {
-      "id": "chunk_1_daae6f96-2155-4332-8e18-3a5b21ca58c6",
+      "id": "chunk_1_9206cb2c-b871-4468-b75a-f2816cdeb7b6",
       "start_token": 80,
       "end_token": 183,
       "content": "Monterrey ( 2014 - 2016 ). Ingeniería en Sistemas Computacionales, Universidad Autónoma de Nuevo León ( 2009 - 2013 ). Experiencia laboral Lead Machine Learning Engineer Nubank Ene 2022 Actual Liderazgo de un equipo de 12 ingenieros de ML. Diseño de plataformas MLOps sobre AWS y Kubernetes. Implementación de soluciones con LLMs y arquitecturas RAG Reducción del 45 % en tiempos de despliegue de modelos. Sen",
@@ -1559,7 +1559,7 @@
       ]
     },
     {
-      "id": "chunk_2_f27cba6c-51f2-4540-a345-34c41f007f37",
+      "id": "chunk_2_da8c9170-f769-4a9f-a860-e6a8f64872e2",
       "start_token": 160,
       "end_token": 264,
       "content": "de soluciones con LLMs y arquitecturas RAG Reducción del 45 % en tiempos de despliegue de modelos. Senior Machine Learning Engineer Globant 2018 Dic 2021 Desarrollo de modelos predictivos para banca y retail. Automatización de pipelines con MLflow y Kubeflow. Data Scientist IBM México Jul 2016 Jun 2018 Modelos de clasificación, fraude y recomendación. Habilidades técnicas : Python, PyTorch,",
@@ -2335,7 +2335,7 @@
       ]
     },
     {
-      "id": "chunk_3_fd3cb2bd-b148-4760-bfc3-423646afbb2f",
+      "id": "chunk_3_3ca69678-25bd-4bbe-919d-2766002c046e",
       "start_token": 240,
       "end_token": 342,
       "content": "2018 Modelos de clasificación, fraude y recomendación. Habilidades técnicas : Python, PyTorch, TensorFlow, Kubeflow, MLflow, Kubernetes, Docker, AWS SageMaker, Databricks, Spark, LangChain, OpenA API. Habilidades blandas : Liderazgo ; mentoría, pensamiento estratégico, comunicación ejecutiva, colaboración. Certificaciones :",
@@ -3111,7 +3111,7 @@
       ]
     },
     {
-      "id": "chunk_4_70e11ccf-6aab-41d7-b50b-59e9b500d11b",
+      "id": "chunk_4_437296ce-814d-4f14-80c9-8b8dc9803b81",
       "start_token": 320,
       "end_token": 417,
       "content": "dades blandas : Liderazgo ; mentoría, pensamiento estratégico, comunicación ejecutiva, colaboración. Certificaciones : AWS Certified Machine Learning Specialty Google Professional Machine Learning Engineer. Idiomas : Español ( nativo ). ( C2 ). Proyectos relevantes : Plataforma corporativa de MLOps utilizada por más de 80 científicos de datos Sistema de búsqueda semántica basado en RAG para millones de documentos financieros - Jul Inglés",
@@ -3887,7 +3887,7 @@
       ]
     },
     {
-      "id": "chunk_5_6b013607-2f54-42cc-a7e9-5f3cc3b0e6bc",
+      "id": "chunk_5_7245b54c-af13-4613-99d0-3dda289a7c7f",
       "start_token": 400,
       "end_token": 417,
       "content": "de búsqueda semántica basado en RAG para millones de documentos financieros - Jul Inglés",

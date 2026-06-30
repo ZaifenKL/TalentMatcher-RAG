@@ -7,25 +7,25 @@
   "number_of_chunks": 4,
   "chunks": [
     {
-      "id": "chunk_0_f0995967-6f34-4f71-aa69-24e7d625b920",
+      "id": "chunk_0_12e009d5-f0e8-4e04-a3c5-ff7d3dab0936",
       "start_token": 0,
       "end_token": 103,
       "content": "Científico ( a ) de Datos Jr Resumen profesional Profesional junior con formación en Ciencia de Datos Ingeniería, experiencia en análisis de datos, limpieza, visualización y desarrollo de modelos de clasificación y segmentación utilizando Python, SQL y Power BI. Interés en convertir datos en decisiones de negocio. Formación académica : Ingeniería en Ciencia de Datos, Universidad de Guadalajara ( 2021 - 2025 ) Diplomado en Python para Ciencia de Datos ( 2025 ) Experiencia laboral Analista"
     },
     {
-      "id": "chunk_1_64934bdd-2ede-4494-8629-1f0e74988985",
+      "id": "chunk_1_febc5e16-e50e-40bf-89a3-bc0e9e03c492",
       "start_token": 80,
       "end_token": 185,
       "content": "2025 ) Diplomado en Python para Ciencia de Datos ( 2025 ) Experiencia laboral Analista de Datos Jr. Kueski Jul 2025 Actual Construcción de dashboards en Power BI. Automatización de reportes con Python y SQL Practicante de Analítica CEMEX Digital Ene 2025 Jun 2025 Limpieza y transformación de datos. Apoyo en modelos de segmentación de clientes - Habilidades técnicas : Py"
     },
     {
-      "id": "chunk_2_f1e248ba-e6c6-4d6e-a2ae-1aff8dcf89a2",
+      "id": "chunk_2_b94ec590-4799-465f-a3e7-4baf684dfde7",
       "start_token": 160,
       "end_token": 262,
       "content": "un 2025 Limpieza y transformación de datos. Apoyo en modelos de segmentación de clientes - Habilidades técnicas : Python, SQL, Pandas, NumPy, scikit - learn, Power BI, Excel, Git Habilidades blandas : Pensamiento analítico, comunicación, aprendizaje continuo, trabajo en equipo Certificaciones : IBM Data Analysis with Python Microsoft Power BI Fundamentals Idiomas"
     },
     {
-      "id": "chunk_3_5d8b7297-a9c1-42e2-bbca-31fe97aac7c9",
+      "id": "chunk_3_94706e4c-2304-404c-8655-45dbac3e923c",
       "start_token": 240,
       "end_token": 300,
       "content": "IBM Data Analysis with Python Microsoft Power BI Fundamentals Idiomas : Español ( nativo ) Inglés ( B2 ) Proyectos relevantes : Modelo de predicción de abandono de clientes utilizando Random Forest. - Dashboard ejecutivo para seguimiento de KPIs comerciales"

@@ -7,37 +7,37 @@
   "number_of_chunks": 6,
   "chunks": [
     {
-      "id": "chunk_0_f911ed8b-952e-4fed-ba97-644364105400",
+      "id": "chunk_0_1007f93e-09fc-4692-8923-4e9fb3d72a4d",
       "start_token": 0,
       "end_token": 103,
       "content": "Machine Learning Engineer ( MLE Bench ) Resumen profesional Ingeniero de Machine Learning con 5 años de experiencia desarrollando, evaluando y optimizando modelos de IA en entornos similares a producción. Especializado en pipelines de entrenamiento, benchmarking de modelos, MLOps y evaluación de sistemas basados en LLMs. Formación académica : Ingeniería en Ciencias Computacionales, Universidad Autónoma de Baja California ( 2015 - 2020 ). Diplomado en Machine Lear"
     },
     {
-      "id": "chunk_1_dc47b723-cf92-4360-ab5f-a4627a040a2e",
+      "id": "chunk_1_3d1b5a7d-5b4e-44a0-8e4b-fa8e61de7d87",
       "start_token": 80,
       "end_token": 185,
       "content": "Computacionales, Universidad Autónoma de Baja California ( 2015 - 2020 ). Diplomado en Machine Learning Avanzado y MLOps ( 2023 ). Experiencia laboral Machine Learning Engineer | Turing ( Proyecto MLE Bench ) | Ene 2024 - Actual [UNK] Desarrollo y evaluación de pipelines de entrenamiento e inferencia. [UNK] Benchmarking de modelos con PyTorch y TensorFlow. [UNK] Optimización de código Py"
     },
     {
-      "id": "chunk_2_2cfd2f4b-389c-411b-b64e-f66859a50c6b",
+      "id": "chunk_2_ea38c86f-4a55-4834-8b23-6f7388a56f85",
       "start_token": 160,
       "end_token": 262,
       "content": "chmarking de modelos con PyTorch y TensorFlow. [UNK] Optimización de código Python para cargas de trabajo de ML. Machine Learning Engineer | EPAM Systems | Jul 2020 - Dic 2023 [UNK] Desarrollo de modelos supervisados y no supervisados. Automatización de experimentos con MLflow y Docker. Habilidades técnicas : Python, PyTorch, TensorFlow,"
     },
     {
-      "id": "chunk_3_53345a04-6897-4fba-8919-51e683846336",
+      "id": "chunk_3_dcb828a4-86c8-40a6-98a2-b2381788b727",
       "start_token": 240,
       "end_token": 343,
       "content": "er. Habilidades técnicas : Python, PyTorch, TensorFlow, scikit - learn, MLflow, Docker, Kubernetes, Git, Linux, SQL, FastAPI, AWS. Habilidades blandas : Pensamiento analítico, resolución de problemas, comunicación técnica, colaboración y mejora continua. Certificaciones : AWS Certified Machine Learning -"
     },
     {
-      "id": "chunk_4_42e02c53-73ab-4725-9427-488abcc943de",
+      "id": "chunk_4_1f66da94-3ca3-4822-a396-4b45efac827c",
       "start_token": 320,
       "end_token": 426,
       "content": "técnica, colaboración y mejora continua. Certificaciones : AWS Certified Machine Learning - Specialty. TensorFlow Developer Certificate. Idiomas : Español ( nativo ). Inglés ( C1 ). Proyectos relevantes : Framework de benchmarking para modelos de clasificación y NLP reduciendo 35 % el tiempo de evaluación. Pipeline reproducible de entrenamiento y despliegue para modelos de visión computacional utilizando Kubernetes y ML"
     },
     {
-      "id": "chunk_5_62a8413b-4275-4b5c-bd7c-821ca1c04734",
+      "id": "chunk_5_f2539206-94dc-4f9a-86d9-fea431ef007c",
       "start_token": 400,
       "end_token": 428,
       "content": "evaluación. Pipeline reproducible de entrenamiento y despliegue para modelos de visión computacional utilizando Kubernetes y MLflow."

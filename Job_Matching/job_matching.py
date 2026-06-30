@@ -42,7 +42,6 @@ def match_job_description(job_text: str,
     if report:
         # 5. Construir reporte
         report = build_ranking_report(ranking, explanation, llm_response_time,job_text,prompt)
-        # 6. Exportar reporte si debug=True
         #timestamp for unique report name
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
         log_file = os.path.join(log_path, f"reporte_match_{timestamp}.md")
@@ -51,7 +50,8 @@ def match_job_description(job_text: str,
     # 7. Retornar datos útiles
     results = {
         "best_cv": ranking["best_cv"],
-        "best_final_score": ranking["best_final_score"],
+        "best_final_similarity": ranking["best_final_similarity"],
+        "match_score": ranking["match_score"],
         "ranked_cvs": ranking["ranked_cvs"],
         "cv_scores": ranking["cv_scores"],
         "context": ranking["context"],
