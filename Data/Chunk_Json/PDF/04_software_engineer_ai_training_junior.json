@@ -7,31 +7,31 @@
   "number_of_chunks": 5,
   "chunks": [
     {
-      "id": "chunk_0_6a496a16-d472-4fb1-9377-fde1580fa65f",
+      "id": "chunk_0_98455a71-140a-4137-916b-a6abab184d61",
       "start_token": 0,
       "end_token": 101,
       "content": "Software Engineer ( AI Training ) Jr. Resumen profesional Ingeniero de software junior con bases sólidas en algoritmos, estructuras de datos y desarrollo en Python y Java. Interés en inteligencia artificial generativa, evaluación de código y herramientas de apoyo al desarrollo de software. Formación académica : Ingeniería en Ciencias Computacionales, BUAP ( 2020 - 2025 ). Curso de IA Generativa y Prompt Engineering ( 2025 )"
     },
     {
-      "id": "chunk_1_e6a49da5-0c0e-4837-bd38-d7e80a5b0703",
+      "id": "chunk_1_08ca1b60-2ace-4a20-aaf4-d5a3244a389e",
       "start_token": 80,
       "end_token": 183,
       "content": "2025 ). Curso de IA Generativa y Prompt Engineering ( 2025 ). Experiencia laboral Software Engineer Jr. | Globant México | Jul 2025 - Actual Desarrollo de utilidades internas en Python. Revisión de calidad de código y pruebas unitarias. Documentación técnica y soporte a proyectos de IA. Practicante de Desarrollo | Softtek | Ene 2025 - Jun 2025 [UNK] Implementación de API"
     },
     {
-      "id": "chunk_2_b528875c-7c6b-4f4c-acf6-dfbc91f229a4",
+      "id": "chunk_2_bcc8caa1-4fb3-4f61-a8b2-651aa3d4e77a",
       "start_token": 160,
       "end_token": 262,
       "content": "de Desarrollo | Softtek | Ene 2025 - Jun 2025 [UNK] Implementación de APIs REST sencillas. Automatización de tareas con Python y Git. Habilidades técnicas : Python, Java, Git, GitHub, SQL, REST APIs, Docker básico, Linux, JUnit, Visual Studio Code. Habilidades blandas : Pensamiento lógico, comunicación escrita"
     },
     {
-      "id": "chunk_3_1292b140-b841-4695-a319-c049674c6461",
+      "id": "chunk_3_fa2f5410-18d4-4c45-a845-680a1bb3214b",
       "start_token": 240,
       "end_token": 340,
       "content": "nit, Visual Studio Code. Habilidades blandas : Pensamiento lógico, comunicación escrita, aprendizaje continuo, adaptabilidad y colaboración. Certificaciones : Microsoft Azure AI Fundamentals ( AI - 900 ). GitHub Foundations. Idiomas : Español ( nativo ). Inglés ( B2 ). Proyectos relevantes : Asistente de revisión automática de código utilizando modelos de lenguaje y reglas estáticas. Plataforma de resolución de retos algorítmicos con análisis de desempeño."
     },
     {
-      "id": "chunk_4_5295290a-59a6-4495-9c6e-1ae4a6cc5c62",
+      "id": "chunk_4_97c38f4c-5976-4165-9e61-6d880d63c54d",
       "start_token": 320,
       "end_token": 340,
       "content": "de lenguaje y reglas estáticas. Plataforma de resolución de retos algorítmicos con análisis de desempeño."

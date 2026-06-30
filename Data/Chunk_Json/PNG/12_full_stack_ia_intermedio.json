@@ -7,31 +7,31 @@
   "number_of_chunks": 5,
   "chunks": [
     {
-      "id": "chunk_0_7f025e50-9f03-49f0-9eab-987d8d01bcbb",
+      "id": "chunk_0_fc8121bd-d32c-4f55-a949-3fb6b93c19ae",
       "start_token": 0,
       "end_token": 104,
       "content": "Full Stack Engineer IA Resumen profesional Ingeniero Full Stack con 5 años de experiencia desarrollando aplicaciones web y soluciones impulsadas por inteligencia artificial. Experiencia construyendo APIs, interfaces modernas integraciones con modelos LLM para automatizar procesos de negocio. Formación académica : Ingeniería en Software, Universidad de Guadalajara ( 2016 - 2021 ) - Diplomado en Inteligencia Artificial Generativa ( 2024 ). Experiencia laboral Full Stack Engineer Wiz"
     },
     {
-      "id": "chunk_1_717dd256-12b1-41ba-9340-ec5c50f55499",
+      "id": "chunk_1_e4cc0584-fc89-4c49-9aa5-34aac51e2102",
       "start_token": 80,
       "end_token": 184,
       "content": "Inteligencia Artificial Generativa ( 2024 ). Experiencia laboral Full Stack Engineer Wizeline México Ene 2024 Actual Desarrollo de aplicaciones React y Node js _ Integración con OpenAl y Azure OpenAl _ Despliegues en Azure App Service. Software Engineer Improving Nearshore | Jul 2021 Dic 2023 APIs REST con Node js y FastAPI."
     },
     {
-      "id": "chunk_2_1934548a-ad5d-4de3-970d-995b4a4c1297",
+      "id": "chunk_2_097d32ff-c9f4-4138-9ff8-96f683a445c4",
       "start_token": 160,
       "end_token": 265,
       "content": "| Jul 2021 Dic 2023 APIs REST con Node js y FastAPI. Desarrollo frontend con React y TypeScript Automatización de procesos con IA Habilidades técnicas : React, TypeScript Node js, Python ; FastAPI, OpenAl API, Azure OpenAI, Docker, PostgreSQL, Git, Azure - Habilidades blandas :"
     },
     {
-      "id": "chunk_3_3ee7bf31-7794-4a37-912c-3d397083032b",
+      "id": "chunk_3_638cfff6-5c70-4ad6-a7b3-2c49a02c3530",
       "start_token": 240,
       "end_token": 343,
       "content": "AI, Docker, PostgreSQL, Git, Azure - Habilidades blandas : Comunicación, liderazgo técnico, creatividad, orientación al cliente y trabajo colaborativo _ Certificaciones : Microsoft Azure Al Engineer Associate ( Al - 102 ). Azure Developer Associate ( AZ - 204 ). Idiomas : Español ( nativo ). Inglés ( Cl ). Proyectos relevantes : Asistente empresarial basado en RAG integrado con SharePoint."
     },
     {
-      "id": "chunk_4_6e067ace-2cdf-4b30-b198-35d4083d251d",
+      "id": "chunk_4_0a1235a9-b37a-4fd6-b2ed-d7d8dfed8475",
       "start_token": 320,
       "end_token": 361,
       "content": "Inglés ( Cl ). Proyectos relevantes : Asistente empresarial basado en RAG integrado con SharePoint. Plataforma de generación automática de documentos con LLMs, reduciendo 70 % el tiempo operativo."

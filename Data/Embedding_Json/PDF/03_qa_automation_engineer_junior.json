@@ -7,7 +7,7 @@
   "number_of_chunks": 5,
   "chunks": [
     {
-      "id": "chunk_0_5f25b311-afe1-4025-8e28-ae4c768e9277",
+      "id": "chunk_0_732e5c31-5445-4cbc-b9e4-82bfbcf03049",
       "start_token": 0,
       "end_token": 100,
       "content": "QA Automation Engineer Jr. Resumen profesional Ingeniero de software junior con enfoque en aseguramiento de calidad y automatización de pruebas. Experiencia inicial en pruebas funcionales, APIs y automatización utilizando Selenium, Postman y Python en entornos Agile. Formación académica : Ingeniería en Tecnologías de la Información, Universidad Autónoma de Querétaro ( 2020 - 2025 ). Experiencia laboral QA Automation Engineer Jr.",
@@ -783,7 +783,7 @@
       ]
     },
     {
-      "id": "chunk_1_9ec3f685-ce52-4c10-850a-0d92137706dc",
+      "id": "chunk_1_20ce3280-f674-4bec-b570-8fb5c2b64a67",
       "start_token": 80,
       "end_token": 182,
       "content": "2020 - 2025 ). Experiencia laboral QA Automation Engineer Jr. | Encora México | Jul 2025 - Actual Desarrollo y mantenimiento de pruebas automatizadas con Selenium y Python. Validación de APIs REST mediante Postman. Ejecución de pruebas de regresión en pipelines CI / CD. Practicante de QA | Improving Nearshore | Ene 2025 - Jun 2025 Diseño de",
@@ -1559,7 +1559,7 @@
       ]
     },
     {
-      "id": "chunk_2_61b81e40-55ac-48f0-b36a-6b706aa0fa40",
+      "id": "chunk_2_d34d86b3-a820-4ece-a42b-be0a0d1ff038",
       "start_token": 160,
       "end_token": 261,
       "content": "QA | Improving Nearshore | Ene 2025 - Jun 2025 Diseño de casos de prueba. Reporte y seguimiento de defectos en Jira. Validación de consultas SQL para verificar integridad de datos. Habilidades técnicas : Python, Selenium, Postman, SQL, Git, Jira, Jenkins básico, REST APIs, Testing Manual y Automatizado. Habilidades blandas :",
@@ -2335,7 +2335,7 @@
       ]
     },
     {
-      "id": "chunk_3_3c7c3098-a0d6-4f0d-91db-e221e0510cd3",
+      "id": "chunk_3_2e5c00db-3d6f-4e44-91b2-38db05cc15f4",
       "start_token": 240,
       "end_token": 343,
       "content": ", REST APIs, Testing Manual y Automatizado. Habilidades blandas : Atención al detalle, pensamiento analítico, comunicación efectiva, organización y trabajo en equipo. Certificaciones : ISTQB Certified Tester Foundation ( en proceso ). Postman API Fundamentals Student Expert. Idiomas : Español ( nativo ). Inglés ( B2 ). Proyectos relevantes : Automatización de más de 180 casos de prueba para una plataforma financiera, reduciendo",
@@ -3111,7 +3111,7 @@
       ]
     },
     {
-      "id": "chunk_4_7b20f194-f5fb-4148-b384-301d043ca9d6",
+      "id": "chunk_4_03c1a9ab-246a-42b0-89a7-c55dac020516",
       "start_token": 320,
       "end_token": 374,
       "content": "B2 ). Proyectos relevantes : Automatización de más de 180 casos de prueba para una plataforma financiera, reduciendo 45 % el tiempo de validación por sprint. Framework básico de pruebas UI con Selenium y Page Object Model.",

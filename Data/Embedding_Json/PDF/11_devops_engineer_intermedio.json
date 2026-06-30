@@ -7,7 +7,7 @@
   "number_of_chunks": 6,
   "chunks": [
     {
-      "id": "chunk_0_4cef6b76-7601-4a26-a4ea-af72ab4763ba",
+      "id": "chunk_0_7218aa2c-fd34-422e-8aa8-f4847222fd9a",
       "start_token": 0,
       "end_token": 103,
       "content": "DevOps Engineer Resumen profesional Ingeniero DevOps con 5 años de experiencia automatizando infraestructura, despliegues y observabilidad en entornos cloud. Experiencia implementando CI / CD, Kubernetes e infraestructura como código para mejorar la disponibilidad y escalabilidad de plataformas empresariales. Formación académica : Ingeniería en Sistemas Computacionales, Instituto Tecnológico de Puebla ( 2015 - 2020 ). Diplomado en Cloud Computing y DevOps ( 2022 ). Experiencia laboral DevO",
@@ -783,7 +783,7 @@
       ]
     },
     {
-      "id": "chunk_1_ad29df1c-df25-40d9-a731-a887903e0732",
+      "id": "chunk_1_03b32c73-75aa-455b-8f11-d94137fbb2ab",
       "start_token": 80,
       "end_token": 182,
       "content": ". Diplomado en Cloud Computing y DevOps ( 2022 ). Experiencia laboral DevOps Engineer | Globant México | Mar 2023 - Actual [UNK] Administración de clústeres Kubernetes en AWS. Automatización de infraestructura con Terraform. Implementación de pipelines CI / CD con GitHub Actions y Jenkins. Cloud Engineer | HCLTech México | Ago 2020",
@@ -1559,7 +1559,7 @@
       ]
     },
     {
-      "id": "chunk_2_821b7be8-c552-4087-9b19-55936db5ff9f",
+      "id": "chunk_2_26161bfc-b7a2-4c48-8e90-a7dd379fe12a",
       "start_token": 160,
       "end_token": 261,
       "content": "tions y Jenkins. Cloud Engineer | HCLTech México | Ago 2020 - Feb 2023 [UNK] Contenerización de aplicaciones con Docker. Monitoreo con Prometheus y Grafana. Optimización de despliegues reduciendo 60 % los tiempos de liberación. Habilidades técnicas : AWS, Kubernetes, Docker, Terraform, GitHub Actions, Jenkins, Linux, Bas",
@@ -2335,7 +2335,7 @@
       ]
     },
     {
-      "id": "chunk_3_3288daee-0b8b-41fd-8f17-dd7f8a7951e7",
+      "id": "chunk_3_334c17e9-021d-4ba3-a570-9c27f8916a84",
       "start_token": 240,
       "end_token": 342,
       "content": "ker, Terraform, GitHub Actions, Jenkins, Linux, Bash, Python, Helm, Prometheus, Grafana. Habilidades blandas : Colaboración, resolución de problemas, comunicación, pensamiento analítico y orientación a resultados. Certificaciones : AWS Certified Solutions Architect - Associate. HashiCorp Terraform Associate. Certified Kubernetes Applica",
@@ -3111,7 +3111,7 @@
       ]
     },
     {
-      "id": "chunk_4_4c21baf0-32cd-4f7f-b729-f3c6cdf5ccf9",
+      "id": "chunk_4_178720a4-4c2b-4fed-8cb4-179fe2996db4",
       "start_token": 320,
       "end_token": 416,
       "content": ". HashiCorp Terraform Associate. Certified Kubernetes Application Developer ( CKAD ). Idiomas : Español ( nativo ). Inglés ( C1 ). Proyectos relevantes : Migración de una arquitectura monolítica hacia contenedores en Kubernetes con disponibilidad superior al 99. 9 %. Automatización de infraestructura para más de 80 microservicios utilizando Terraform y GitHub Actions.",
@@ -3887,7 +3887,7 @@
       ]
     },
     {
-      "id": "chunk_5_c63c968f-4d31-4d39-a9de-b9501161592e",
+      "id": "chunk_5_ad591732-4ee8-4e3e-ab17-6e4b842d281b",
       "start_token": 400,
       "end_token": 416,
       "content": "más de 80 microservicios utilizando Terraform y GitHub Actions.",

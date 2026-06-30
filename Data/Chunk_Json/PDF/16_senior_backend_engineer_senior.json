@@ -7,37 +7,37 @@
   "number_of_chunks": 6,
   "chunks": [
     {
-      "id": "chunk_0_66c95592-b1dd-4964-85d5-fbab4f54ad67",
+      "id": "chunk_0_5ebf5076-c9af-479e-805b-f0e48566632b",
       "start_token": 0,
       "end_token": 103,
       "content": "Senior Backend Engineer Resumen profesional Ingeniero Backend Senior con más de 9 años de experiencia diseñando arquitecturas distribuidas y APIs de alta disponibilidad. Especializado en TypeScript, Node. js, Fastify, Redis, Elasticsearch y despliegues sobre Kubernetes en GCP. Formación académica : Ingeniería en Ciencias Computacionales, Tecnológico de Monterrey ( 2011 - 2016 ). Diplomado en Arquitectura de Softw"
     },
     {
-      "id": "chunk_1_9f862e8b-56e0-406d-b490-70d8e6a1a446",
+      "id": "chunk_1_f5adab5c-a0c9-4348-9583-d658f6d88b50",
       "start_token": 80,
       "end_token": 183,
       "content": "en Ciencias Computacionales, Tecnológico de Monterrey ( 2011 - 2016 ). Diplomado en Arquitectura de Software y Sistemas Distribuidos ( 2018 ). Experiencia laboral Senior Backend Engineer | Mercado Libre | Ene 2022 - Actual [UNK] Liderazgo técnico de servicios críticos procesando millones de solicitudes diarias. [UNK] Diseño de microservicios con Node. js, TypeScript y Fastify. [UNK] Optimización de Redis y Elasti"
     },
     {
-      "id": "chunk_2_803d853e-bb07-4f46-a90b-e1680b0b7694",
+      "id": "chunk_2_5aa0508f-5a3d-49ac-9285-253a9b5b6ed5",
       "start_token": 160,
       "end_token": 262,
       "content": "js, TypeScript y Fastify. [UNK] Optimización de Redis y Elasticsearch reduciendo 40 % la latencia. Mentoría de 6 ingenieros backend. Backend Engineer | Wizeline México | Jul 2018 - Dic 2021 Desarrollo de APIs para clientes fintech y retail. Contenerización con Docker y Kubernetes. Software Engineer | Softtek | Jul"
     },
     {
-      "id": "chunk_3_a890e265-7604-473e-96e6-d87dfe1eb322",
+      "id": "chunk_3_83d729fc-58cc-4678-83b3-e0edae9600bb",
       "start_token": 240,
       "end_token": 341,
       "content": "ker y Kubernetes. Software Engineer | Softtek | Jul 2016 - Jun 2018 Desarrollo de aplicaciones empresariales con Node. js y Java. Habilidades técnicas : TypeScript, Node. js, Fastify, Express, Redis, Elasticsearch, PostgreSQL, Docker, Kubernetes, GCP, Terraform, GitHub Actions."
     },
     {
-      "id": "chunk_4_ac90f347-dfe0-4520-a0e5-2f207701f87f",
+      "id": "chunk_4_f63e73bc-b0f7-4130-911a-ad6b81687115",
       "start_token": 320,
       "end_token": 425,
       "content": "er, Kubernetes, GCP, Terraform, GitHub Actions. Habilidades blandas : Liderazgo técnico, comunicación, mentoría, pensamiento estratégico, colaboración. Certificaciones : Google Professional Cloud Developer. Certified Kubernetes Application Developer ( CKAD ). Idiomas : Español ( nativo ). Inglés ( C2 ). Proyectos relevantes : Arquitectura de personalización basada en Elasticsearch para millones de"
     },
     {
-      "id": "chunk_5_acbbcc05-64dd-4a85-806a-1593bb4543d7",
+      "id": "chunk_5_1fc6a9f5-387e-4802-a6c9-7f7c54b3b8bd",
       "start_token": 400,
       "end_token": 447,
       "content": "nativo ). Inglés ( C2 ). Proyectos relevantes : Arquitectura de personalización basada en Elasticsearch para millones de usuarios. Migración de una plataforma monolítica a microservicios con disponibilidad superior al 99. 95 %."
