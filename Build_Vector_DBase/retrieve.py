@@ -69,9 +69,9 @@ def ranked_cvs(collection, query_embedding):
         cv_scores.append({
             "cv_name": cv_name,
             "final_similarity": final_similarity,
-            "match_score": match_score,
-            "max_score": max(distances),
-            "mean_score": np.mean(distances),
+            "match_distance": match_score,
+            "max_distance": max(distances),
+            "mean_distance": np.mean(distances),
             "chunks": cv_chunks,
 
 
@@ -111,7 +111,7 @@ def ranked_cvs(collection, query_embedding):
     ranked_cv = {
         "best_cv": best["cv_name"],
         "best_final_similarity": best["final_similarity"],
-        "match_score": best["match_score"],
+        "match_distance": best["match_distance"],
         "ranked_cvs": [cv["cv_name"] for cv in cv_scores],
         "cv_scores": cv_scores,
         "context": context,

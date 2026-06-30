@@ -47,7 +47,7 @@ def explain_match(query: str, results: dict) -> str:
     context = results["context"]
     best_cv = results["best_cv"]
     best_final_similarity = results["best_final_similarity"]
-    match_score = results["match_score"]
+    match_score = results["match_distance"]
 
     # Clasificación automática del score
     if match_score >= 60:

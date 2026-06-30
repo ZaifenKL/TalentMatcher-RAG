@@ -7,7 +7,7 @@
   "number_of_chunks": 5,
   "chunks": [
     {
-      "id": "chunk_0_913aed4a-5aba-4b96-acb2-3584c497ad77",
+      "id": "chunk_0_758f4f5a-cce0-42b6-939e-76770f6d5810",
       "start_token": 0,
       "end_token": 104,
       "content": "Machine Learning Engineer Resumen profesional Ingeniero de Machine Learning con 4 años de experiencia desarrollando modelos predictivos y soluciones de IA para productos digitales. Experiencia implementando modelos en producción, construyendo pipelines de datos y colaborando con equipos de software y producto. Formación académica : Ingeniería en Sistemas Computacionales, Universidad de Guanajuato ( 2017 - 2022 ). Especialidad en Inteligencia Artificial ( 2022 ). Experiencia laboral Machine Learning Engine",
@@ -783,7 +783,7 @@
       ]
     },
     {
-      "id": "chunk_1_9b7007ee-bfa6-49d7-ac34-370c94dab978",
+      "id": "chunk_1_7b8599d5-c7fe-4bed-9454-5381235cf964",
       "start_token": 80,
       "end_token": 182,
       "content": "2 ). Especialidad en Inteligencia Artificial ( 2022 ). Experiencia laboral Machine Learning Engineer | Wizeline México | Ago 2023 - Actual Desarrollo de modelos de clasificación y predicción con TensorFlow y PyTorch. Implementación de pipelines de entrenamiento en AWS SageMaker. Optimización de modelos reduciendo 30 % el tiempo de inferencia. Data Scientist | Softtek |",
@@ -1559,7 +1559,7 @@
       ]
     },
     {
-      "id": "chunk_2_48c4a01c-c77a-4bf1-8166-125f607636d9",
+      "id": "chunk_2_2cfc8541-aee0-4b8c-9ca7-c74cf959776a",
       "start_token": 160,
       "end_token": 261,
       "content": "mización de modelos reduciendo 30 % el tiempo de inferencia. Data Scientist | Softtek | Jul 2022 - Jul 2023 Modelos de segmentación y forecasting. Despliegue de APIs de inferencia con FastAPI y Docker. Habilidades técnicas : Python, TensorFlow, PyTorch, scikit - learn, Pandas, SQL, Docker,",
@@ -2335,7 +2335,7 @@
       ]
     },
     {
-      "id": "chunk_3_cd663848-1ccb-40a2-9c71-90d5e7f79912",
+      "id": "chunk_3_71fe4b78-9426-4842-8e66-90b2c6197fe3",
       "start_token": 240,
       "end_token": 341,
       "content": ", scikit - learn, Pandas, SQL, Docker, FastAPI, AWS SageMaker, Git, MLflow. Habilidades blandas : Pensamiento analítico, comunicación, liderazgo técnico, colaboración y orientación a resultados. Certificaciones : AWS Certified Machine Learning - Specialty. TensorFlow Developer Certificate. Idiomas :",
@@ -3111,7 +3111,7 @@
       ]
     },
     {
-      "id": "chunk_4_5d509897-17b1-4bf9-9f72-c7db01500339",
+      "id": "chunk_4_554d1003-9502-438d-9c64-cc03fea39f7c",
       "start_token": 320,
       "end_token": 385,
       "content": "ning - Specialty. TensorFlow Developer Certificate. Idiomas : Español ( nativo ). Inglés ( C1 ). Proyectos relevantes : Motor de recomendación para e - commerce con aumento del 18 % en CTR. Modelo de detección de fraude financiero con precisión superior al 94 %.",

@@ -12,7 +12,7 @@ def build_ranking_report(ranking: dict, llm_response: str, llm_response_time: fl
 
             f"{idx} | {cv['cv_name']} | "
             f"{cv['final_similarity']:.4f} | "
-            f"{cv['match_score']}/100 | "
+            f"{cv['match_distance']}/100 | "
             f"{cv['max_distance']:.4f} | "
             f"{cv['mean_distance']:.4f}"
         )

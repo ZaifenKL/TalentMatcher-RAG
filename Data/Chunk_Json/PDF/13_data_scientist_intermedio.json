@@ -7,31 +7,31 @@
   "number_of_chunks": 5,
   "chunks": [
     {
-      "id": "chunk_0_33df6d4f-effe-4c1c-add4-16541973b120",
+      "id": "chunk_0_63e98ba8-a3a8-411f-93b7-c1965a955009",
       "start_token": 0,
       "end_token": 103,
       "content": "Resumen profesional Ingeniero especializado en Ciencia de Datos con más de 4 años de experiencia desarrollando modelos predictivos, soluciones de segmentación y analítica avanzada para los sectores financiero y retail. Experiencia llevando modelos desde la exploración hasta producción. Formación académica : Licenciatura en Matemáticas Aplicadas, Universidad Autónoma Metropolitana ( 2015 - 2020 ). Especialidad en Ciencia de Datos ( 2021 ). Experiencia laboral Data Scientist | BBVA México | Ene 2023 - Actual Desarrollo de modelos de propensión"
     },
     {
-      "id": "chunk_1_d4dbf5b6-1b6b-4b27-a21f-eeda059fedd6",
+      "id": "chunk_1_c43baf30-e5fd-4f1e-b114-87c56c59a65b",
       "start_token": 80,
       "end_token": 185,
       "content": "Data Scientist | BBVA México | Ene 2023 - Actual Desarrollo de modelos de propensión, churn y fraude utilizando Python y scikit - learn. Implementación de modelos de segmentación para campañas comerciales. Colaboración con equipos de negocio para definir KPIs y métricas. Data Analyst | Deloitte México | Jul 2020 - Dic 2022 Análisis estadístico y construcción de dashboards ejecutivos. Automatización de procesos analí"
     },
     {
-      "id": "chunk_2_eddf1aad-6581-4302-8278-50c53f00adc0",
+      "id": "chunk_2_1147bd97-84b5-4d83-abb4-d71ab98a27a9",
       "start_token": 160,
       "end_token": 263,
       "content": "| Jul 2020 - Dic 2022 Análisis estadístico y construcción de dashboards ejecutivos. Automatización de procesos analíticos mediante SQL y Python. Habilidades técnicas : Python, SQL, Pandas, NumPy, scikit - learn, XGBoost, Power BI, Tableau, Git, MLflow, Jupyter. Habilidades blandas : Pensamiento analítico,"
     },
     {
-      "id": "chunk_3_286591e0-149f-4dbb-9454-8911a8062a79",
+      "id": "chunk_3_f7d97c97-af7d-4ad1-99b8-2bc60d4e8b92",
       "start_token": 240,
       "end_token": 343,
       "content": "t, MLflow, Jupyter. Habilidades blandas : Pensamiento analítico, comunicación con áreas de negocio, resolución de problemas, colaboración y aprendizaje continuo. Certificaciones : IBM Data Science Professional Certificate. Microsoft Power BI Data Analyst Associate ( PL - 300 ). Idiomas : Español ( nativo ). Inglés ( C1 ). Proyectos relevantes : Modelo de detección de fraude que incrementó 22 % la identificación de operaciones sospechosas."
     },
     {
-      "id": "chunk_4_44311e03-5df9-4897-825a-57afb963e756",
+      "id": "chunk_4_8b99fb65-c622-4046-b3d0-68572b8bbfd5",
       "start_token": 320,
       "end_token": 367,
       "content": "1 ). Proyectos relevantes : Modelo de detección de fraude que incrementó 22 % la identificación de operaciones sospechosas. Motor de segmentación de clientes para campañas de marketing con incremento del 17 % en conversión. Data Scientist"

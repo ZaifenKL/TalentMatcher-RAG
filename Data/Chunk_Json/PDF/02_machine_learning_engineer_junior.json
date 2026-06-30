@@ -7,31 +7,31 @@
   "number_of_chunks": 5,
   "chunks": [
     {
-      "id": "chunk_0_3007fd17-5c46-4d7b-a9ad-34c27ce87a16",
+      "id": "chunk_0_aecc3ca5-3a70-4df7-98ce-301668279083",
       "start_token": 0,
       "end_token": 103,
       "content": "Machine Learning Engineer Jr. Resumen profesional Ingeniero junior orientado al desarrollo de modelos de aprendizaje automático, con experiencia en Python, TensorFlow, scikit - learn y análisis de datos. Interés en construir soluciones de IA escalables y colaborar con equipos multidisciplinarios. Formación académica : Ingeniería en Sistemas Computacionales, Universidad Autónoma de Nuevo León ( 2020 - 2025 ). Diplomado en Machine Learning con Python ("
     },
     {
-      "id": "chunk_1_879d4652-6f15-43dd-8c23-b5985c293dc9",
+      "id": "chunk_1_a6b57611-b62b-43ee-936c-e9bca5c279c5",
       "start_token": 80,
       "end_token": 182,
       "content": "Nuevo León ( 2020 - 2025 ). Diplomado en Machine Learning con Python ( 2025 ). Experiencia laboral Machine Learning Engineer Jr. | Wizeline México | Jul 2025 - Actual [UNK] Desarrollo de modelos de clasificación y predicción con scikit - learn. Automatización de pipelines de entrenamiento con Python. Practicante de IA | Softtek | Ene 202"
     },
     {
-      "id": "chunk_2_2c1b7f6b-0213-4d1c-800f-8017578a81e2",
+      "id": "chunk_2_d8db56c5-aa73-40bf-8090-19a0753fafa7",
       "start_token": 160,
       "end_token": 262,
       "content": "ines de entrenamiento con Python. Practicante de IA | Softtek | Ene 2025 - Jun 2025 Preparación de datos, validación de modelos y documentación técnica. Habilidades técnicas : Python, TensorFlow, scikit - learn, Pandas, NumPy, SQL, Git, Docker básico, Jupyter. Habilidades blandas : Resolución de problemas, aprendizaje continuo, comunicación efectiva"
     },
     {
-      "id": "chunk_3_86e5b9f9-c93b-4192-b1aa-051ce5379bcb",
+      "id": "chunk_3_83430e93-89d5-46e4-ac46-91d1e127b187",
       "start_token": 240,
       "end_token": 343,
       "content": "básico, Jupyter. Habilidades blandas : Resolución de problemas, aprendizaje continuo, comunicación efectiva, trabajo colaborativo. Certificaciones : Google Career Certificate - Advanced Data Analytics. IBM Machine Learning with Python. Idiomas : Español ( nativo ). Inglés ( B2 ). Proyectos relevantes : Modelo de predicción de abandono de clientes con XGBoost ( AUC 0. 89 ). Sistema de recomendación de productos para"
     },
     {
-      "id": "chunk_4_df1e1695-0a1d-4bb3-bf51-7dc80d7caa4d",
+      "id": "chunk_4_c0ced848-248f-47c2-b5b5-150a5c0dc3f3",
       "start_token": 320,
       "end_token": 350,
       "content": "de abandono de clientes con XGBoost ( AUC 0. 89 ). Sistema de recomendación de productos para comercio electrónico utilizando filtrado colaborativo."

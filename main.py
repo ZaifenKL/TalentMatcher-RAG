@@ -49,7 +49,6 @@ def main():
     insert_and_index_chunks(EMBED_JSON, collection)
 
     print("\n=== 7) Matching ===")
-    print("\n=== 7) Matching ===")
 
     #Interactive LOOP
     while True:

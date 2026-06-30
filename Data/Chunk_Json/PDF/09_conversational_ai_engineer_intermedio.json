@@ -7,31 +7,31 @@
   "number_of_chunks": 5,
   "chunks": [
     {
-      "id": "chunk_0_d2eda109-1c26-43f3-97bf-31a0461fd709",
+      "id": "chunk_0_03747ebb-5fe5-4a28-a3bf-9046fe173186",
       "start_token": 0,
       "end_token": 102,
       "content": "Conversational AI Engineer Resumen profesional Ingeniero de IA Conversacional con más de 4 años de experiencia diseñando e implementando asistentes virtuales basados en LLMs, NLP y arquitecturas RAG. Experiencia integrando chatbots con sistemas empresariales mediante APIs REST y servicios en la nube. Formación académica : Ingeniería en Tecnologías Computacionales, ITESO ( 2016 - 2021 ). Diplomado en Inteligencia Artificial Generativa ( 2024 )"
     },
     {
-      "id": "chunk_1_a3908c13-5eaa-48f4-9729-8b07261b5f39",
+      "id": "chunk_1_45533869-2b8d-40b5-88f1-66be8dae1454",
       "start_token": 80,
       "end_token": 181,
       "content": "O ( 2016 - 2021 ). Diplomado en Inteligencia Artificial Generativa ( 2024 ). Experiencia laboral Conversational AI Engineer | Accenture México | Feb 2024 - Actual Desarrollo de asistentes empresariales con OpenAI, Azure OpenAI y LangChain. Implementación de arquitecturas RAG con bases vectoriales. Integración con Salesforce, ServiceNow y Microsoft Teams. Software Engineer |"
     },
     {
-      "id": "chunk_2_f6ee1cc2-54e2-4627-98ee-0cc7fa57558b",
+      "id": "chunk_2_dceeb22c-9510-4633-a19a-4c8c822ed2ad",
       "start_token": 160,
       "end_token": 262,
       "content": "con Salesforce, ServiceNow y Microsoft Teams. Software Engineer | Softtek | Jul 2021 - Ene 2024 Desarrollo de APIs REST en Python y Node. js. Automatización de flujos conversacionales y pruebas funcionales. Habilidades técnicas : Python, JavaScript, LangChain, OpenAI API, Azure OpenAI, RAG, Pinecone,"
     },
     {
-      "id": "chunk_3_5607aebb-5a07-4b36-845a-0ac6dd25ae2d",
+      "id": "chunk_3_af3ded75-42be-410d-bcea-dd8d0b08b71d",
       "start_token": 240,
       "end_token": 341,
       "content": "hain, OpenAI API, Azure OpenAI, RAG, Pinecone, PostgreSQL, Docker, FastAPI, Git, REST APIs. Habilidades blandas : Comunicación, pensamiento analítico, orientación al cliente, trabajo colaborativo y resolución de problemas. Certificaciones : Microsoft Azure AI Engineer Associate ( AI - 102 ). Azure AI Fundamentals ( AI - 900 ). Idio"
     },
     {
-      "id": "chunk_4_46b7575a-1523-4667-adfa-d86b5c54b4ed",
+      "id": "chunk_4_29929e1b-07d2-4ee5-b98e-89188c282f55",
       "start_token": 320,
       "end_token": 392,
       "content": "Associate ( AI - 102 ). Azure AI Fundamentals ( AI - 900 ). Idiomas : Español ( nativo ). Inglés ( C1 ). Proyectos relevantes : Asistente virtual para atención a clientes con reducción del 42 % en tiempo de Buscador semántico corporativo basado en RAG para más de 120 mil documentos respuesta. internos."

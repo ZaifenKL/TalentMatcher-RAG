@@ -51,7 +51,7 @@ def match_job_description(job_text: str,
     results = {
         "best_cv": ranking["best_cv"],
         "best_final_similarity": ranking["best_final_similarity"],
-        "match_score": ranking["match_score"],
+        "match_distance": ranking["match_distance"],
         "ranked_cvs": ranking["ranked_cvs"],
         "cv_scores": ranking["cv_scores"],
         "context": ranking["context"],
