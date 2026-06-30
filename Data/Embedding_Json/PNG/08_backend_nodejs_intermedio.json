@@ -7,7 +7,7 @@
   "number_of_chunks": 5,
   "chunks": [
     {
-      "id": "chunk_0_fa905490-0563-4542-abfc-3bba1d45b171",
+      "id": "chunk_0_73cdfe48-de3a-424b-b2fb-8d674e8ad852",
       "start_token": 0,
       "end_token": 103,
       "content": "Backend Engineer Node js TypeScript Resumen profesional Ingeniero Backend con 4 años de experiencia desarrollando APIs de alta disponibilidad con Node js y TypeScript _ Experiencia en microservicios, Fastify, Redis, Docker y despliegues sobre Google Cloud Platform. Formación académica : Ingeniería en Sistemas Computacionales, Universidad de Sonora ( 2017 - 2021 ) - Diplomado en Arquitectura de Microser",
@@ -783,7 +783,7 @@
       ]
     },
     {
-      "id": "chunk_1_23b0140a-8bb0-44f9-8ba7-5d2588e6c782",
+      "id": "chunk_1_6b0b2512-9877-46b5-a116-fc7390dbf4cc",
       "start_token": 80,
       "end_token": 183,
       "content": "tacionales, Universidad de Sonora ( 2017 - 2021 ) - Diplomado en Arquitectura de Microservicios ( 2023 ). Experiencia laboral Backend Engineer Konfío Ene 2024 Actual Desarrollo de APIs REST con TypeScript y Fastify. Optimización de consultas reduciendo 35 % la latencia. Integración con Redis y Cloud Run. Software Engineer Encora Jul 2021 Dic 202",
@@ -1559,7 +1559,7 @@
       ]
     },
     {
-      "id": "chunk_2_e64e18ff-703f-44f3-a4d8-2cd85102de97",
+      "id": "chunk_2_c5063b5b-1581-4d0d-944d-2e0b037e05b9",
       "start_token": 160,
       "end_token": 262,
       "content": "con Redis y Cloud Run. Software Engineer Encora Jul 2021 Dic 2023 Desarrollo de microservicios con Node js. Contenerización con Docker y CIICD mediante GitHub Actions. Habilidades técnicas : TypeScript ; Node js, Fastify, Express, Redis, PostgreSQL, Docker, GCP, GitHub Actions, Jest.",
@@ -2335,7 +2335,7 @@
       ]
     },
     {
-      "id": "chunk_3_10c66dbc-bca6-4f71-b777-9414bce3e00a",
+      "id": "chunk_3_eab34614-e27b-45fa-9601-d1aec9b554e4",
       "start_token": 240,
       "end_token": 344,
       "content": "greSQL, Docker, GCP, GitHub Actions, Jest. Habilidades blandas : Comunicación, liderazgo técnico, resolución de problemas, colaboración y orientación a resultados. Certificaciones : Google Associate Cloud Engineer Docker Foundations Professional Idiomas : Español ( nativo ). Inglés ( Cl ). Proyectos relevantes : Migración de un monolito a microservicios para una plataforma financiera Sistema de autenticación escalable con JWT y Redis",
@@ -3111,7 +3111,7 @@
       ]
     },
     {
-      "id": "chunk_4_808f89b7-ffcb-4e11-80ba-2c093e4935e5",
+      "id": "chunk_4_d27ca427-daf2-4bdb-aa62-8a523b550700",
       "start_token": 320,
       "end_token": 346,
       "content": "un monolito a microservicios para una plataforma financiera Sistema de autenticación escalable con JWT y Redis Cache.",

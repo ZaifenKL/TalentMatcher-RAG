@@ -1,6 +1,6 @@
 import numpy as np
 from collections import defaultdict
-from Core.config_loader import config
+
 ##------------------------------------------------------------------------
 ##------------------Constant Values---------------------------------------
 persist_directory = r"C:\AI Stuff\CV_Matching_AI\VectorStore"
