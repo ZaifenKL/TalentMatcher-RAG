@@ -1,0 +1,32 @@
+{
+  "name": "02_machine_learning_engineer_junior.pdf",
+  "source_path": "C:\\AI Stuff\\CV_Matching_AI\\Data\\CV\\CV_Test\\02_machine_learning_engineer_junior.pdf",
+  "source_format": "PDF",
+  "text": {
+    "content": [
+      "Machine Learning Engineer Jr.",
+      "Resumen profesional",
+      "Ingeniero junior orientado al desarrollo de modelos de aprendizaje automático, con experiencia en Python, TensorFlow, scikit-learn y análisis de datos. Interés en construir soluciones de IA escalables y colaborar con equipos multidisciplinarios.",
+      "Formación académica",
+      "Ingeniería en Sistemas Computacionales, Universidad Autónoma de Nuevo León (2020–2025).",
+      "Diplomado en Machine Learning con Python (2025).",
+      "Experiencia laboral",
+      "Machine Learning Engineer Jr. | Wizeline México | Jul 2025 – Actual",
+      "· Desarrollo de modelos de clasificación y predicción con scikit-learn.",
+      "Automatización de pipelines de entrenamiento con Python.",
+      "Practicante de IA | Softtek | Ene 2025 – Jun 2025",
+      "Preparación de datos, validación de modelos y documentación técnica.",
+      "Habilidades técnicas",
+      "Python, TensorFlow, scikit-learn, Pandas, NumPy, SQL, Git, Docker básico, Jupyter.",
+      "Habilidades blandas",
+      "Resolución de problemas, aprendizaje continuo, comunicación efectiva, trabajo colaborativo.",
+      "Certificaciones",
+      "Google Career Certificate – Advanced Data Analytics. IBM Machine Learning with Python.",
+      "Idiomas",
+      "Español (nativo). Inglés (B2).",
+      "Proyectos relevantes",
+      "Modelo de predicción de abandono de clientes con XGBoost (AUC 0.89). Sistema de recomendación de productos para comercio electrónico utilizando filtrado colaborativo."
+    ],
+    "element_count": 1334
+  }
+}

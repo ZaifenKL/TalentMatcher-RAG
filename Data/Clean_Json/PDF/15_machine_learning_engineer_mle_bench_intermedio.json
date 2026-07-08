@@ -1,0 +1,31 @@
+{
+  "name": "15_machine_learning_engineer_mle_bench_intermedio.pdf",
+  "source_path": "C:\\AI Stuff\\CV_Matching_AI\\Data\\CV\\CV_Test\\15_machine_learning_engineer_mle_bench_intermedio.pdf",
+  "source_format": "PDF",
+  "text": {
+    "content": [
+      "Machine Learning Engineer (MLE Bench)",
+      "Resumen profesional",
+      "Ingeniero de Machine Learning con 5 años de experiencia desarrollando, evaluando y optimizando modelos de IA en entornos similares a producción. Especializado en pipelines de entrenamiento, benchmarking de modelos, MLOps y evaluación de sistemas basados en LLMs.",
+      "Formación académica : ",
+      "Ingeniería en Ciencias Computacionales, Universidad Autónoma de Baja California (2015–2020). Diplomado en Machine Learning Avanzado y MLOps (2023).",
+      "Experiencia laboral",
+      "Machine Learning Engineer | Turing (Proyecto MLE Bench) | Ene 2024 – Actual · Desarrollo y evaluación de pipelines de entrenamiento e inferencia. · Benchmarking de modelos con PyTorch y TensorFlow.",
+      "· Optimización de código Python para cargas de trabajo de ML.",
+      "Machine Learning Engineer | EPAM Systems | Jul 2020 – Dic 2023 · Desarrollo de modelos supervisados y no supervisados.",
+      "Automatización de experimentos con MLflow y Docker.",
+      "Habilidades técnicas : ",
+      "Python, PyTorch, TensorFlow, scikit-learn, MLflow, Docker, Kubernetes, Git, Linux, SQL, FastAPI, AWS.",
+      "Habilidades blandas : ",
+      "Pensamiento analítico, resolución de problemas, comunicación técnica, colaboración y mejora continua.",
+      "Certificaciones : ",
+      "AWS Certified Machine Learning – Specialty. TensorFlow Developer Certificate.",
+      "Idiomas : ",
+      "Español (nativo). Inglés (C1).",
+      "Proyectos relevantes : ",
+      "Framework de benchmarking para modelos de clasificación y NLP reduciendo 35% el tiempo de evaluación. Pipeline reproducible de entrenamiento y despliegue para modelos de visión",
+      "computacional utilizando Kubernetes y MLflow."
+    ],
+    "element_count": 1573
+  }
+}

@@ -2,8 +2,7 @@ from transformers import AutoTokenizer
 import json
 import os
 import uuid
-from Core.config_loader import config
-
+import re
 ##------------------------------------------------------------------------
 ##------------------Constant Values---------------------------------------
 tokenizer = AutoTokenizer.from_pretrained("dccuchile/bert-base-spanish-wwm-cased")
@@ -14,6 +13,35 @@ chunk_json_path = r"C:\AI Stuff\CV_Matching_AI\Data\Chunk_Json"
 clean_json_path = r"C:\AI Stuff\CV_Matching_AI\Data\Clean_Json"
 ##-------Define functions to optimize the pdf extraction data flow--------
 ##------------------------------------------------------------------------
+def adjust_chunk_boundary(tokens, start, end):
+    #Adjust chunk boundry so it does not cut words
+    if end >= len(tokens):
+        return end
+
+    current_token = tokenizer.convert_ids_to_tokens(tokens[end])
+    prev_token = tokenizer.convert_ids_to_tokens(tokens[end - 1])
+
+    if current_token[0].islower():
+        end += 1
+    if not prev_token[-1] in [".", ",", ";", ":", ")", "(", "-", "–"]:
+        end += 1
+    if current_token.isalpha():
+        end += 1
+
+    return end
+
+def normalize_for_tokenizer(text):
+    #Normalize  [UNK] for tokenizer with affecting special characters used in spanish
+
+    text = text.replace("–", "-").replace("—", "-")
+
+    text = re.sub(r"\s+", " ", text)
+
+    text = re.sub(r"[\u200B-\u200F\u202A-\u202E]", "", text)
+
+    return text
+
+
 def generate_unique_id():
     return str(uuid.uuid4())
 
@@ -27,9 +55,12 @@ def make_chunks(text, chunk_size, overlap):
 
     while start < len(tokens):
         end = start + chunk_size
-        #Do not cut words
+        #Do not cut words or subwords
         while end < len(tokens) and tokenizer.convert_ids_to_tokens(tokens[end]).startswith("##"):
             end += 1
+
+        #Do not cut complete words
+        end = adjust_chunk_boundary(tokens, start, end)
 
         #Update tokens
         chunk_tokens = tokens[start:end]
@@ -65,8 +96,14 @@ def json_chunks(chunk_json_path, clean_json_path, chunk_size, overlap,show_resul
 
                         if show_results:
                             print(f"=====Processing {file}")
-                        chunks = []
-                        chunks = make_chunks(data["text"]["content"], chunk_size, overlap)
+                        #Tranform list of line into a singles string
+                        text = "\n".join(data["text"]["content"])
+
+                        #Normalize before tokenizer
+                        text = normalize_for_tokenizer(text)
+
+                        #Generate chunks
+                        chunks = make_chunks(text, chunk_size, overlap)
 
                         # --- Build Clean JSON -------------
                         json_data = {

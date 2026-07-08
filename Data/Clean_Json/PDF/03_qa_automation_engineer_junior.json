@@ -1,0 +1,36 @@
+{
+  "name": "03_qa_automation_engineer_junior.pdf",
+  "source_path": "C:\\AI Stuff\\CV_Matching_AI\\Data\\CV\\CV_Test\\03_qa_automation_engineer_junior.pdf",
+  "source_format": "PDF",
+  "text": {
+    "content": [
+      "QA Automation Engineer Jr.",
+      "Resumen profesional",
+      "Ingeniero de software junior con enfoque en aseguramiento de calidad y automatización de pruebas. Experiencia inicial en pruebas funcionales, APIs y automatización utilizando Selenium, Postman y Python en entornos Agile.",
+      "Formación académica : ",
+      "Ingeniería en Tecnologías de la Información, Universidad Autónoma de Querétaro (2020–2025).",
+      "Experiencia laboral",
+      "QA Automation Engineer Jr. | Encora México | Jul 2025 – Actual",
+      "Desarrollo y mantenimiento de pruebas automatizadas con Selenium y Python.",
+      "Validación de APIs REST mediante Postman.",
+      "Ejecución de pruebas de regresión en pipelines CI/CD.",
+      "Practicante de QA | Improving Nearshore | Ene 2025 – Jun 2025",
+      "Diseño de casos de prueba.",
+      "Reporte y seguimiento de defectos en Jira.",
+      "Validación de consultas SQL para verificar integridad de datos.",
+      "Habilidades técnicas : ",
+      "Python, Selenium, Postman, SQL, Git, Jira, Jenkins básico, REST APIs, Testing Manual y Automatizado.",
+      "Habilidades blandas : ",
+      "Atención al detalle, pensamiento analítico, comunicación efectiva, organización y trabajo en equipo.",
+      "Certificaciones : ",
+      "ISTQB Certified Tester Foundation (en proceso).",
+      "Postman API Fundamentals Student Expert.",
+      "Idiomas : ",
+      "Español (nativo). Inglés (B2).",
+      "Proyectos relevantes : ",
+      "Automatización de más de 180 casos de prueba para una plataforma financiera, reduciendo 45% el tiempo de validación por sprint.",
+      "Framework básico de pruebas UI con Selenium y Page Object Model."
+    ],
+    "element_count": 1442
+  }
+}

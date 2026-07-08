@@ -23,8 +23,7 @@ overlap = 20
 active_profile = config["LLM"]["active_profile"]
 section = f"LLM_{active_profile}"
 collection_name = "talent_matcher"
-
-
+reset=False
 
 
 def main():
@@ -46,23 +45,45 @@ def main():
 
     print("\n=== 6) Construyendo Vector Store ===")
     collection = get_vector_store(VECTORSTORE, "talent_matcher")
-    collection = reset_vector_store(VECTORSTORE, "talent_matcher")
+    collection = reset_vector_store(VECTORSTORE, "talent_matcher",reset)
     insert_and_index_chunks(EMBED_JSON, collection)
 
     print("\n=== 7) Matching ===")
-    job_text = input("Ingresa la descripción de la vacante:\n\n")
-    resultado = match_job_description(job_text,VECTORSTORE,collection_name, LOG_PATH,
-                                      debug=False, report=True)
+    print("\n=== 7) Matching ===")
 
-    print("\n=== Mejor CV ===")
-    print(resultado["best_cv"])
+    #Interactive LOOP
+    while True:
+        job_text = input("\nIngresa la descripción de la vacante:\n\n")
 
-    print("\n=== Explicación del LLM ===")
-    print(resultado["explanation"])
+        resultado = match_job_description(
+            job_text,
+            VECTORSTORE,
+            collection_name,
+            LOG_PATH,
+            debug=False,
+            report=True
+        )
 
-    print("\n=== Tiempo de respuesta ===")
-    print(resultado["llm_response_time"], "seconds")
+        print("\n=== Mejor CV ===")
+        print(resultado["best_cv"])
 
+        print("\n=== Explicación del LLM ===")
+        print(resultado["explanation"])
+
+        print("\nTiempo de respuesta : ")
+        print(resultado["llm_response_time"], "seconds")
+
+        #Ask the user if they want to continue
+        continuar = input("\n¿Quieres hacer otra búsqueda? (Y/N): ").strip().upper()
+
+        if continuar == "N":
+            print("\n=== Ejecución terminada ===")
+            break
+        elif continuar == "Y":
+            continue
+        else:
+            print("\nEntrada no válida. Terminando ejecución.")
+            break
 
 if __name__ == "__main__":
     main()

@@ -1,0 +1,34 @@
+{
+  "name": "10_qa_automation_engineer_intermedio.pdf",
+  "source_path": "C:\\AI Stuff\\CV_Matching_AI\\Data\\CV\\CV_Test\\10_qa_automation_engineer_intermedio.pdf",
+  "source_format": "PDF",
+  "text": {
+    "content": [
+      "QA Automation Engineer",
+      "Resumen profesional",
+      "QA Automation Engineer con 5 años de experiencia asegurando la calidad de aplicaciones web y APIs. Especializado en automatización con Selenium, Playwright y Python, integrando pruebas dentro de pipelines CI/CD para acelerar entregas y mejorar la confiabilidad del software.",
+      "Formación académica : ",
+      "Ingeniería en Software, Universidad Veracruzana (2015–2020). Diplomado en Automatización de Pruebas y DevOps (2022).",
+      "Experiencia laboral",
+      "QA Automation Engineer | EPAM Systems México | Ene 2024 – Actual",
+      "Diseño de estrategias de pruebas funcionales, integración y regresión.",
+      "Desarrollo de frameworks con Playwright y Python.",
+      "Integración de pruebas automatizadas en GitHub Actions y Jenkins.",
+      "Software QA Engineer | Luxoft México | Ago 2020 – Dic 2023",
+      "Automatización de APIs con Postman y Python.",
+      "Validación de datos mediante SQL y soporte a equipos Agile.",
+      "Habilidades técnicas : ",
+      "Python, Playwright, Selenium, Postman, SQL, Jenkins, GitHub Actions, Jira, TestRail, REST APIs, Docker.",
+      "Habilidades blandas : ",
+      "Atención al detalle, pensamiento crítico, comunicación efectiva, colaboración y mejora continua.",
+      "Certificaciones : ",
+      "ISTQB Certified Tester Foundation Level. Certified Selenium Tester (CTS).",
+      "Idiomas : ",
+      "Español (nativo). Inglés (C1).",
+      "Proyectos relevantes : ",
+      "Implementación de un framework reutilizable de automatización que redujo 55% el tiempo de ejecución de regresiones.",
+      "Automatización de más de 600 casos de prueba para plataformas financieras y de comercio electrónico."
+    ],
+    "element_count": 1511
+  }
+}

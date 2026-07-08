@@ -1,0 +1,40 @@
+{
+  "name": "08_backend_nodejs_intermedio.png",
+  "source_path": "C:\\AI Stuff\\CV_Matching_AI\\Data\\CV\\CV_Test\\08_backend_nodejs_intermedio.png",
+  "source_format": "PNG",
+  "chunk_size": 100,
+  "overlap": 20,
+  "number_of_chunks": 5,
+  "chunks": [
+    {
+      "id": "chunk_0_a85da756-be5e-4ca2-9d47-711bc60018d9",
+      "start_token": 0,
+      "end_token": 103,
+      "content": "Backend Engineer Node js TypeScript Resumen profesional Ingeniero Backend con 4 años de experiencia desarrollando APIs de alta disponibilidad con Node js y TypeScript _ Experiencia en microservicios, Fastify, Redis, Docker y despliegues sobre Google Cloud Platform. Formación académica : Ingeniería en Sistemas Computacionales, Universidad de Sonora ( 2017 - 2021 ) - Diplomado en Arquitectura de Microser"
+    },
+    {
+      "id": "chunk_1_096b8f30-1b60-4ee3-9ef7-fbb31490b6c3",
+      "start_token": 80,
+      "end_token": 183,
+      "content": "tacionales, Universidad de Sonora ( 2017 - 2021 ) - Diplomado en Arquitectura de Microservicios ( 2023 ). Experiencia laboral Backend Engineer Konfío Ene 2024 Actual Desarrollo de APIs REST con TypeScript y Fastify. Optimización de consultas reduciendo 35 % la latencia. Integración con Redis y Cloud Run. Software Engineer Encora Jul 2021 Dic 202"
+    },
+    {
+      "id": "chunk_2_6599d92b-2924-4ea8-b6bd-c3b3f37592ce",
+      "start_token": 160,
+      "end_token": 262,
+      "content": "con Redis y Cloud Run. Software Engineer Encora Jul 2021 Dic 2023 Desarrollo de microservicios con Node js. Contenerización con Docker y CIICD mediante GitHub Actions. Habilidades técnicas : TypeScript ; Node js, Fastify, Express, Redis, PostgreSQL, Docker, GCP, GitHub Actions, Jest."
+    },
+    {
+      "id": "chunk_3_f226a87a-f639-4346-b4b1-f2e6b51934b9",
+      "start_token": 240,
+      "end_token": 344,
+      "content": "greSQL, Docker, GCP, GitHub Actions, Jest. Habilidades blandas : Comunicación, liderazgo técnico, resolución de problemas, colaboración y orientación a resultados. Certificaciones : Google Associate Cloud Engineer Docker Foundations Professional Idiomas : Español ( nativo ). Inglés ( Cl ). Proyectos relevantes : Migración de un monolito a microservicios para una plataforma financiera Sistema de autenticación escalable con JWT y Redis"
+    },
+    {
+      "id": "chunk_4_6cd63055-c8d6-45e4-88f4-9ccb5494e138",
+      "start_token": 320,
+      "end_token": 346,
+      "content": "un monolito a microservicios para una plataforma financiera Sistema de autenticación escalable con JWT y Redis Cache."
+    }
+  ]
+}

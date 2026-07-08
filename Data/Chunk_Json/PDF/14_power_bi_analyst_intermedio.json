@@ -1,0 +1,40 @@
+{
+  "name": "14_power_bi_analyst_intermedio.pdf",
+  "source_path": "C:\\AI Stuff\\CV_Matching_AI\\Data\\CV\\CV_Test\\14_power_bi_analyst_intermedio.pdf",
+  "source_format": "PDF",
+  "chunk_size": 100,
+  "overlap": 20,
+  "number_of_chunks": 5,
+  "chunks": [
+    {
+      "id": "chunk_0_f348ddaa-0efd-4ae3-ae9d-f5da6ed47f6c",
+      "start_token": 0,
+      "end_token": 102,
+      "content": "Power BI Analyst Resumen profesional Analista de Business Intelligence con 4 años de experiencia transformando datos en información accionable mediante Power BI, SQL y Python. Especializado en diseño de dashboards ejecutivos, modelado de datos y definición de indicadores para áreas comerciales, financieras y de operaciones. Formación académica : Ingeniería en Sistemas de Información, Universidad Autónoma de Querétaro ( 2016 - 2021 ). Diplomado en Business Inte"
+    },
+    {
+      "id": "chunk_1_0478f672-026b-4b75-8a86-dc7e8eb7c76d",
+      "start_token": 80,
+      "end_token": 183,
+      "content": "de Información, Universidad Autónoma de Querétaro ( 2016 - 2021 ). Diplomado en Business Intelligence y Visualización de Datos ( 2022 ). Experiencia laboral Power BI Analyst | FEMSA Digital | Ene 2024 - Actual [UNK] Diseño de tableros ejecutivos para seguimiento de KPIs corporativos. [UNK] Modelado de datos utilizando Power Query y DAX. [UNK] Automatización de procesos de actualización de información mediante SQ"
+    },
+    {
+      "id": "chunk_2_4bab2f79-5260-4256-98cb-59af8e9a12fa",
+      "start_token": 160,
+      "end_token": 264,
+      "content": "utilizando Power Query y DAX. [UNK] Automatización de procesos de actualización de información mediante SQL y Python. Business Intelligence Analyst | KPMG México | Jul 2021 - Dic 2023 [UNK] Desarrollo de reportes analíticos para clientes del sector financiero y retail. Optimización de modelos de datos para mejorar tiempos de respuesta. Habilidades técnicas : Power BI, DAX, Power Query, SQL Server"
+    },
+    {
+      "id": "chunk_3_adde4c0a-c782-4e0a-8d04-5fd0aa4d9a62",
+      "start_token": 240,
+      "end_token": 341,
+      "content": "ilidades técnicas : Power BI, DAX, Power Query, SQL Server, Python, Excel Avanzado, Tableau, Git, Azure Data Studio. Habilidades blandas : Comunicación con negocio, pensamiento analítico, organización, orientación a resultados y trabajo en equipo. Certificaciones : Microsoft Power BI Data Analyst Associate ( PL - 300 ). Microsoft Azure Data Fundamentals ( DP -"
+    },
+    {
+      "id": "chunk_4_fd5c74b0-5394-49bf-bd07-b8ab4b40f03f",
+      "start_token": 320,
+      "end_token": 396,
+      "content": "Analyst Associate ( PL - 300 ). Microsoft Azure Data Fundamentals ( DP - 900 ). Idiomas : Español ( nativo ). Inglés ( C1 ). Proyectos relevantes : Implementación de una plataforma de dashboards ejecutivos utilizada por más de 200 usuarios internos. Automatización de reportes financieros reduciendo 75 % el tiempo de generación mensual."
+    }
+  ]
+}
